@@ -1,5 +1,6 @@
-.page2Wrap {
+.contentWrap {
     text-align: center; 
     font-size: 25px;
-    
+    max-width: 1024px; 
+    margin: 0 auto;
 }

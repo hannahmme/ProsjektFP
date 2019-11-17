@@ -11,6 +11,11 @@ body{
     background-color: rgb(255, 248, 245);
 }
 
+.sideToPics img {
+    height:auto; 
+    width: 700px;
+}
+
 
 h1{
     color: rgba(106, 0, 14, 0.85)

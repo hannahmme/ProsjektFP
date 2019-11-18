@@ -11,9 +11,8 @@ body{
 .headerPic img{
     width: 100%;
     height: auto; 
-    opacity: 0.9;
-    margin-top: -200px;
-    margin-bottom: -200px;
+    margin-top: -290px;
+    margin-bottom: -300px;
 }
 
 .contentWrap {

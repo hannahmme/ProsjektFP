@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COmeals</title>
+    <link rel="stylesheet" href="../CSS/indexStyle.css">
+    <link rel="icon" href="../pics/coMealsSmallLogo.png">
+</head>
+
+<body>
+    <div class="navBar">
+        <a href="../HTML/indexNor.html" tabindex="1">
+            <div class="logo"><img src="../pics/coMealsLogoLight.png" alt="CoMeals Logo"></div>
+        </a>
+        <div class="nav">
+            <!-- 
+                
+                sett denne linja inn bak 'class="link"' for din side: 
+
+                style="background-color: rgba(179, 115, 114, 0.75);" 
+            
+            -->
+            <div class="links">
+                <a href="../HTML/indexNor.html" tabindex="2">
+                    <div class="link">Hovedside</div>
+                </a>
+                <a href="#" tabindex="3">
+                    <div class="link">Problem</div>
+                </a>
+                <a href="#" tabindex="4">
+                    <div class="link">Løsning</div>
+                </a>
+            </div>
+            <div class="links">
+                <a href="#" tabindex="5">
+                    <div class="link">Kom i gang</div>
+                </a>
+                <a href="#" tabindex="6">
+                    <div class="link">Retningslinjer</div>
+                </a>
+            </div>
+            <a href="../HTML/indexEng.html" tabindex="7">
+                <div class="flag"><img src="../pics/ukFlag.png" alt="UK Flag"></div>
+            </a>
+        </div>
+    </div>
+    <script>
+        /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+        /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            if (window.matchMedia("(min-width: 1050px)").matches) {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    document.querySelector('.navBar').style.top = "0";
+                } else {
+                    document.querySelector('.navBar').style.top = "-60px";
+                }
+                prevScrollpos = currentScrollPos;
+            }
+        }
+        /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+    </script>
+    <div class="topBackground">
+        <div class="mainTitle" tabindex="8"><b>CO</b>meals</div>
+        <img class="bgfood" src="../pics/bgfood.jpg" alt="Background of food" style="width: 100%;" tabindex="9">
+    </div>
+    <div class="innhold">
+
+        <!-- INNHOLD HER -->
+
+    </div>
+    <div class="contactBar">
+        <div class="info">
+            <div class="contactInfo">
+                <h2 tabindex="10">Andre lenker:</h2>
+                <p><a href="#" tabindex="11">Lenke</a></p>
+                <p><a href="#" tabindex="12">En lenke til</a></p>
+                <p><a href="#" tabindex="13">Noe her</a></p>
+                <p><a href="#" tabindex="14">Noe mer</a></p>
+            </div>
+            <div class="contactInfo">
+                <h2 tabindex="15">Kontakt oss:</h2>
+                <p tabindex="16">Gatenavn 00</p>
+                <p tabindex="17">1234 Oslo</p>
+                <p tabindex="18">comeals@gmail.com</p>
+                <p tabindex="19">+47 123 45 678</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+body{
+    font-family: Arial;
+    background-color: rgb(255, 248, 245);
+}
+
+.bgfood{
+    margin: 0;
+    overflow: hidden;
+}
+
+.bgfood img{
+    height: auto;
+    margin-top: -220px;
+    margin-bottom: -110px;
+}
+
+.contentWrap {
+    font-size: 25px;
+    max-width: 1024px; 
+    margin: 0 auto;
+    background-color: rgb(255, 248, 245);
+}
+
+
+h1{
+    color: rgba(106, 0, 14, 0.85)
+}
+
+p{
+    line-height: 50px;
+}

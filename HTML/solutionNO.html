@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../CSS/solution.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../CSS/indexStyle.css">
+        <link rel="icon" href="../pics/coMealsSmallLogo.png">
+        <meta charset="UTF-8">
+        <title>CoMeals</title>
+    </head>
+    <body>
+        <div class="navBar"> 
+        <a href="../HTML/indexNor.html" tabindex="1"> 
+            <div class="logo"><img src="../pics/coMealsLogoLight.png" alt="CoMeals Logo"></div> 
+        </a> 
+        <div class="nav">  
+            <div class="links"> 
+                <a href="../HTML/indexNor.html" tabindex="2"> 
+                    <div class="link">Hovedside</div> 
+                </a> 
+                <a href="../HTML/sideToOmOssNO.html" tabindex="3"> 
+                    <div class="link">Problem</div> 
+                </a> 
+                <a href="../HTML/solutionNO.html" tabindex="4"> 
+                    <div class="link" style="background-color: rgba(179, 115, 114, 0.75);">Løsning</div> 
+                </a> 
+            </div> 
+            <div class="links"> 
+                <a href="#" tabindex="5"> 
+                    <div class="link">Kom i gang</div> 
+                </a> 
+                <a href="#" tabindex="6"> 
+                    <div class="link">Retningslinjer</div> 
+                </a> 
+            </div> 
+            <a href="../HTML/solutionEN.html" tabindex="7"> 
+                <div class="flag"><img src="../pics/ukFlag.png" alt="UK Flag"></div> 
+            </a> 
+        </div> 
+    </div> 
+    
+    <script>
+        /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+        /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.querySelector('.navBar').style.top = "0";
+            } else {
+                document.querySelector('.navBar').style.top = "-60px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+        /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+    </script> 
+        
+        <div class="bgfood"> 
+            <div class="mainTitle" tabindex="8">Vår løsning</div> 
+            <img  src="..\Pics\foodWaste.jpg" alt="Picture of food waste" style="width: 100%;" tabindex="9">
+        </div>
+         
+        <div class="innhold"> 
+
+        <div class="contentWrap">
+            <div>
+
+                <p><b>Vår løsning er COmeals - appen der du kan samarbeide med andre studenter om å lage lunsj! Lag grupper med venner, bekjente eller ukjente, fordel ukedagene mellom dere og lag lunsj til alle i gruppen til din tildelte dag.</b></p>
+                <br>
+                <p>COmeals gjør samarbeidet om lunsj med medstudenter enkelt - den fordeler ønsket antall ukedager mellom medlemmene, holder oversikt over hvem som skal lage lunsj til hvilken dag, når og hvor medlemmene skal møtes og gir mulighet til å snakke med de andre medlemmene i chatten. I tillegg lager appen et oppgjør etter at alle gruppens medlemmer har lagt inn i sine utgifter for uken, der medlemmene får vite hvor mye de skylder eller skal ha tilbake fra hvem.
+                </p>
+
+                <br>
+
+
+                <h3>Hvordan løser COmeals problemet?</h3>
+                <p>Ved å samarbeide om hjemmelaget lunsj med andre studenter bruker du betydelig mindre penger enn det du gjør om du kjøper lunsj i kantina hver dag*. Dette gjør at du som student kan sette av mer penger til sparing eller bruke pengene på andre ting du faktisk har lyst til å bruke dem på. I tillegg sparer du dyrebar tid ved at du lager lunsj kun én dag i uken!**</p>
+
+                <br>
+                
+                <p>CoMeals bidrar ikke bare til at du sparer penger og tid, den bidrar også til å redusere matsvinn! Ved å lage lunsj til flere enn deg selv vil du kunne bruke mer av råvarene du har kjøpt inn enn når du kun lager mat til én person. Rester fra lunsj eller middag kan nå bli spist av medstudenter i stedet for at det ligger i kjøleskapet så lenge at det til slutt blir dårlig og du må kaste det.</p>
+
+                <br>
+                
+                <p>* Her har vi sammenlignet pris per porsjon på rimelige middagsretter på Kolonial.no (hentet 15.11.2019) med omtrentlig pris per porsjon hos SiO Spiserier.</p>
+                <p>** Gjelder om man er like mange på gruppen som dager man skal være på skolen.</p>
+                
+                <br>
+            </div>
+            <div class="contactBar">
+                <div class="info">
+                    <div class="contactInfo">
+                        <h2>Additional Links:</h2>
+                        <p><a href="#">Link</a></p>
+                        <p><a href="#">another link</a></p>
+                        <p><a href="#">something here</a></p>
+                        <p><a href="#">something more</a></p>
+                    </div>
+                    <div class="contactInfo">
+                        <h2>Contact us:</h2>
+                        <p>Streetname 00</p>
+                        <p>1234 Oslo</p>
+                        <p>email adress here</p>
+                        <p>phone number here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

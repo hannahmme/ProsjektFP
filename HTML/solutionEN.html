@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../CSS/solution.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../CSS/indexStyle.css">
+        <link rel="icon" href="../pics/coMealsSmallLogo.png">
+        <meta charset="UTF-8">
+        <title>CoMeals</title>
+    </head>
+    <body>
+            <div class="navBar">
+        <a href="../HTML/index.html" tabindex="1">
+            <div class="logo"><img src="../pics/coMealsLogoLight.png" alt="CoMeals Logo"></div>
+        </a>
+        <div class="nav">
+            <div class="links">
+                <a href="../HTML/index.html" tabindex="2">
+                    <div class="link">Main page</div>
+                </a>
+                <a href="../HTML/sideToOmOssEN.html" tabindex="3">
+                    <div class="link">Problem</div>
+                </a>
+                <a href="../HTML/solutionEN.html" tabindex="4">
+                    <div class="link" style="background-color: rgba(179, 115, 114, 0.75);">Solution</div>
+                </a>
+            </div>
+            <div class="links">
+                <a href="#" tabindex="5">
+                    <div class="link">Get started</div>
+                </a>
+                <a href="#" tabindex="6">
+                    <div class="link">Guidelines</div>
+                </a>
+            </div>
+            <a href="../HTML/solutionNO.html" tabindex="7">
+                <div class="flag"><img src="../pics/norFlag.png" alt="Norwegian flag"></div>
+            </a>
+        </div>
+    </div>
+                <script>
+                    /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+                    /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+                    var prevScrollpos = window.pageYOffset;
+                    window.onscroll = function () {
+                        var currentScrollPos = window.pageYOffset;
+                        if (prevScrollpos > currentScrollPos) {
+                            document.querySelector('.navBar').style.top = "0";
+                        } else {
+                            document.querySelector('.navBar').style.top = "-60px";
+                        }
+                        prevScrollpos = currentScrollPos;
+                    }
+                    /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+                </script>
+                
+        <div class="bgfood"> 
+            <div class="mainTitle" tabindex="8">Our solution</div> 
+            <img  src="..\Pics\foodWaste.jpg" alt="Picture of food waste" style="width: 100%;" tabindex="9">
+        </div>
+         
+        <div class="innhold">
+
+        <div class="contentWrap">
+            <div>
+
+                <p><b>Our solution is COmeals - the app where you can collaborate on making lunch with other students! Make groups with friends, acquaintances or unknown students, distribute the weekdays and make lunch for all of the group members for the day assigned to you.</b></p>
+                <br>
+                <p>COmeals makes the collaboration with other students on lunch easy - it distributes the desired number of weekdays between the group members, keeps track of who’s making lunch for which day and when and where the group members are going to meet up. The app gives the group members the possibility to talk with each other in the chat-function. In addition, the app makes a financial settlement after every group member have submitted their expenses, and give information about how much money the group members owes or should have back.
+                </p>
+
+                <br>
+
+
+                <h3>How does COmeals solve the problem?</h3>
+                <p>By collaborating on home cooked lunch meals with other students, you will use significantly less money than you do if you buy lunch from the cafeteria every day*. You as a student can now set aside more money for savings or use your money on exactly what you want. In addition, you save precious time by making lunch only one day a week!**</p>
+
+                <br>
+                
+                <p>COmeals doesn’t only contributes to saving money and time, it also contributes to reduce food waste! By making lunch for more people than yourself, you will use more of the groceries you already have bought in, than if you are making lunch for one person. Leftovers can now be eaten by fellow students instead of rotten in the refrigerator and forced to be thrown away.</p>
+
+                <br>
+                
+                <p>* Here we have compared the price per portion for dishes with reasonable prices at Kolonial.no (visited 15.11.2019) to the approximated price per portion at SiO Canteens.</p>
+                <p>** Applies if the number of group members is the same as the number of days you are going to be at school.</p>
+                
+                <br>
+            </div>
+            <div class="contactBar">
+                <div class="info">
+                    <div class="contactInfo">
+                        <h2>Additional Links:</h2>
+                        <p><a href="#">Link</a></p>
+                        <p><a href="#">another link</a></p>
+                        <p><a href="#">something here</a></p>
+                        <p><a href="#">something more</a></p>
+                    </div>
+                    <div class="contactInfo">
+                        <h2>Contact us:</h2>
+                        <p>Streetname 00</p>
+                        <p>1234 Oslo</p>
+                        <p>email adress here</p>
+                        <p>phone number here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

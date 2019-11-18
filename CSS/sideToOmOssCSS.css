@@ -3,6 +3,19 @@ body{
     background-color: rgb(255, 248, 245);
 }
 
+.headerPic{
+    margin: 0;
+    overflow: hidden; 
+}
+
+.headerPic img{
+    width: 100%;
+    height: auto; 
+    opacity: 0.9;
+    margin-top: -200px;
+    margin-bottom: -200px;
+}
+
 .contentWrap {
     font-size: 25px;
     max-width: 1024px; 

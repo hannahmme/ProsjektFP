@@ -4,11 +4,16 @@ body{
 }
 
 .contentWrap {
-    text-align: center; 
     font-size: 25px;
     max-width: 1024px; 
     margin: 0 auto;
     background-color: rgb(255, 248, 245);
+}
+
+.sideToPics p{
+   
+    font-size: 15px;
+    margin: 0 auto;
 }
 
 .sideToPics img {

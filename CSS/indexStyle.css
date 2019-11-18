@@ -29,6 +29,9 @@ body{
     display: inline-block;
     transition: 0.2s;
 }
+.links{
+    display: inline-block;
+}
 .nav{
     float: right;
     margin-right: 100px;
@@ -75,8 +78,8 @@ body{
 .contactInfo{
     display: inline-block;
     color: white;
-    font-size: 30px;
-    margin: 50px;
+    font-size: 20px;
+    margin: 100px;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -88,8 +91,11 @@ body{
 .contactInfo a{
     color: white;
 }
+.contactInfo h2{
+    font-size: 30px;
+}
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1050px){
     .mainTitle{
         top: 8%;
     }
@@ -120,29 +126,50 @@ body{
 @media screen and (max-width: 420px){
     .mainTitle{
         font-size: 50px;
-        top: 5%;
+        top: 23%;
     }
     .link{
-        font-size: 10px;
+        font-size: 20px;
         padding: 5px;
     }
     .flag{
-        width: 15px;
+        width: 7%;
+        left: 90%;
     }
     .nav{
-        margin-right: 25px;
+        margin: auto;
+        float: none;
+        width: fit-content;
     }
     .logo{
-        width: 12%;
+        width: 25%;
         padding: 2px;
+        margin: auto;
+        position: relative;
     }
     .innhold{
         padding: 5px;
     }
     .contactInfo h2{
-        font-size: 25px;
+        font-size: 20px;
     }
     .contactInfo{
         font-size: 15px;
+        margin: 5px;
+    }
+    .navBar{
+        position: relative;
+    }
+    .links{
+        width: fit-content;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 360px){
+    .contactInfo h2{
+        font-size: 15px;
+    }
+    .contactInfo{
+        font-size: 12px;
     }
 }

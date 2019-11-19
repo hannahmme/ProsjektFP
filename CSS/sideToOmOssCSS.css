@@ -1,11 +1,27 @@
 body{
     font-family: Nirmala UI;
     background-color: rgb(255, 248, 245);
+    min-width: 320px;
+}
+.mainTitle{
+    z-index: 1;
 }
 
+.mainTitle b{
+    background-color: rgb(255, 248, 245,0.9);
+    padding: 0 20px 35px 20px; 
+}
 .headerPic{
     margin: 0;
     overflow: hidden; 
+    position: relative; 
+   
+}
+.headerPic .mainTitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .headerPicp{
@@ -18,9 +34,10 @@ body{
     height: auto; 
     margin-top: -290px;
     margin-bottom: -300px;
+    filter: blur(3px);
 }
 
-.contentWrap {
+.contentWrap{
     font-size: 25px;
     max-width: 1024px; 
     margin: 0 auto;
@@ -43,7 +60,7 @@ h1{
     color: rgba(106, 0, 14, 0.85)
 }
 
-p{
+.contentWrap p{
     line-height: 50px;
 }
 
@@ -104,10 +121,9 @@ p{
         padding: 0 50px 0 50px;
     }
     .mainTitle b{
-        font-size: 55px;
+        font-size: 60px;
     }
 }
-
 
 @media only screen and (max-width: 900px){
     .headerPic img{
@@ -115,12 +131,27 @@ p{
         margin-bottom: -190px;  
     }
     .mainTitle b{
-        font-size: 50px;
+        font-size: 55px;
+        padding: 0 20px 13px 20px;
     }
 }
 
+@media only screen and (max-width: 800px){
+    .sideToPics img{
+        max-width: 450px;
+        height: auto;
+    }
+    .mainTitle b{
+        font-size: 50px;
+    }
+
+}
 
 @media only screen and (max-width: 700px){
+    .contentWrap{
+        font-size: 18px;
+        padding: 0 25px 0 25px; 
+        }
     .headerPic img{
         margin-top: 0px;
         margin-bottom: -100px;
@@ -131,9 +162,26 @@ p{
     .headerPicp{
         display:inline-block;
     }
+    .sideToPics img{
+        max-width: 400px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .sideToPics img{
+        max-width: 340px; 
+        height: auto;
+    }
+    .contentWrap{
+        padding: 0 20px 0 20px; 
+    }
 }
 
 @media only screen and (max-width: 450px) {
+    .contentWrap p{
+        line-height: 35px;
+    }
     .headerPic img{
         margin-top: 0px;
         margin-bottom: -70px;
@@ -143,14 +191,22 @@ p{
         font-size: 40px;
     }
     .sideToPics img{
-        max-width: 310px;
+        max-width: 280px;
         height: auto;
     }
 }
 
 @media only screen and (max-width: 380px) {
+    .contentWrap{
+        font-size: 14px;
+        padding: 0 15px 0 15px;
+        }
     .mainTitle b{
         font-size: 40px;
+    }
+    .sideToPics img{
+        max-width: 230px;
+        height: auto;
     }
 }
 
@@ -164,7 +220,7 @@ p{
         font-size: 40px;
     }
     .sideToPics img{
-        max-width: 245px;
+        max-width: 200px;
         height: auto;
     }
 }

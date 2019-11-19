@@ -1,0 +1,56 @@
+body{
+    font-family: Arial;
+    background-color: rgb(255, 248, 245);
+}
+
+.bgfood{
+    margin: 0;
+    overflow: hidden;
+}
+
+.bgfood img{
+    height: auto;
+    margin-top: -220px;
+    margin-bottom: -110px;
+}
+
+.innhold {
+    font-size: 18px;
+    max-width: 1024px; 
+    margin: 0 auto;
+    background-color: rgb(255, 248, 245);
+}
+
+
+.innhold h1{
+    color: rgb(106, 0, 14);
+    margin-left: 4%;
+}
+
+.innhold h2{
+    color: rgb(179, 115, 114);
+    margin-left: 4%;
+}
+
+p{
+    line-height: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+li{
+    margin-bottom: 1%;
+}
+
+/* Code start: Got from https://www.w3schools.com/howto/howto_css_bullet_color.asp*/
+ul li::before{
+    content: "\2022";
+    color: rgb(179, 115, 114);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+/* Code end: Got from https://www.w3schools.com/howto/howto_css_bullet_color.asp*/
+

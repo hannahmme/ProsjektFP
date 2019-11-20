@@ -38,10 +38,14 @@ body {
     padding: 2.5%;
 }
 
-.NesteSideGS p{
-    margin-left:30%;
+.NesteSideGS {
+    text-decoration: none;
+    margin-bottom: 150px;
 }
 
+.NesteSideGS p {
+    margin-left: 33%;
+}
 
 
 @media screen and (max-width: 1500px) {     /*-- Denne er OK - endrer kun på den øverste linja*/
@@ -396,7 +400,7 @@ body {
 /**Her kommer alt for Steg 4**/
 .StepFour {
     width: 100%;
-    padding-bottom: 250px;
+    padding-bottom: 150px;
     color: #3C0701;
 }
 

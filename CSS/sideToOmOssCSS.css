@@ -49,6 +49,10 @@ body .navBar{
     background-color: rgb(255, 248, 245);
 }
 
+.nextPage{
+    margin-bottom: 100px!important;
+}
+
 .sideToPics p{
    
     font-size: 15px;

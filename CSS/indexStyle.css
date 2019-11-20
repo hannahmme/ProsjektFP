@@ -1,85 +1,10 @@
 body{
-    padding: 0;
-    margin: 0;
     background-image: url('../pics/bgfood.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Nirmala UI', 'Arial', sans-serif;
     background-position-x: center;
     background-color: #FCF8F5;
     min-width: 320px;
-}
-.navBar{
-    background-color: rgba(60, 7, 1, 0.75);
-    color: white;
-    position: fixed;
-    width: 100%;
-    margin: 0;
-    z-index: 1;
-    top: 0;
-    transition: top 0.2s;
-}
-.navBar a{
-    text-decoration: none;
-    color: white;
-}
-.link{
-    padding: 30px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    font-size: 20px;
-    text-align: center;
-    display: inline-block;
-    transition: 0.2s;
-}
-.links{
-    display: inline-block;
-}
-.nav{
-    float: right;
-    margin-right: 100px;
-}
-.logo{
-    position: absolute;
-    padding: 5px;
-    width: 10%;
-}
-.logo img{
-    width: 100%;
-    text-align: center;
-    transition: 0.1s;
-}
-.logo img:hover{
-    opacity: 0.75;
-    transition: 0.1s;
-}
-.link:hover{
-    background-color: rgba(179, 115, 114, 0.75);
-    transition: 0.3s;
-}
-.flag{
-    width: 40px;
-    position: absolute;
-    display: inline-block;
-    left: 95%;
-    top: 10%;
-}
-.flag img{
-    position: relative;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.65);
-    border-radius: 100%;
-    width: 100%;
-}
-.mainTitle{
-    position: relative;
-    font-family: 'Nirmala UI', 'Arial', sans-serif;
-    font-size: 150px;
-    width: 100%;
-    text-align: center;
-    color: rgba(60, 7, 1, 0.85);
-    text-shadow: 3px 3px 10px black;
-    margin-top: 200px;
-    margin-bottom: 250px;
 }
 .punchline{
     margin: 100px;
@@ -107,44 +32,6 @@ body{
 .aboutUs a{
     text-decoration: none;
 }
-.goToApp{
-    color: black;
-    background-color: rgb(238, 173, 165);
-    width: fit-content;
-    padding: 10px;
-    margin: auto;
-    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.171);
-    margin-top: 30px;
-    font-size: 20px;
-}
-.goToApp:hover{
-    text-decoration-line: underline;
-}
-.contactBar{
-    background-color: rgb(102, 86, 85);
-}
-.contactInfo{
-    display: inline-block;
-    color: white;
-    font-size: 20px;
-    margin: 100px;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.info{
-    width: fit-content;
-    margin: auto;
-}
-.contactInfo a{
-    color: white;
-}
-.contactInfo a:hover{
-    color: #3C0701;
-}
-.contactInfo h2{
-    font-size: 30px;
-}
 
 @media screen and (min-width: 1050px){
     body{
@@ -156,45 +43,17 @@ body{
     body{
         background-position-x: center;
     }
-    .mainTitle{
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-    .contactInfo{
-        margin: 10px;
-    }
     .punchline{
         font-size: 40px;
     }
     .aboutUs{
         width: 90%;
     }
-    .logo{
-        width: 12%;
-    }
 }
 
 @media screen and (max-width: 980px){
     body{
         background-position-x: center;
-    }
-    .link{
-        padding: 10px;
-        font-size: 17px;
-    }
-    .flag{
-        width: 28px;
-    }
-    .logo{
-        width: 10%;
-    }
-    .nav{
-        margin-right: 50px;
-    }
-    .mainTitle{
-        font-size: 100px;
-        margin-bottom: 100px;
-        margin-top: 100px;
     }
     .punchline{
         font-size: 30px;
@@ -204,42 +63,14 @@ body{
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 630px){
     body {
         background-position-x: center;
-    }
-    .mainTitle{
-        font-size: 50px;
-        margin-top: 10%;
-        margin-bottom: 50px;
-        text-shadow: 2px 2px 6px black;
     }
     .punchline{
         font-size: 20px;
         margin: 20px;
         text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.671);
-    }
-    .link{
-        font-size: 20px;
-        padding: 5px;
-    }
-    .flag{
-        width: 7%;
-        left: 90%;
-    }
-    .nav{
-        margin: auto;
-        float: none;
-        text-align: center;
-    }
-    .logo{
-        width: 25%;
-        padding: 2px;
-        margin: auto;
-        position: relative;
-    }
-    .innhold{
-        padding: 5px;
     }
     .aboutUs{
         width: 90%;
@@ -249,31 +80,5 @@ body{
     }
     .aboutUs p{
         font-size: 15px;
-    }
-    .goToApp{
-        font-size: 15px;
-        margin-bottom: 40px;
-    }
-    .contactInfo h2{
-        font-size: 20px;
-    }
-    .contactInfo{
-        font-size: 15px;
-        margin: 5px;
-    }
-    .navBar{
-        position: relative;
-    }
-    .links{
-        width: fit-content;
-        margin: auto;
-    }
-}
-@media screen and (max-width: 360px){
-    .contactInfo h2{
-        font-size: 15px;
-    }
-    .contactInfo{
-        font-size: 12px;
     }
 }

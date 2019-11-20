@@ -1,4 +1,4 @@
-#B0686C, #3C0701, #8C3E3C, #C89985
+#B57374, #3C0701, #8C3E3C, #C89985
 
 body {
     padding:0;
@@ -11,7 +11,7 @@ body {
 }
 
 .GetStartedHeader {
-    background-color: #B0686C;
+    background-color: #B57374;
     width: 100%;
     color: #3C0701;
     display: flex !important;
@@ -38,39 +38,8 @@ body {
     padding: 2.5%;
 }
 
-
-
-@media screen and (max-width: 1750px) {
-
-    .StepTwoHeaderText {
-        width: 90% !important;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-
-    .StepTwoHeaderText {
-        width: 96% !important;
-    }
-    
-    
-    .StepTreeHeaderText {
-    width: 80% !important;
-    }
-    
-    
-}
-
-
-@media screen and (max-width: 1500px) {
-
-    .StepTwoHeaderText {
-        width: 107% !important;
-    }
-    
-    .StepTreeHeaderText {
-    width: 85% !important;
-    }
+.NesteSideGS p{
+    margin-left:30%;
 }
 
 
@@ -96,13 +65,7 @@ body {
         line-height: 6rem;
     }
     
-    
-    .StepOne {
-        display: inline !important;
-    }
-    
     .StepOneText {
-        width: 40% !important;
         margin-left: 8%;
         padding-left:0 !important;
         
@@ -113,13 +76,8 @@ body {
         margin-left: 30%;
     }
     
-    
-        .StepTwo {
-        display: inline !important;
-    }
-    
+
     .StepTwoText {
-        width: 40% !important;
         margin-left: 6%;
         padding-left:0 !important;
     }
@@ -129,16 +87,10 @@ body {
         margin-left: 30%;
     }
     
-    
-        .StepTree {
-        display: inline !important;
-    }
-    
+
     .StepTreeText {
-        width: 40% !important;
         margin-left: 8%;
         padding-left:0 !important;
-        margin-left: 14.5% !important;
     }
     
     .StepTreePics {
@@ -147,12 +99,8 @@ body {
     }
     
     
-        .StepFour {
-        display: inline !important;
-    }
     
     .StepFourText {
-        width: 40% !important;
         margin-left: 8%;
         padding-left:0 !important;
     }
@@ -168,65 +116,57 @@ body {
 
 @media screen and (max-width: 1250px) {     /*-- Her er det fra 1300 så bilder og text aligner. Skal være .StepText for alle stegene*/
     .StepOneText {
-        width: 40% !important;
-        margin-left: 8%;
-        padding-left: 5% !important;
+        margin-left: 9%;
+        margin-right: 20%;
     }
     
     .StepTwoText {
-        width: 40% !important;
-        margin-left: 8%;
-        padding-left: 5% !important;
+        margin-left: 9%;
+        margin-right: 20%;
     }
     
     .StepTreeText {
-        width: 40% !important;
-        margin-left: 8%;
-        padding-left: 5% !important;
+        margin-left: 9%;
+        margin-right: 20%;
     }
     
     
     .StepFourText {
-        width: 40% !important;
-        margin-left: 8%;
-        padding-left: 5% !important;
+        margin-left: 9%;
+        margin-right: 20%;
     }
     
 }
 
-@media screen and (max-width: 1034px) { /*-- */
-    .StepTwoPics {
-        width: 60% !important;
+
+
+@media screen and (max-width: 1100px) {     /*-- Her er det fra 1300 så bilder og text aligner. Skal være .StepText for alle stegene*/
+    .StepOneText {
+        width: 50% !important;
+        margin-right: 16% !important;
     }
+    
+    .StepTwoText {
+        width: 50% !important;
+        margin-right: 16% !important;
+    }
+    
+    .StepTreeText {
+        width: 50% !important;
+        margin-right: 16% !important;
+    }
+    
+    
+    .StepFourText {
+        width: 50% !important;
+        margin-right: 16% !important;
+    }
+    
 }
 
 
 
-@media screen and (max-width: 943px) { /*-- */
-    .StepOnePics {
-        margin-left:40%;
-    }
-    
-    .StepTwoPics {
-        margin-left:40%;
-    }
-    
-    
-    .StepTreePics {
-        margin-left:40%;
-    }
-    
-    
-    .StepFourPics {
-        margin-left:40%;
-    }
-}
-
-
-
-
-
-@media screen and (max-width: 750px) {     /*-- Her er det fra 1300 så bilder og text aligner.*/
+@media screen and (max-width: 790px) {     /*-- Dette er fra alt skal være på en linje nedover så bilder og text aligner.*/
     .StepOneHeaderText {
         display: inline !important;
     }
@@ -268,25 +208,45 @@ body {
         margin:0;
     }
     
+    
+    
     .StepOnePics {
-        padding:0;
-        margin:0;
+        padding:0 !important;
+        margin:0 !important;
     }
     
     .StepTwoPics {
-        padding:0;
-        margin:0;
+        padding:0 !important;
+        margin:0 !important;
     }
 
     .StepTreePics {
-        padding:0;
-        margin:0;
+        padding:0 !important;
+        margin:0 !important;
             }
 
     .StepFourPics {
-        padding:0;
-        margin:0;
-                }
+        padding:0 !important;
+        margin:0 !important;
+            }
+    
+    
+    
+    .StepOnePics img{
+    padding-left: 0 !important;
+        }
+    
+        .StepTwoPics img{
+    padding-left: 0 !important;
+        }
+    
+        .StepTreePics img{
+    padding-left: 0 !important;
+        }
+    
+        .StepFourPics img{
+    padding-left: 0 !important;
+        }
 
 }
 
@@ -299,11 +259,7 @@ body {
     
     .GetStartedHeaderLeft p {
         border: 0px;
-    }
-    
-    
-    
-    
+    } 
 }
 
 
@@ -316,12 +272,11 @@ body {
     width: 100%;
     padding-bottom: 250px;
     color: #3C0701;
-    display: flex;
-    justify-content: space-between;
 }
 
 .StepOneHeaderText {
     display: flex;
+    justify-content: space-between;
 }
 
 .StepOneHeader{
@@ -331,17 +286,18 @@ body {
 }
 
 .StepOneText {
-    width: 50%;
+    width: 44%;
     padding-top: 5%;
-    padding-left: 10%;
     margin-top: 1%;
     color: #3C0701;
+    margin-right: 26%;
 }
 
 .StepOnePics {
     width: 60%;
     padding-top: 3%;
     display: inline-block;
+    margin-left: 30%;
 }
 
 
@@ -358,13 +314,11 @@ body {
     width: 100%;
     padding-bottom: 250px;
     color: #3C0701;
-    display: flex;
-    justify-content: space-between;
 }
 
 .StepTwoHeaderText {
     display: flex;
-    width: 82%;
+    justify-content: space-between;
 }
 
 .StepTwoHeader{
@@ -374,15 +328,16 @@ body {
 }
 
 .StepTwoText {
-    width: 50%;
+    width: 44%;
     padding-top: 5%;
-    padding-left: 10%;
     margin-top: 1%;
     color: #3C0701;
+    margin-right: 24%;
 }
 
 .StepTwoPics {
-    width: 70%;
+    width: 60%;
+    margin-left: 30%;
     padding-top: 3%;
     display: inline-block;
 }
@@ -401,13 +356,11 @@ body {
     width: 100%;
     padding-bottom: 250px;
     color: #3C0701;
-    display: flex;
-    justify-content: space-between;
 }
 
 .StepTreeHeaderText {
     display: flex;
-    width: 75%;
+    justify-content: space-between;
 }
 
 .StepTreeHeader{
@@ -417,12 +370,11 @@ body {
 }
 
 .StepTreeText {
-    width: 50%;
+    width: 44%;
     padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 0;
     margin-top: 1%;
     color: #3C0701;
+    margin-right: 26%;
     
 }
 
@@ -430,6 +382,7 @@ body {
     width: 60%;
     padding-top: 3%;
     display: inline-block;
+    margin-left: 30%;
 }
 
 
@@ -445,12 +398,11 @@ body {
     width: 100%;
     padding-bottom: 250px;
     color: #3C0701;
-    display: flex;
-    justify-content: space-between;
 }
 
 .StepFourHeaderText {
     display: flex;
+    justify-content: space-between;
 }
 
 .StepFourHeader{
@@ -460,17 +412,18 @@ body {
 }
 
 .StepFourText {
-    width: 50%;
+    width: 44%;
     padding-top: 5%;
-    padding-left: 10%;
     margin-top: 1%;
     color: #3C0701;
+    margin-right: 26%;
 }
 
 .StepFourPics {
     width: 60%;
     padding-top: 3%;
     display: inline-block;
+    margin-left: 30%;
 }
 
 

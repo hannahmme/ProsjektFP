@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COmeals</title>
+    <link rel="stylesheet" href="../CSS/indexStyle.css">
+    <link rel="icon" href="../pics/coMealsSmallLogo.png">
+</head>
+
+<body>
+    <div class="navBar">
+        <a href="../HTML/index.html" tabindex="1">
+            <div class="logo"><img src="../pics/coMealsLogoLight.png" alt="CoMeals Logo"></div>
+        </a>
+        <div class="nav">
+            <div class="links">
+                <a href="../HTML/index.html" tabindex="2">
+                    <div class="link" style="background-color: rgba(179, 115, 114, 0.75);">Main page</div>
+                </a>
+                <a href="#" tabindex="3">
+                    <div class="link">Problem</div>
+                </a>
+                <a href="#" tabindex="4">
+                    <div class="link">Solution</div>
+                </a>
+            </div>
+            <div class="links">
+                <a href="#" tabindex="5">
+                    <div class="link">Get started</div>
+                </a>
+                <a href="#" tabindex="6">
+                    <div class="link">Guidelines</div>
+                </a>
+            </div>
+            <a href="indexNor.html" tabindex="7">
+                <div class="flag"><img src="../pics/norFlag.png" alt="Norwegian flag"></div>
+            </a>
+        </div>
+    </div>
+    <script>
+        /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+        /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            if (window.matchMedia("(min-width: 1050px)").matches) {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    document.querySelector('.navBar').style.top = "0";
+                } else {
+                    document.querySelector('.navBar').style.top = "-60px";
+                }
+                prevScrollpos = currentScrollPos;
+            }
+        }
+        /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+    </script>
+    <div class="topBackground">
+        <div class="mainTitle" tabindex="8"><b>CO</b>meals</div>
+        <div class="punchline">
+            <p>Cooperate, save money, be social</p>
+            <p>Eat well with <b>CO</b>meals</p>
+        </div>
+    </div>
+    <div class="innhold">
+        <div class="aboutUs">
+            <h1>About us</h1>
+            <p><b>CO</b>meals is the future within cooperating about lunch among students. Our vision is to create a
+                platform where
+                every student can feel welcome, where they can plan healthy and affordable lunches with fellow students.
+            </p>
+            <p>
+                Our goal is to make students eat more healthy and be more social at school. We hope
+                this will
+                lessen the loneliness some students experience at school, as well as helping them save money and most
+                importantly, eat their lunch.
+            </p>
+            <a href="#">
+                <div class="goToApp">Get started with our App</div>
+            </a>
+        </div>
+    </div>
+    <div class="contactBar">
+        <div class="info">
+            <div class="contactInfo">
+                <h2 tabindex="10">Follow us:</h2>
+                <p><a href="https://facebook.com/" tabindex="11" target="_blank">Facebook</a></p>
+                <p><a href="https://instagram.com" tabindex="12" target="_blank">Instagram</a></p>
+                <p><a href="https://linkedin.com" tabindex="13" target="_blank">LinkedIn</a></p>
+                <p><a href="https://youtube.com" tabindex="14" target="_blank">Youtube</a></p>
+            </div>
+            <div class="contactInfo">
+                <h2 tabindex="15">Contact us:</h2>
+                <p tabindex="16">Streetname 00</p>
+                <p tabindex="17">1234 Oslo</p>
+                <p tabindex="18">comeals@gmail.com</p>
+                <p tabindex="19">+47 123 45 678</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

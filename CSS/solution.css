@@ -1,20 +1,39 @@
 body{
     font-family: Arial;
     background-color: rgb(255, 248, 245);
+    min-width: 320px;
+}
+
+.mainTitle{
+    z-index: 1;
+}
+
+.mainTitle b{
+    background-color: rgb(255, 248, 245,0.9);
+    padding: 14px 20px 22px 20px;
 }
 
 .bgfood{
     margin: 0;
     overflow: hidden;
+    position: relative;
 }
 
+.bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .bgfood img{
+    width: 100%;
     height: auto;
-    margin-top: -220px;
-    margin-bottom: -110px;
+    margin-top: -250px;
+    margin-bottom: -100px;
+    filter: blur(3px);
 }
 
-.contentWrap {
+.innhold {
     font-size: 18px;
     max-width: 1024px; 
     margin: 0 auto;
@@ -22,10 +41,207 @@ body{
 }
 
 
-h1{
+.innhold h1{
     color: rgba(106, 0, 14, 0.85)
 }
 
-p{
+.innhold p{
     line-height: 50px;
+}
+
+@media only screen and (max-width: 1730px) {
+    .bgfood img{
+        margin-top: -250px;
+        margin-bottom: -280px;
+    }
+    .mainTitle b{
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 1530px) {
+    .bgfood img{
+        margin-top: -240px;
+        margin-bottom: -250px;
+    }
+    .mainTitle b{
+        font-size: 85px;
+    }
+}
+
+@media only screen and (max-width: 1430px) {
+    .bgfood img{
+        margin-top: -200px;
+        margin-bottom: -250px;
+    }
+    .mainTitle b{
+        font-size: 75px;
+    }
+}
+
+@media only screen and (max-width: 1330px) {
+    .bgfood img{
+        margin-top: -100px;
+        margin-bottom: -230px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+@media screen and (max-width: 1230px){
+    .bgfood img {
+        margin-top: -100px;
+        margin-bottom: -210px;
+    }
+    .mainTitle b{
+        font-size: 65px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+@media only screen and (max-width: 1050px){
+    .bgfood img{
+        margin-top: -100px;
+        margin-bottom: -200px;
+    }
+    .innhold{
+        padding: 0 50px 0 50px;
+    }
+    .mainTitle b{
+        font-size: 60px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+@media only screen and (max-width: 900px){
+    .bgfood img{
+        margin-top: -100px;
+        margin-bottom: -190px;  
+    }
+    .mainTitle b{
+        font-size: 55px;
+        padding: 0 20px 13px 20px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+@media only screen and (max-width: 800px){
+    .mainTitle b{
+        font-size: 50px;
+    }
+    .bgfood img{
+        margin-top: -100px;
+        margin-bottom: -100px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+}
+
+@media only screen and (max-width: 700px){
+    .innhold{
+        font-size: 18px;
+        padding: 0 25px 0 25px; 
+        }
+    .bgfood img{
+        margin-top: -100px;
+        margin-bottom: -100px;
+    }
+    .mainTitle b{
+        font-size: 40px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+@media only screen and (max-width: 500px){
+    .innhold{
+        padding: 0 20px 0 20px; 
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+@media only screen and (max-width: 450px) {
+    .innhold p{
+        line-height: 35px;
+    }
+    .bgfood img{
+        margin-top: 0px;
+        margin-bottom: -70px;
+        width: 100%;
+    }
+    .mainTitle b{
+        font-size: 40px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+@media only screen and (max-width: 380px) {
+    .innhold{
+        font-size: 14px;
+        padding: 0 15px 0 15px;
+        }
+    .mainTitle b{
+        font-size: 40px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+@media only screen and (max-width: 330px) {
+    .bgfood img{
+        margin-top: 0px;
+        margin-bottom: -70px;
+        width: 100%;
+    }
+    .mainTitle b{
+        font-size: 40px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
 }

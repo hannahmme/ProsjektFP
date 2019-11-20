@@ -1,23 +1,45 @@
 body{
     font-family: Arial;
     background-color: rgb(255, 248, 245);
+    min-width: 320px;
 }
 
-.bgfood{
-    margin: 0;
-    overflow: hidden;
+body .navbar{
+    z-index: 3;
 }
 
-.bgfood img{
-    height: auto;
-    margin-top: -220px;
-    margin-bottom: -110px;
+.mainTitle{
+    z-index: 1;
 }
 
 .mainTitle b{
     background-color:  rgb(255, 248, 245, 0.9);
     padding: 14px 20px 22px 20px;
 }
+
+.bgfood{
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bgfood img{
+    width: 100%;
+    height: auto;
+    margin-top: -250px;
+    margin-bottom: -100px;
+    filter: blur(3px);
+    z-index: 2;
+}
+
+
 
 .innhold {
     font-size: 18px;
@@ -59,3 +81,218 @@ ul li::before{
 }
 /* Code end: Got from https://www.w3schools.com/howto/howto_css_bullet_color.asp*/
 
+@media only screen and (max-width: 1730px) {
+    .bgfood img{
+        margin-top: -250px;
+        margin-bottom: -280px;
+    }
+    .mainTitle b{
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 1530px) {
+    .bgfood img{
+        margin-top: -240px;
+        margin-bottom: -250px;
+    }
+    .mainTitle b{
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 1430px) {
+    .bgfood img{
+        margin-top: -200px;
+        margin-bottom: -250px;
+    }
+    .mainTitle b{
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 1330px) {
+    .bgfood img{
+        margin-top: -150px;
+        margin-bottom: -200px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    .mainTitle{
+        margin-top: 12%;
+    }
+    
+}
+
+@media screen and (max-width: 1230px){
+    .bgfood img {
+        margin-top: -150px;
+        margin-bottom: -210px;
+    }
+    .mainTitle b{
+        font-size: 65px;
+    }
+    .mainTitle{
+        margin-top: 12%;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+@media only screen and (max-width: 1050px){
+    .bgfood img{
+        margin-top: -150px;
+        margin-bottom: -120px;
+    }
+    .innhold{
+        padding: 0 50px 0 50px;
+    }
+    
+    .mainTitle b{
+        font-size: 60px;
+    }
+    .mainTitle{
+        margin-top: 12%;
+
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .innhold{
+        font-size: 18px;
+        padding: 0 25px 0 25px; 
+    }
+    .mainTitle{
+        margin-top: 12%;
+    }
+    .bgfood img{
+        margin-top: -150px;
+        margin-bottom: -100px;
+    }
+    .mainTitle b{
+        font-size: 45px;
+        padding: 10px 13px 14px 13px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .innhold{
+        font-size: 18px;
+        padding: 0 25px 0 25px; 
+    }
+    .mainTitle{
+        margin-top: 12%;
+    }
+    .bgfood img{
+        margin-top: -150px;
+        margin-bottom: -30px;
+    }
+    .mainTitle b{
+        font-size: 35px;
+        padding: 10px 13px 14px 13px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (max-width: 630px){
+    .mainTitle b{
+        font-size: 30px;
+        padding: 7px 10px 11px 10px;
+    }
+    .mainTitle{
+        margin-top: 11%;
+    }
+    .bgfood img{
+        margin-top: -150px;
+        margin-bottom: -35px;
+    }
+}
+
+
+@media only screen and (max-width: 500px){
+    .innhold{
+        padding: 0 20px 0 20px; 
+    }
+    .mainTitle{
+        margin-top: 9%;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+@media only screen and (max-width: 450px) {
+    .innhold p{
+        line-height: 35px;
+    }
+    .bgfood img{
+        margin-top: 0px;
+        margin-bottom: -70px;
+        width: 100%;
+    }
+    .mainTitle b{
+        font-size: 40px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+@media only screen and (max-width: 380px) {
+    .innhold{
+        font-size: 14px;
+        padding: 0 15px 0 15px;
+        }
+    .mainTitle b{
+        font-size: 40px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+@media only screen and (max-width: 330px) {
+    .bgfood img{
+        margin-top: 0px;
+        margin-bottom: -70px;
+        width: 100%;
+    }
+    .mainTitle b{
+        font-size: 35px;
+        padding:
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+}

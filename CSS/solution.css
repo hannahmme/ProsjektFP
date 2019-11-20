@@ -4,6 +4,10 @@ body{
     min-width: 320px;
 }
 
+body .navbar{
+    z-index: 3;
+}
+
 .mainTitle{
     z-index: 1;
 }
@@ -31,6 +35,7 @@ body{
     margin-top: -250px;
     margin-bottom: -100px;
     filter: blur(3px);
+    z-index: 2;
 }
 
 .innhold {
@@ -65,7 +70,7 @@ body{
         margin-bottom: -250px;
     }
     .mainTitle b{
-        font-size: 85px;
+        font-size: 100px;
     }
 }
 
@@ -75,30 +80,37 @@ body{
         margin-bottom: -250px;
     }
     .mainTitle b{
-        font-size: 75px;
+        font-size: 100px;
     }
 }
 
 @media only screen and (max-width: 1330px) {
     .bgfood img{
-        margin-top: -100px;
-        margin-bottom: -230px;
+        margin-top: -150px;
+        margin-bottom: -200px;
     }
     .bgfood .mainTitle{
     position: absolute;
-    top: 10%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+    }
+    .mainTitle{
+        margin-top: 12%;
+    }
+    
 }
 
 @media screen and (max-width: 1230px){
     .bgfood img {
-        margin-top: -100px;
+        margin-top: -150px;
         margin-bottom: -210px;
     }
     .mainTitle b{
         font-size: 65px;
+    }
+    .mainTitle{
+        margin-top: 12%;
     }
     .bgfood .mainTitle{
     position: absolute;
@@ -110,8 +122,8 @@ body{
 
 @media only screen and (max-width: 1050px){
     .bgfood img{
-        margin-top: -100px;
-        margin-bottom: -200px;
+        margin-top: -150px;
+        margin-bottom: -120px;
     }
     .innhold{
         padding: 0 50px 0 50px;
@@ -122,34 +134,25 @@ body{
     }
     .mainTitle{
         margin-top: 12%;
-    }
-}
-}
 
-@media only screen and (max-width: 900px){
-    .bgfood img{
-        margin-top: -100px;
-        margin-bottom: -190px;  
     }
-    .mainTitle b{
-        font-size: 55px;
-        padding: 0 20px 13px 20px;
-    }
-    .bgfood .mainTitle{
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 }
 
 @media only screen and (max-width: 800px){
-    .mainTitle b{
-        font-size: 50px;
+    .innhold{
+        font-size: 18px;
+        padding: 0 25px 0 25px; 
+    }
+    .mainTitle{
+        margin-top: 12%;
     }
     .bgfood img{
-        margin-top: -100px;
+        margin-top: -150px;
         margin-bottom: -100px;
+    }
+    .mainTitle b{
+        font-size: 45px;
+        padding: 10px 13px 14px 13px;
     }
     .bgfood .mainTitle{
     position: absolute;
@@ -157,32 +160,53 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     }
-
 }
 
 @media only screen and (max-width: 700px){
     .innhold{
         font-size: 18px;
         padding: 0 25px 0 25px; 
-        }
+    }
+    .mainTitle{
+        margin-top: 12%;
+    }
     .bgfood img{
-        margin-top: -100px;
-        margin-bottom: -100px;
+        margin-top: -150px;
+        margin-bottom: -30px;
     }
     .mainTitle b{
-        font-size: 40px;
+        font-size: 35px;
+        padding: 10px 13px 14px 13px;
     }
     .bgfood .mainTitle{
     position: absolute;
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
+    }
 }
+
+@media only screen and (max-width: 630px){
+    .mainTitle b{
+        font-size: 30px;
+        padding: 7px 10px 11px 10px;
+    }
+    .mainTitle{
+        margin-top: 11%;
+    }
+    .bgfood img{
+        margin-top: -150px;
+        margin-bottom: -35px;
+    }
 }
+
 
 @media only screen and (max-width: 500px){
     .innhold{
         padding: 0 20px 0 20px; 
+    }
+    .mainTitle{
+        margin-top: 9%;
     }
     .bgfood .mainTitle{
     position: absolute;
@@ -235,7 +259,8 @@ body{
         width: 100%;
     }
     .mainTitle b{
-        font-size: 40px;
+        font-size: 35px;
+        padding:
     }
     .bgfood .mainTitle{
     position: absolute;

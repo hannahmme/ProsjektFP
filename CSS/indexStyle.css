@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Nirmala UI', 'Arial', sans-serif;
+    background-position-x: center;
 }
 .navBar{
     background-color: rgba(60, 7, 1, 0.75);
@@ -141,6 +142,12 @@ body{
 }
 .contactInfo h2{
     font-size: 30px;
+}
+
+@media screen and (min-width: 1050px){
+    body{
+        background-size: 100%;
+    }
 }
 
 @media screen and (max-width: 1050px){

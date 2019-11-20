@@ -1,10 +1,10 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(255, 248, 245);
-}
-.innhold{
-    padding: 50px;
+    background-image: url('../pics/bgfood.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Nirmala UI', 'Arial', sans-serif;
 }
 .navBar{
     background-color: rgba(60, 7, 1, 0.75);
@@ -39,11 +39,16 @@ body{
 .logo{
     position: absolute;
     padding: 5px;
-    width: 8%;
+    width: 10%;
 }
 .logo img{
     width: 100%;
     text-align: center;
+    transition: 0.1s;
+}
+.logo img:hover{
+    opacity: 0.75;
+    transition: 0.1s;
 }
 .link:hover{
     background-color: rgba(179, 115, 114, 0.75);
@@ -58,22 +63,62 @@ body{
 }
 .flag img{
     position: relative;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.65);
     border-radius: 100%;
     width: 100%;
 }
 .mainTitle{
-    position: absolute;
+    position: relative;
     font-family: 'Nirmala UI', 'Arial', sans-serif;
     font-size: 150px;
     width: 100%;
     text-align: center;
-    top: 20%;
-    color: rgba(106, 0, 14, 0.85);
+    color: rgba(60, 7, 1, 0.85);
     text-shadow: 3px 3px 10px black;
+    margin-top: 200px;
+    margin-bottom: 250px;
+}
+.punchline{
+    margin: 100px;
+    font-family: 'Nirmala UI', 'Arial', sans-serif;
+    font-size: 50px;
+    color: #3C0701;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
+}
+.innhold{
+    padding: 50px;
+    background-color: rgb(248, 246, 246);
+    box-shadow: 0px 0px 50px 75px rgb(248, 246, 246);
+    color: rgb(36, 4, 0);
+}
+.aboutUs{
+    width: 50%;
+    margin: auto;
+}
+.aboutUs h1{
+    font-size: 30px;
+}
+.aboutUs p{
+    font-size: 20px;
+}
+.aboutUs a{
+    text-decoration: none;
+}
+.goToApp{
+    color: black;
+    background-color: rgb(238, 173, 165);
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.171);
+    margin-top: 30px;
+    font-size: 20px;
+}
+.goToApp:hover{
+    text-decoration-line: underline;
 }
 .contactBar{
-    background-color: rgba(51, 28, 26, 0.726);
+    background-color: rgb(102, 86, 85);
 }
 .contactInfo{
     display: inline-block;
@@ -91,20 +136,39 @@ body{
 .contactInfo a{
     color: white;
 }
+.contactInfo a:hover{
+    color: #3C0701;
+}
 .contactInfo h2{
     font-size: 30px;
 }
 
 @media screen and (max-width: 1050px){
+    body{
+        background-position-x: center;
+    }
     .mainTitle{
-        top: 8%;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
     .contactInfo{
         margin: 10px;
     }
+    .punchline{
+        font-size: 40px;
+    }
+    .aboutUs{
+        width: 90%;
+    }
+    .logo{
+        width: 12%;
+    }
 }
 
 @media screen and (max-width: 800px){
+    body{
+        background-position-x: center;
+    }
     .link{
         padding: 10px;
         font-size: 17px;
@@ -120,13 +184,31 @@ body{
     }
     .mainTitle{
         font-size: 100px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+    .punchline{
+        font-size: 30px;
+    }
+    .aboutUs{
+        width: 90%;
     }
 }
 
 @media screen and (max-width: 420px){
+    body {
+        background-position-x: center;
+    }
     .mainTitle{
         font-size: 50px;
-        top: 23%;
+        margin-top: 10%;
+        margin-bottom: 50px;
+        text-shadow: 2px 2px 6px black;
+    }
+    .punchline{
+        font-size: 20px;
+        margin: 20px;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.671);
     }
     .link{
         font-size: 20px;
@@ -139,7 +221,7 @@ body{
     .nav{
         margin: auto;
         float: none;
-        width: fit-content;
+        text-align: center;
     }
     .logo{
         width: 25%;
@@ -149,6 +231,19 @@ body{
     }
     .innhold{
         padding: 5px;
+    }
+    .aboutUs{
+        width: 90%;
+    }
+    .aboutUs h1{
+        font-size: 25px;        
+    }
+    .aboutUs p{
+        font-size: 15px;
+    }
+    .goToApp{
+        font-size: 15px;
+        margin-bottom: 40px;
     }
     .contactInfo h2{
         font-size: 20px;

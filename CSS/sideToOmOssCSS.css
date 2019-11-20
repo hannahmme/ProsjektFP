@@ -3,8 +3,12 @@ body{
     background-color: rgb(255, 248, 245);
     min-width: 320px;
 }
+body .navBar{
+    z-index: 3; 
+}
+
 .mainTitle{
-    z-index: 1;
+    z-index: 1; 
 }
 
 .mainTitle b{
@@ -15,6 +19,7 @@ body{
     margin: 0;
     overflow: hidden; 
     position: relative; 
+    z-index: 2; 
    
 }
 .headerPic .mainTitle{

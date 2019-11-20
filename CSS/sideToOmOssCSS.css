@@ -19,7 +19,7 @@ body{
 }
 .headerPic .mainTitle{
     position: absolute;
-    top: 50%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -38,7 +38,7 @@ body{
 }
 
 .contentWrap{
-    font-size: 25px;
+    font-size: 18px;
     max-width: 1024px; 
     margin: 0 auto;
     background-color: rgb(255, 248, 245);
@@ -149,7 +149,7 @@ h1{
 
 @media only screen and (max-width: 700px){
     .contentWrap{
-        font-size: 18px;
+        font-size: 16px;
         padding: 0 25px 0 25px; 
         }
     .headerPic img{

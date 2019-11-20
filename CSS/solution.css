@@ -116,14 +116,13 @@ body{
     .innhold{
         padding: 0 50px 0 50px;
     }
+    
     .mainTitle b{
         font-size: 60px;
     }
-    .bgfood .mainTitle{
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    .mainTitle{
+        margin-top: 12%;
+    }
 }
 }
 

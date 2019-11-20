@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Nirmala UI', 'Arial', sans-serif;
 }
 .navBar{
     background-color: rgba(60, 7, 1, 0.75);

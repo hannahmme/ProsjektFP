@@ -12,6 +12,7 @@ body .navBar{
 }
 
 .mainTitle b{
+    font-size:100px; 
     background-color: rgb(255, 248, 245,0.9);
     padding: 0 20px 35px 20px; 
 }
@@ -47,6 +48,10 @@ body .navBar{
     max-width: 1024px; 
     margin: 0 auto;
     background-color: rgb(255, 248, 245);
+}
+
+.nextPage{
+    margin-bottom: 100px!important;
 }
 
 .sideToPics p{
@@ -86,7 +91,7 @@ h1{
         margin-bottom: -250px;
     }
     .mainTitle b{
-        font-size: 85px;
+        font-size: 100px;
     }
 }
 
@@ -96,7 +101,7 @@ h1{
         margin-bottom: -250px;
     }
     .mainTitle b{
-        font-size: 75px;
+        font-size: 100px;
     }
 }
 

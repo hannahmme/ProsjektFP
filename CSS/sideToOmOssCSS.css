@@ -6,6 +6,11 @@ body{
 body .navBar{
     z-index: 3; 
 }
+.sidetoPics .descriptionPic p{
+   /* font-size: 12px; */
+    line-height: 0px!important;
+
+}
 
 .mainTitle{
     z-index: 1; 
@@ -56,8 +61,10 @@ body .navBar{
 
 .sideToPics p{
    
-    font-size: 15px;
-    margin: 0 auto;
+    font-size: 14px;
+    /* margin: 0 auto; */
+    line-height: 20px!important;
+    max-width: 700px;
 }
 
 .sideToPics img {

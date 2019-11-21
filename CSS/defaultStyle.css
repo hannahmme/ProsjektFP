@@ -119,6 +119,9 @@ body{
 .nextPage:hover{
     text-decoration-line: underline;
 }
+.linkNextPage{
+    text-decoration: none;
+}
 
 @media screen and (max-width: 1050px){
     .mainTitle{

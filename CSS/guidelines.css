@@ -1,5 +1,5 @@
 body{
-    font-family: Arial;
+    font-family: 'Nirmala UI', 'Arial', sans-serif;
     background-color: rgb(255, 248, 245);
     min-width: 320px;
 }
@@ -122,9 +122,7 @@ ul li::before{
     left: 50%;
     transform: translate(-50%, -50%);
     }
-    .mainTitle{
-        margin-top: 12%;
-    }
+    
     
 }
 

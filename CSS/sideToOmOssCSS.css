@@ -11,22 +11,14 @@ body .navBar{
     line-height: 0px!important;
 
 }
-
 .mainTitle{
-    z-index: 1; 
-}
-
-.mainTitle b{
-    font-size:100px; 
-    background-color: rgb(255, 248, 245,0.9);
-    padding: 0 25px 35px 25px; 
+    font-size: 100px;
+    z-index: 2;
 }
 .headerPic{
     margin: 0;
     overflow: hidden; 
     position: relative; 
-    z-index: 2; 
-   
 }
 .headerPic .mainTitle{
     position: absolute;
@@ -45,8 +37,19 @@ body .navBar{
     height: auto; 
     margin-top: -290px;
     margin-bottom: -300px;
-    filter: blur(3px);
+    filter: blur(1px);
 }
+.link-spanner{
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.466);
+
+    z-index: 1;
+  } 
 
 .contentWrap{
     font-size: 18px;

@@ -144,6 +144,17 @@ body{
         width: 5%;
     }
 }
+@media only screen and (max-width: 1530px){
+    .logo{
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 1330px){
+    .logo{
+        width: 10%;
+    }
+}
 
 @media screen and (max-width: 1050px){
     .mainTitle{
@@ -154,7 +165,7 @@ body{
         margin: 10px;
     }
     .logo{
-        width: 12%;
+        width: 10%;
     }
 }
 
@@ -167,7 +178,7 @@ body{
         width: 28px;
     }
     .logo{
-        width: 12%;
+        width: 10%;
     }
     .nav{
         margin-right: 50px;

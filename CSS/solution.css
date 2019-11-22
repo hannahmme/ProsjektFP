@@ -2,9 +2,9 @@ body{
     background-color: rgb(255, 248, 245);
 }
 
-.navbar{
+body .navbar{
     z-index: 3;
-    
+    max-width: 3440px;
 }
 
 .mainTitle{

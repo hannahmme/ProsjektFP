@@ -6,7 +6,7 @@ body{
     min-width: 320px;
 }
 .navBar{
-    background-color: rgba(60, 7, 1, 0.75);
+    background-color: rgb(60, 7, 1);
     color: white;
     position: fixed;
     width: 100%;

@@ -1,7 +1,9 @@
 body{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Nirmala UI', 'Arial', sans-serif;
+    max-width: 3440px;
+    min-width: 320px;
 }
 .navBar{
     background-color: rgba(60, 7, 1, 0.75);

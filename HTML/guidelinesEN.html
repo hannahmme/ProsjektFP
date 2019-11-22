@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="../CSS/sideToOmOssCSS.css">
-        <link rel="stylesheet" type="text/css" href="../CSS/guidelines.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="../CSS/defaultStyle.css">
-        <link rel="icon" href="../pics/coMealsSmallLogo.png">
-        <meta charset="UTF-8">
-        <title>CoMeals</title>
-    </head>
-    <body>
-            <div class="navBar">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../CSS/guidelines.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/defaultStyle.css">
+    <link rel="icon" href="../pics/coMealsSmallLogo.png">
+    <meta charset="UTF-8">
+    <title>CoMeals</title>
+</head>
+
+<body>
+    <div class="navBar">
         <a href="../HTML/index.html" tabindex="1">
             <div class="logo"><img src="../pics/coMealsLogoLight.png" alt="CoMeals Logo"></div>
         </a>
@@ -40,73 +41,78 @@
             </a>
         </div>
     </div>
-                <script>
-                    /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
-                    /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-                    var prevScrollpos = window.pageYOffset;
-                    window.onscroll = function () {
-                        var currentScrollPos = window.pageYOffset;
-                        if (prevScrollpos > currentScrollPos) {
-                            document.querySelector('.navBar').style.top = "0";
-                        } else {
-                            document.querySelector('.navBar').style.top = "-60px";
-                        }
-                        prevScrollpos = currentScrollPos;
-                    }
+    <script>
+        /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+        /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.querySelector('.navBar').style.top = "0";
+            } else {
+                document.querySelector('.navBar').style.top = "-60px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
                     /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
-                </script>
-                
-        <div class="topBackground">
-            <div class="GetStartedHeader">
-                <div class="GetStartedHeaderLeft" tabindex="8">
-                    <p>Guidelines</p>
-                </div>
-                <div class="GetStartedHeaderRight" tabindex="9">
-                    <p>Follow these guidelines to have the best user experience with COmeals</p>
-                </div>
-            </div>
-        </div>
+    </script>
 
-            <div class="innhold">
-                <h1>Guidelines for use of COmeals</h1>
-                <ul>
-                    <li>Every group can have a minimum of two and maximum of five group members.</li>
-                    <li>The group has to agree on a meetup point and time, to avoid misunderstandings and unnecessary use of time.</li>
-                    <li>Do you not have the opportunity to prepare lunch for your assigned day? You can then ask the other group members to switch day.</li>
-                    <li>Each serving has to be between 300 g and 600 g.</li>
-                </ul>
-                <br>
-                <h2>Mark system:</h2>
-                <ul>
-                    <li>If you don’t meet up to your day or forget to make the lunch without notifying the other group members in advance, you will get a mark. The mark is given in the app by one of the other group members.</li>
-                    <li>If you get two marks in one month you will be suspended from the app for one month. </li>
-                    <li>To avoid getting a mark you have to notify every member of the group within 4 PM the day before your assigned day. If you wake up sick on your assigned day, you still get a mark.</li>
-                    <li>In case of sickness, if you have already bought in the food and made lunch, you still have to pay for the food yourself and you’ll get a mark (freeze the food if possible and serve it some other time).</li>
-                </ul>
-                <br>
-                <a href="../HTML/index.html" tabindex="13" class="linkNextPage">
-                <div class="nextPage">Return to the main page</div>
-                </a>
-                <br>
+    <div class="topBackground">
+        <div class="GetStartedHeader">
+            <div class="GetStartedHeaderLeft" tabindex="8">
+                <p>Guidelines</p>
             </div>
-            <div class="contactBar">
-                <div class="info">
-                    <div class="contactInfo">
-                        <h2>Additional Links:</h2>
-                        <p><a href="#">Link</a></p>
-                        <p><a href="#">another link</a></p>
-                        <p><a href="#">something here</a></p>
-                        <p><a href="#">something more</a></p>
-                    </div>
-                    <div class="contactInfo">
-                        <h2>Contact us:</h2>
-                        <p>Streetname 00</p>
-                        <p>1234 Oslo</p>
-                        <p>email adress here</p>
-                        <p>phone number here</p>
-                    </div>
-                </div>
+            <div class="GetStartedHeaderRight" tabindex="9">
+                <p>Follow these guidelines to have the best user experience with COmeals</p>
             </div>
         </div>
-    </body>
+    </div>
+
+    <div class="innhold">
+        <h1>Guidelines for use of COmeals</h1>
+        <ul>
+            <li>Every group can have a minimum of two and maximum of five group members.</li>
+            <li>The group has to agree on a meetup point and time, to avoid misunderstandings and unnecessary use of
+                time.</li>
+            <li>Do you not have the opportunity to prepare lunch for your assigned day? You can then ask the other group
+                members to switch day.</li>
+            <li>Each serving has to be between 300 g and 600 g.</li>
+        </ul>
+        <br>
+        <h2>Mark system:</h2>
+        <ul>
+            <li>If you don’t meet up to your day or forget to make the lunch without notifying the other group members
+                in advance, you will get a mark. The mark is given in the app by one of the other group members.</li>
+            <li>If you get two marks in one month you will be suspended from the app for one month. </li>
+            <li>To avoid getting a mark you have to notify every member of the group within 4 PM the day before your
+                assigned day. If you wake up sick on your assigned day, you still get a mark.</li>
+            <li>In case of sickness, if you have already bought in the food and made lunch, you still have to pay for
+                the food yourself and you’ll get a mark (freeze the food if possible and serve it some other time).</li>
+        </ul>
+        <br>
+        <a href="../HTML/index.html" tabindex="13" class="linkNextPage">
+            <div class="nextPage">Return to the main page</div>
+        </a>
+        <br>
+    </div>
+    <div class="contactBar">
+        <div class="info">
+            <div class="contactInfo">
+                <h2 tabindex="14">Follow us on:</h2>
+                <p><a href="https://facebook.com/" tabindex="15" target="_blank">Facebook</a></p>
+                <p><a href="https://instagram.com" tabindex="16" target="_blank">Instagram</a></p>
+                <p><a href="https://linkedin.com" tabindex="17" target="_blank">LinkedIn</a></p>
+                <p><a href="https://youtube.com" tabindex="18" target="_blank">Youtube</a></p>
+            </div>
+            <div class="contactInfo">
+                <h2 tabindex="19">Contact us:</h2>
+                <p tabindex="20">Ellen Gleditschs hus, Pilestredet 35</p>
+                <p tabindex="21">0166 Oslo</p>
+                <p tabindex="22">contact.comeals@gmail.com</p>
+                <p tabindex="23">+47 123 45 678</p>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>

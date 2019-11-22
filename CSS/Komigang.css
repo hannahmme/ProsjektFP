@@ -11,7 +11,7 @@ body {
     width: 60%;
 }
 
-.GetStartedHeader {
+.GetStartedHeaderTop {
     background-color: #B57374;
     width: 100%;
     color: #3C0701;
@@ -45,6 +45,8 @@ body {
     margin-bottom: 150px;
 }
 
+
+
 @media screen and (max-width: 1500px) {     /*-- Denne er OK - endrer kun på den øverste linja*/
     .GetStartedHeaderLeft {
         margin-left: 1%;
@@ -66,269 +68,152 @@ body {
         line-height: 6rem;
     }
     
-    .StepOneText {
+    .GetStartedText {
         margin-left: 8%;
         padding-left:0 !important;
         
     }
     
-    .StepOnePics {
+    .GetStartedPics {
         width: 90%;
         margin-left: 30%;
-    }
-    
-
-    .StepTwoText {
-        margin-left: 6%;
-        padding-left:0 !important;
-    }
-    
-    .StepTwoPics {
-        width: 90%;
-        margin-left: 30%;
-    }
-    
-
-    .StepTreeText {
-        margin-left: 8%;
-        padding-left:0 !important;
-    }
-    
-    .StepTreePics {
-        width: 90%;
-        margin-left: 30%;
-    }
-    
-    
-    
-    .StepFourText {
-        margin-left: 8%;
-        padding-left:0 !important;
-    }
-    
-    .StepFourPics {
-        width: 90%;
-        margin-left: 30%;
-        padding-left: 0;
     }
 }
-
 
 
 @media screen and (max-width: 1250px) {     /*-- Her er det fra 1300 så bilder og text aligner. Skal være .StepText for alle stegene*/
-    .StepOneText {
+    .GetStartedText {
         margin-left: 9%;
         margin-right: 20%;
     }
-    
-    .StepTwoText {
-        margin-left: 9%;
-        margin-right: 20%;
-    }
-    
-    .StepTreeText {
-        margin-left: 9%;
-        margin-right: 20%;
-    }
-    
-    
-    .StepFourText {
-        margin-left: 9%;
-        margin-right: 20%;
-    }
-    
 }
-
 
 
 @media screen and (max-width: 1100px) {     /*-- Her er det fra 1300 så bilder og text aligner. Skal være .StepText for alle stegene*/
-    .StepOneText {
+    .GetStartedText {
         width: 50% !important;
         margin-right: 16% !important;
+         margin-left: 7% !important;
     }
-    
-    .StepTwoText {
-        width: 50% !important;
-        margin-right: 16% !important;
-    }
-    
-    .StepTreeText {
-        width: 50% !important;
-        margin-right: 16% !important;
-    }
-    
-    
-    .StepFourText {
-        width: 50% !important;
-        margin-right: 16% !important;
-    }
-    
 }
 
+
+@media screen and (max-width: 940px) {     /*-- Her er det fra 1300 så bilder og text aligner. Skal være .StepText for alle stegene*/
+    .GetStartedHeader img{
+        width: 80%;
+        padding-top: 5%;
+        padding-right: 5%;
+    }
+    
+    .GetStartedPics {
+    margin-left: 45% !important;
+    
+    }
+    
+    
+}
 
 
 @media screen and (max-width: 790px) {     /*-- Dette er fra alt skal være på en linje nedover så bilder og text aligner.*/
-    .StepOneHeaderText {
+    .GetStartedHeaderText {
         display: inline !important;
     }
     
+    .GetStartedText {
+        padding:0 !important;
+        width: fit-content !important;
+        margin: auto !important;
+    }
     
-    .StepTwoHeaderText {
-        display: inline !important;
+    .GetStartedPics {
+        padding:0 !important;
+        display: flex !important;
+        width: fit-content !important;
+        margin: auto !important;
+    }
+    
+    .GetStartedPics img{
+        padding-left: 0 !important;
+    }
+    
+    .GetStartedHeader {
+        padding: 0 !important;
+        width: fit-content;
+        margin: auto;
     }
 
-    
-    .StepTreeHeaderText {
-        display: inline !important;
+    .GetStartedHeader img {
+        padding: 0 !important;
     }
-    
-    
-    .StepFourHeaderText {
-        display: inline !important;
-    }
-    
-    
-    .StepOneText {
-        padding:0;
-        margin:0;
-    }
-    
-    .StepTwoText {
-        padding:0;
-        margin:0;
-    }
-    
-    .StepTreeText {
-        padding:0;
-        margin:0;
-    }
-    
-    
-    .StepFourText {
-        padding:0;
-        margin:0;
-    }
-    
-    
-    
-    .StepOnePics {
-        padding:0 !important;
-        margin:0 !important;
-    }
-    
-    .StepTwoPics {
-        padding:0 !important;
-        margin:0 !important;
-    }
-
-    .StepTreePics {
-        padding:0 !important;
-        margin:0 !important;
-            }
-
-    .StepFourPics {
-        padding:0 !important;
-        margin:0 !important;
-            }
-    
-    
-    
-    .StepOnePics img{
-    padding-left: 0 !important;
-        }
-    
-        .StepTwoPics img{
-    padding-left: 0 !important;
-        }
-    
-        .StepTreePics img{
-    padding-left: 0 !important;
-        }
-    
-        .StepFourPics img{
-    padding-left: 0 !important;
-        }
-
 }
 
 
-
-@media screen and (max-width: 700px) {      /*-- Endrer på øverste linja + */
-    .GetStartedHeader {
+@media screen and (max-width: 800px) {      /*-- Endrer på øverste linja + */
+    .GetStartedHeaderTop {
         display: grid !important;
+        width: fit-content !important;
+        margin: auto !important;
     }
     
     .GetStartedHeaderLeft p {
         border: 0px;
+        width: fit-content !important;
+        margin: auto !important;
+    } 
+    
+    .GetStartedHeaderRight {
+        padding:0 !important;
+        width: fit-content !important;
+        margin: auto !important;
+    }
+    
+}
+
+
+@media screen and (max-width: 455px) { 
+    
+    .GetStartedHeader img{
+        width: fit-content !important;
+        margin:auto !important;
+    }
+    
+    .GetStartedPics {
+        display:inline-block !important;
+        width: fit-content !important;
+        margin-left: 25% !important;
+    }
+    
+}
+
+
+@media screen and (max-width: 359px) { 
+    .GetStartedPics {
+        margin-left: 0 !important;
     } 
 }
 
 
 
 
+    /*-- HovedCSS, før media query*/
 
-    /*-- Her kommer all annen css som ikke inkl media query*/
-
-.StepOne {
+.GetStarted {
     width: 100%;
     padding-bottom: 100px;
     color: #3C0701;
 }
 
-.StepOneHeaderText {
+.GetStartedHeaderText {
     display: flex;
     justify-content: space-between;
 }
 
-.StepOneHeader{
-    width: 20%;
-    padding-top: 5%;
+.GetStartedHeader img{
+    padding-top: 30%;
     padding-right: 5%;
 }
 
-.StepOneText {
-    width: 44%;
-    padding-top: 5%;
-    margin-top: 1%;
-    color: #3C0701;
-    margin-right: 26%;
-}
-
-.StepOnePics {
-    width: 60%;
-    padding-top: 3%;
-    display: inline-block;
-    margin-left: 30%;
-}
-
-
-.StepOnePics img{
-    width: 200px;
-    height: 400px;
-    padding: 5%;
-    display: inline-block;
-}
-
-
-/**Her kommer alt for Steg 2**/
-.StepTwo {
-    width: 100%;
-    padding-bottom: 100px;
-    color: #3C0701;
-}
-
-.StepTwoHeaderText {
-    display: flex;
-    justify-content: space-between;
-}
-
-.StepTwoHeader{
-    width: 20%;
-    padding-top: 5%;
-    padding-right: 5%;
-}
-
-.StepTwoText {
+.GetStartedText {
     width: 44%;
     padding-top: 5%;
     margin-top: 1%;
@@ -336,99 +221,14 @@ body {
     margin-right: 24%;
 }
 
-.StepTwoPics {
-    width: 60%;
-    margin-left: 30%;
-    padding-top: 3%;
-    display: inline-block;
-}
-
-
-.StepTwoPics img{
-    width: 200px;
-    height: 400px;
-    padding: 5%;
-    display: inline-block;
-}
-
-
-/**Her kommer alt for Steg 3**/
-.StepTree {
-    width: 100%;
-    padding-bottom: 100px;
-    color: #3C0701;
-}
-
-.StepTreeHeaderText {
-    display: flex;
-    justify-content: space-between;
-}
-
-.StepTreeHeader{
-    width: 20%;
-    padding-top: 5%;
-    padding-right: 5%;
-}
-
-.StepTreeText {
-    width: 44%;
-    padding-top: 5%;
-    margin-top: 1%;
-    color: #3C0701;
-    margin-right: 26%;
-    
-}
-
-.StepTreePics {
+.GetStartedPics {
     width: 60%;
     padding-top: 3%;
     display: inline-block;
     margin-left: 30%;
 }
 
-
-.StepTreePics img{
-    width: 200px;
-    height: 400px;
-    padding: 5%;
-    display: inline-block;
-}
-
-/**Her kommer alt for Steg 4**/
-.StepFour {
-    width: 100%;
-    padding-bottom: 100px;
-    color: #3C0701;
-}
-
-.StepFourHeaderText {
-    display: flex;
-    justify-content: space-between;
-}
-
-.StepFourHeader{
-    width: 20%;
-    padding-top: 5%;
-    padding-right: 5%;
-}
-
-.StepFourText {
-    width: 44%;
-    padding-top: 5%;
-    margin-top: 1%;
-    color: #3C0701;
-    margin-right: 26%;
-}
-
-.StepFourPics {
-    width: 60%;
-    padding-top: 3%;
-    display: inline-block;
-    margin-left: 30%;
-}
-
-
-.StepFourPics img{
+.GetStartedPics img{
     width: 200px;
     height: 400px;
     padding: 5%;

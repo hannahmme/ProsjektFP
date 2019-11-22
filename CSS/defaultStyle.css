@@ -92,7 +92,7 @@ body{
     display: inline-block;
     color: white;
     font-size: 20px;
-    margin: 100px;
+    margin: 60px;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -109,6 +109,24 @@ body{
 }
 .contactInfo h2{
     font-size: 30px;
+}
+.contactInfoImg{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin: 60px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+}
+.contactInfoImg img{
+    width: 100%;
+    transition: 0.1s;
+}
+.contactInfoImg img:hover{
+    opacity: 0.75;
+    transition: 0.1s;
 }
 .nextPage{
     color: black;
@@ -154,6 +172,21 @@ body{
     .logo{
         width: 10%;
     }
+    .contactInfo{
+        margin: 40px;
+    }
+    .contactInfoImg{
+        margin: 40px;
+    }
+}
+
+@media only screen and (max-width: 1145px){
+    .contactInfo{
+        margin: 30px;
+    }
+    .contactInfoImg{
+        margin: 20px;
+    }
 }
 
 @media screen and (max-width: 1050px){
@@ -187,6 +220,13 @@ body{
         font-size: 100px;
         margin-bottom: 100px;
         margin-top: 100px;
+    }
+    .contactInfo{
+        margin: 20px;
+    }
+    .contactInfoImg{
+        width: 20%;
+        margin: auto;
     }
 }
 

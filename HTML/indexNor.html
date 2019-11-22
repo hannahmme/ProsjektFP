@@ -43,20 +43,36 @@
     </div>
     <script>
         /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
-        /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function () {
             if (window.matchMedia("(min-width: 1050px)").matches) {
                 var currentScrollPos = window.pageYOffset;
                 if (prevScrollpos > currentScrollPos) {
-                    document.querySelector('.navBar').style.top = "0";
+                    /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+
+                    /* Code start: Self written code by Maren Spongsveen Lund - s344057 */
+                    var links = document.getElementsByClassName("link");
+                    for (i = 0; i < links.length; i++) {
+                        links[i].style.fontSize = "20px";
+                        links[i].style.padding = "30px";
+                        links[i].style.paddingTop = "15px";
+                        links[i].style.paddingBottom = "15px";
+                    }
+                    document.querySelector('.logo').style.width = "10%";
+                    document.querySelector('.flag').style.width = "3%";
                 } else {
-                    document.querySelector('.navBar').style.top = "-60px";
+                    var links = document.getElementsByClassName("link");
+                    for (i = 0; i < links.length; i++) {
+                        links[i].style.fontSize = "15px";
+                        links[i].style.padding = "10px";
+                    }
+                    document.querySelector('.logo').style.width = "6%";
+                    document.querySelector('.flag').style.width = "2%";
                 }
+                /* Code end: Self written code by Maren Spongsveen Lund - s344057 */
                 prevScrollpos = currentScrollPos;
             }
         }
-        /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
     </script>
     <div class="topBackground">
         <div class="mainTitle" tabindex="8"><b>CO</b>meals</div>
@@ -68,12 +84,14 @@
     <div class="innhold">
         <div class="aboutUs">
             <h1 tabindex="10">Om oss</h1>
-            <p tabindex="11"><b>CO</b>meals er fremtiden innenfor samarbeid om lunsj blant studenter. Vår visjon er å lage en
+            <p tabindex="11"><b>CO</b>meals er fremtiden innenfor samarbeid om lunsj blant studenter. Vår visjon er å
+                lage en
                 plattform hvor hver student kan føle seg velkommen, der de kan planlegge sunne og rimelige lunsjer
                 sammen med medstudenter.
             </p>
             <p tabindex="12">
-                Målet vårt er å oppmuntre studentene til å spise mer sunt og være mer sosiale på skolen. Vi håper dette vil
+                Målet vårt er å oppmuntre studentene til å spise mer sunt og være mer sosiale på skolen. Vi håper dette
+                vil
                 minske ensomheten noen elever opplever på skolen, så vel som å hjelpe dem med
                 å spare penger og mest viktigst, å spise lunsj.
             </p>

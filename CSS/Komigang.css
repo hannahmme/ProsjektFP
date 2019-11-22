@@ -271,7 +271,7 @@ body {
 
 .StepOne {
     width: 100%;
-    padding-bottom: 250px;
+    padding-bottom: 100px;
     color: #3C0701;
 }
 
@@ -313,7 +313,7 @@ body {
 /**Her kommer alt for Steg 2**/
 .StepTwo {
     width: 100%;
-    padding-bottom: 250px;
+    padding-bottom: 100px;
     color: #3C0701;
 }
 
@@ -355,7 +355,7 @@ body {
 /**Her kommer alt for Steg 3**/
 .StepTree {
     width: 100%;
-    padding-bottom: 250px;
+    padding-bottom: 100px;
     color: #3C0701;
 }
 
@@ -397,7 +397,7 @@ body {
 /**Her kommer alt for Steg 4**/
 .StepFour {
     width: 100%;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     color: #3C0701;
 }
 

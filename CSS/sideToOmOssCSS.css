@@ -72,6 +72,8 @@ body .navBar{
 .sideToPics img {
     height:auto; 
     width: 700px;
+    border: solid 8px; 
+    border-color: grey; 
 }
 
 

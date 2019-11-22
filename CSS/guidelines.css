@@ -318,7 +318,8 @@ ul li::before{
 .GetStartedHeaderLeft p{
     font-size: 60px;
     border-right: 3px solid #8C3E3C;
-    line-height: 9rem;
+    line-height: 6rem;
+    padding-right: 20px;
 }
 
 .GetStartedHeaderRight {
@@ -330,7 +331,7 @@ ul li::before{
 @media screen and (max-width: 1500px) {     /*-- Endrer kun på den øverste linja*/
     .GetStartedHeaderLeft {
         margin-left: 1%;
-        width: 25% ;
+        width: 30% ;
     }
     
     .GetStartedHeaderRight {
@@ -339,19 +340,17 @@ ul li::before{
     margin-right: 20%;
     padding: 1%;
     }
-
 }
 
 
-@media screen and (max-width: 1410px) {     /*-- Her er det fra 1400-1300 så bilder og text aligner.*/
+@media screen and (max-width: 1370px) {     /*-- Her er det fra 1400-1300 så bilder og text aligner.*/
     .GetStartedHeaderLeft p{
-        line-height: 6rem;
+    line-height: 9rem; 
     }
 }
 
 
-
-@media screen and (max-width: 700px) {      /*-- Endrer på øverste linja + */
+@media screen and (max-width: 1230px) {      /*-- Endrer på øverste linja + */
     .GetStartedHeader {
         display: grid !important;
     }

@@ -1,10 +1,10 @@
 body{
-    font-family: Nirmala UI;
     background-color: rgb(255, 248, 245);
-    min-width: 320px;
 }
+
 body .navBar{
     z-index: 3; 
+    max-width: 3440px;
 }
 .sidetoPics .descriptionPic p{
    /* font-size: 12px; */
@@ -79,6 +79,86 @@ h1{
 
 .contentWrap p{
     line-height: 50px;
+}
+
+@media only screen and (max-width: 3440px){
+    body{
+        margin: 0 auto; 
+
+    }
+    .headerPic img{
+        margin-top: -600px;
+        margin-bottom: -620px;
+    }
+    .mainTitle b{
+        font-size: 100px;
+    }
+   
+
+}
+
+@media only screen and (min-width: 3440px){
+    body{
+        margin: 0 auto; 
+
+    }
+    .headerPic img{
+        margin-top: -600px;
+        margin-bottom: -620px;
+    }
+    .mainTitle b{
+        font-size: 100px;
+    }
+  
+
+}
+
+@media only screen and (max-width: 2860px){
+    .headerPic img{
+        margin-top: -430px;
+        margin-bottom: -515px;
+    }
+    .mainTitle b{
+        font-size: 100px;
+    }
+    .navBar .logo{
+        width: 5%; 
+    }
+
+}
+
+
+@media only screen and (max-width: 2560px){
+    .headerPic img{
+        margin-top: -430px;
+        margin-bottom: -515px;
+    }
+    .mainTitle b{
+        font-size: 100px;
+    }
+    .navBar .logo{
+        width: 5%; 
+    }
+
+}
+
+
+@media only screen and (max-width: 2300px){
+    body{
+        margin: 0 auto; 
+
+    }
+    .headerPic img{
+        margin-top: -270px;
+        margin-bottom: -320px;
+    }
+    .mainTitle b{
+        font-size: 100px;
+    }
+    .navBar .logo{
+        width: 3.6%; 
+    }
+
 }
 
 

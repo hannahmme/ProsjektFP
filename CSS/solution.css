@@ -1,10 +1,10 @@
 body{
     background-color: rgb(255, 248, 245);
-    min-width: 320px;
 }
 
 body .navbar{
     z-index: 3;
+    max-width: 3440px;
 }
 
 .mainTitle{
@@ -20,7 +20,7 @@ body .navbar{
     margin: 0;
     overflow: hidden;
     position: relative;
-    z-index: 2;
+    
 }
 
 .bgfood .mainTitle{
@@ -36,7 +36,7 @@ body .navbar{
     margin-top: -250px;
     margin-bottom: -100px;
     filter: blur(3px);
-    
+    z-index: 2;
 }
 
 .innhold {
@@ -53,6 +53,27 @@ body .navbar{
 
 .innhold p{
     line-height: 50px;
+}
+
+@media only screen and (min-width: 3440px){
+    .bgfood img{
+        margin-top: -600px;
+        margin-bottom: -620px;
+    }
+}
+
+@media only screen and (max-width: 3440px){
+    .bgfood img{
+        margin-top: -600px;
+        margin-bottom: -620px;
+    }
+}
+
+@media only screen and (max-width: 2560px){
+    .bgfood img{
+        margin-top: -430px;
+        margin-bottom: -515px;
+    }
 }
 
 @media only screen and (max-width: 1730px) {

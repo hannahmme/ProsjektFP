@@ -1,7 +1,9 @@
 body{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Nirmala UI', 'Arial', sans-serif;
+    max-width: 3440px;
+    min-width: 320px;
 }
 .navBar{
     background-color: rgba(60, 7, 1, 0.75);
@@ -125,6 +127,35 @@ body{
     text-decoration: none;
 }
 
+@media only screen and (min-width: 3440px){
+    .logo{
+        width: 3.6%;
+    }
+}
+
+@media only screen and (max-width: 3440px){
+    .logo{
+        width: 3.6%;
+    }
+}
+
+@media only screen and (max-width: 2560px){
+    .logo{
+        width: 5%;
+    }
+}
+@media only screen and (max-width: 1530px){
+    .logo{
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 1330px){
+    .logo{
+        width: 10%;
+    }
+}
+
 @media screen and (max-width: 1050px){
     .mainTitle{
         margin-top: 100px;
@@ -134,7 +165,7 @@ body{
         margin: 10px;
     }
     .logo{
-        width: 12%;
+        width: 10%;
     }
 }
 
@@ -147,7 +178,7 @@ body{
         width: 28px;
     }
     .logo{
-        width: 12%;
+        width: 10%;
     }
     .nav{
         margin-right: 50px;

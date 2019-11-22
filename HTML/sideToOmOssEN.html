@@ -1,214 +1,192 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="../CSS/sideToOmOssCSS.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="../CSS/defaultStyle.css">
-        <link rel="icon" href="../pics/coMealsSmallLogo.png">
-        <meta charset="UTF-8">
-        <title>CoMeals</title>
-    </head>
-    <body>
-        <div class="navBar">
-            <a href="../HTML/index.html" tabindex="1">
-                <div class="logo"><img src="../pics/coMealsLogoLight.png" alt="CoMeals Logo."></div>
-            </a>
-            <div class="nav">
-                <!-- 
-                    
-                    sett denne linja inn bak 'class="link"' for din side: 
-                    style="background-color: rgba(179, 115, 114, 0.75);" 
-                
-                -->
-                <div class="links">
-                    <a href="../HTML/index.html" tabindex="2">
-                        <div class="link">Main page</div>
-                    </a>
-                    <a href="../HTML/sideToOmOssEN.html" tabindex="3">
-                        <div class="link" style="background-color: rgba(179, 115, 114, 0.75);">Problem</div>
-                    </a>
-                    <a href="../HTML/solutionEN.html" tabindex="4">
-                        <div class="link">Solution</div>
-                    </a>
-                </div>
-                <div class="links">
-                    <a href="../HTML/KomIGang_engelsk.html" tabindex="5">
-                        <div class="link">Get started</div>
-                    </a>
-                    <a href="../HTML/guidelinesEN.html" tabindex="6">
-                        <div class="link">Guidelines</div>
-                    </a>
-                </div>
-                <a href="../HTML/sideToOmOssNO.html" tabindex="7">
-                    <div class="flag"><img src="../pics/norFlag.png" alt="Norwegian flag."></div>
+<head>
+    <link rel="stylesheet" type="text/css" href="../CSS/sideToOmOssCSS.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/defaultStyle.css">
+    <link rel="icon" href="../pics/coMealsSmallLogo.png">
+    <meta charset="UTF-8">
+    <title>CoMeals</title>
+</head>
+    
+<body>
+    <div class="navBar">
+        <a href="../HTML/index.html" tabindex="1">
+            <div class="logo"><img src="../pics/coMealsLogoLight.png" alt="CoMeals Logo."></div>
+        </a>
+        <div class="nav">
+            <div class="links">
+                <a href="../HTML/index.html" tabindex="2">
+                    <div class="link">Main page</div>
+                </a>
+                <a href="../HTML/sideToOmOssEN.html" tabindex="3">
+                    <div class="link" style="background-color: rgba(179, 115, 114, 0.75);">Problem</div>
+                </a>
+                <a href="../HTML/solutionEN.html" tabindex="4">
+                    <div class="link">Solution</div>
                 </a>
             </div>
+            <div class="links">
+                <a href="../HTML/KomIGang_engelsk.html" tabindex="5">
+                    <div class="link">Get started</div>
+                </a>
+                <a href="../HTML/guidelinesEN.html" tabindex="6">
+                    <div class="link">Guidelines</div>
+                </a>
+            </div>
+            <a href="../HTML/sideToOmOssNO.html" tabindex="7">
+                <div class="flag"><img src="../pics/norFlag.png" alt="Norwegian flag."></div>
+            </a>
         </div>
+    </div>
 
+    <script>
+        /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            if (window.matchMedia("(min-width: 1050px)").matches) {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
 
-        <script>
-                /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
-                var prevScrollpos = window.pageYOffset;
-                window.onscroll = function () {
-                    if (window.matchMedia("(min-width: 1050px)").matches) {
-                        var currentScrollPos = window.pageYOffset;
-                        if (prevScrollpos > currentScrollPos) {
-                            /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
-        
-                            /* Code start: Self written code by Maren Spongsveen Lund - s344057 */
-                            var links = document.getElementsByClassName("link");
-                            for (i = 0; i < links.length; i++) {
-                                links[i].style.fontSize = "20px";
-                                links[i].style.padding = "30px";
-                                links[i].style.paddingTop = "15px";
-                                links[i].style.paddingBottom = "15px";
-                            }
-                            document.querySelector('.logo').style.width = "10%";
-                            document.querySelector('.flag').style.width = "3%";
-                        } else {
-                            var links = document.getElementsByClassName("link");
-                            for (i = 0; i < links.length; i++) {
-                                links[i].style.fontSize = "15px";
-                                links[i].style.padding = "10px";
-                            }
-                            document.querySelector('.logo').style.width = "6%";
-                            document.querySelector('.flag').style.width = "2%";
-                        }
-                        /* Code end: Self written code by Maren Spongsveen Lund - s344057 */
-                        prevScrollpos = currentScrollPos;
+                    /* Code start: Self written code by Maren Spongsveen Lund - s344057 */
+                    var links = document.getElementsByClassName("link");
+                    for (i = 0; i < links.length; i++) {
+                        links[i].style.fontSize = "20px";
+                        links[i].style.padding = "30px";
+                        links[i].style.paddingTop = "15px";
+                        links[i].style.paddingBottom = "15px";
                     }
+                    document.querySelector('.logo').style.width = "10%";
+                    document.querySelector('.flag').style.width = "3%";
+                } else {
+                    var links = document.getElementsByClassName("link");
+                    for (i = 0; i < links.length; i++) {
+                        links[i].style.fontSize = "15px";
+                        links[i].style.padding = "10px";
+                    }
+                    document.querySelector('.logo').style.width = "6%";
+                    document.querySelector('.flag').style.width = "2%";
                 }
-            </script>
-                
-                <div class="headerPic">
-                    <div class="mainTitle"><b>Problem</b></div>
-                        <img src="../pics/foodWaste.jpg" alt="Pile of food representing how much food wasted."><span class="link-spanner"></span>
+                /* Code end: Self written code by Maren Spongsveen Lund - s344057 */
+                prevScrollpos = currentScrollPos;
+            }
+        }
+    </script>        
+    <div class="headerPic">
+        <div class="mainTitle"><b>Problem</b></div>
+        <img src="../pics/foodWaste.jpg" alt="Pile of food representing how much food wasted."><span class="link-spanner"></span>
+    </div>
+    <p class="headerPicp">Picture taken from <a href="https://en.wikipedia.org/wiki/File:Food_Waste_Fiasco_(15819007150).jpg">this page.</a></p>
+    <!-- Picturen taken from: https://en.wikipedia.org/wiki/File:Food_Waste_Fiasco_(15819007150).jpg -->
 
-                    </div>
+    <div class="contentWrap">
+        <div>
 
-                    <p class="headerPicp">Picture taken from <a href="https://en.wikipedia.org/wiki/File:Food_Waste_Fiasco_(15819007150).jpg">this page.</a></p>
-                    
+            <br>
+            <br>
+            <br>
 
-                    <!-- Picturen taken from: https://en.wikipedia.org/wiki/File:Food_Waste_Fiasco_(15819007150).jpg -->
-                    
-        <div class="contentWrap">
-            <div>
+            <h3>Economics</h3>
+            <p>As a student, the economical situation isn’t always the very best. 
+            You get advised to set up a monthly bugdet for every outcome, every income, 
+            and of course you need to think of the unforseen spendings that mat occur throughout
+            the month. Even though this helps for most people, many still want to save some money
+            where they can.  </p>
 
-                <br>
-                <br>
-                <br>
+            <br>
 
-                <h3>Economics</h3>
-                <p>As a student, the economical situation isn’t always the very best. 
-                    You get advised to set up a monthly bugdet for every outcome, every income, 
-                    and of course you need to think of the unforseen spendings that mat occur throughout
-                     the month. Even though this helps for most people, many still want to save some money
-                      where they can.  </p>
+            <div class="sideToPics">
+                <img src="../pics/wishesToSaveEN1.png" alt="Chart of students who want to save money measured in percentage.">
+                <p>Picture taken from our own survey.</p>
+            </div>
+            <!-- Picture taken from our own survey. -->
 
-                <br>
-                    
-                <div class="sideToPics">
-                    <img src="../pics/wishesToSaveEN1.png" alt="Chart of students who want to save money measured in percentage.">
-                    <p>Picture taken from our own survey.</p>
+            <br>
+
+            <p>Students do also have some «student-discounts». Unfortunate, these discounts
+            does not apply to daily, overall spendings on groceries. This will lead to high
+            expenses on something that is most vital for a human, everyday meals. </p>
+
+            <br>
+            <br>
+
+            <h3>Food waste</h3>
+            <p>One of FN’s Sustainable Development Goals, 
+            number 12.3 which concerns food waste, want to halve the 
+            food waste measured in kilos per inhabitant, applying to 
+            the groceries-industries and to the consumers. </p>
+
+            <br>
+
+            <div class="sideToPics">
+                <div class="descriptionPic">
+                    <img src="../pics/diagramNO.jpg" alt="Chart of food waste measured in kilograms.">
+                    <p >Description of the picture above from the left:<br> "Food waste measured in kilograms per inhabitant. <b>Primary sector:</b> not measured,
+                    <b>Foodindustry:</b> 17,9 kilograms, <b>Wholesaler:</b> 1,2 kilograms, <b>Cafès and restaurants:</b> not measured, <b>Hotels and cafeterias:</b> 1,8 kilograns, 
+                    <b>Grocerystores:</b> 9,9 kilograms, <b>Householdings:</b> 42,1 kilograms." </p>
+                    <p>Picture taken from <a href="http://www.ntfe.no/i/2019/2/tfe-2019-02b-1395">this page.</a></p>
+                    <!-- Picture taken from: http://www.ntfe.no/i/2019/2/tfe-2019-02b-1395 -->
                 </div>
-                
-                <!-- Picture taken from our own survey. -->
-             
-           
-                <br>
-        
-                <p>Students do also have some «student-discounts». Unfortunate, these discounts
-                     does not apply to daily, overall spendings on groceries. This will lead to high
-                      expenses on something that is most vital for a human, everyday meals. </p>
+            </div>   
 
-                <br>
-                <br>
+            <br>
 
+            <p>FN has estimated that roughly one third of all the food we consume never gets eaten.
+            In 2017, Østfoldsforskning measured in a reasearch they did on food waste, that every
+            inhabitant in Norway that year threw away 73 kilos of edible food. This amount of food
+            waste equals 22 billion Norwegian kroners when measured in kroners, and an climate-emission
+            of 1.3 million CO2-equivalents per year. 42 kiloes of the total amount of 73 kiloes,
+            were thrown away by Norwegian householdings. In other words, the householdings struggle 
+            the most on keeping food waste to a minimum. </p>
 
-                <h3>Food waste</h3>
-                <p>One of FN’s Sustainable Development Goals, 
-                    number 12.3 which concerns food waste, want to halve the 
-                    food waste measured in kilos per inhabitant, applying to 
-                    the groceries-industries and to the consumers. </p>
+            <br>
 
-                <br>
-
-                <div class="sideToPics">
-                    <div class="descriptionPic">
-                        <img src="../pics/diagramNO.jpg" alt="Chart of food waste measured in kilograms.">
-                            <p >Description of the picture above from the left:<br> "Food waste measured in kilograms per inhabitant. <b>Primary sector:</b> not measured,
-                            <b>Foodindustry:</b> 17,9 kilograms, <b>Wholesaler:</b> 1,2 kilograms, <b>Cafès and restaurants:</b> not measured, <b>Hotels and cafeterias:</b> 1,8 kilograns, 
-                            <b>Grocerystores:</b> 9,9 kilograms, <b>Householdings:</b> 42,1 kilograms." </p>
-                        <p>Picture taken from <a href="http://www.ntfe.no/i/2019/2/tfe-2019-02b-1395">this page.</a></p>
-                        </div>
-                    </div>  
-                
+            <div class="sideToPics">
+                <img src="../pics/cirkelDiagramNO.png" alt="Chart of food waste measured in percent.">
+                <p><a href="http://www.ntfe.no/i/2019/2/tfe-2019-02b-1395">Picture taken from this page.</a></p>
                 <!-- Picture taken from: http://www.ntfe.no/i/2019/2/tfe-2019-02b-1395 -->
+            </div>  
 
-                <br>
+            <br>
 
-                <p>FN has estimated that roughly one third of all the food we consume never gets eaten.
-                     In 2017, Østfoldsforskning measured in a reasearch they did on food waste, that every
-                      inhabitant in Norway that year threw away 73 kilos of edible food. This amount of food
-                       waste equals 22 billion Norwegian kroners when measured in kroners, and an climate-emission
-                        of 1.3 million CO2-equivalents per year. 42 kiloes of the total amount of 73 kiloes,
-                         were thrown away by Norwegian householdings. In other words, the householdings struggle 
-                         the most on keeping food waste to a minimum.   </p>
+            <p>The outcome of the research Østfoldforskning did in 2017, showed that 20% of the
+            total edible food waste contained bread and pasteries. Casserole-dishes did have
+            an outcome at 19%, while fruit and vegetables scored 18%. </p>
 
-                <br>
-                
-                <div class="sideToPics">
-                    <img src="../pics/cirkelDiagramNO.png" alt="Chart of food waste measured in percent.">
-                    <p><a href="http://www.ntfe.no/i/2019/2/tfe-2019-02b-1395">Picture taken from this page.</a></p>
-                </div>  
+            <br>
 
-                <!-- Picture taken from: http://www.ntfe.no/i/2019/2/tfe-2019-02b-1395 -->
-                
-                <br>
-
-                <p>The outcome of the research Østfoldforskning did in 2017, showed that 20% of the
-                     total edible food waste contained bread and pasteries. Casserole-dishes did have
-                      an outcome at 19%, while fruit and vegetables scored 18%. </p>
-                
-                <br>
-
-                <p>CoMeals wishes to contribiute to achieve the goal for halve food waste in 2030. 
-                    We do think that making lunch and other dishes to eachother will help reduce the
-                     amount of food waste, through becomming more observant on how much food you need 
-                     for a small group, and that you don’t make more than necessary. We do also believe 
-                     that making food is a social activity, and that CoMeals can facilitate so people not
-                      only get to experience new food, but also making contact with other fellowmen. </p>
-
-
-            
-                    <a href="../HTML/solutionEN.html" tabindex="13" class="linkNextPage">
-                        <div class="nextPage">Read about our solution</div>
-                    </a>
-            </div>
-
+            <p>CoMeals wishes to contribiute to achieve the goal for halve food waste in 2030. 
+            We do think that making lunch and other dishes to eachother will help reduce the
+            amount of food waste, through becomming more observant on how much food you need 
+            for a small group, and that you don’t make more than necessary. We do also believe 
+            that making food is a social activity, and that CoMeals can facilitate so people not
+            only get to experience new food, but also making contact with other fellowmen. </p>
+            <a href="../HTML/solutionEN.html" tabindex="13" class="linkNextPage">
+                <div class="nextPage">Read about our solution here</div>
+            </a>
         </div>
     </div>
-
-    <div class="contactBar">
-        <div class="info">
-            <div class="contactInfo">
-                <h2 tabindex="14">Follow us on:</h2>
-                <p><a href="https://facebook.com/" tabindex="15" target="_blank">Facebook</a></p>
-                <p><a href="https://instagram.com" tabindex="16" target="_blank">Instagram</a></p>
-                <p><a href="https://linkedin.com" tabindex="17" target="_blank">LinkedIn</a></p>
-                <p><a href="https://youtube.com" tabindex="18" target="_blank">Youtube</a></p>
-            </div>
-            <div class="contactInfo">
-                <h2 tabindex="19">Contact us:</h2>
-                <p tabindex="20">Ellen Gleditschs hus, Pilestredet 35</p>
-                <p tabindex="21">0166 Oslo</p>
-                <p tabindex="22">comeals@gmail.com</p>
-                <p tabindex="23">+47 472 45 528</p>
-            </div>
+<div class="contactBar">
+    <div class="info">
+        <div class="contactInfo">
+            <h2 tabindex="14">Follow us on:</h2>
+            <p><a href="https://facebook.com/" tabindex="15" target="_blank">Facebook</a></p>
+            <p><a href="https://instagram.com" tabindex="16" target="_blank">Instagram</a></p>
+            <p><a href="https://linkedin.com" tabindex="17" target="_blank">LinkedIn</a></p>
+            <p><a href="https://youtube.com" tabindex="18" target="_blank">Youtube</a></p>
+        </div>
+        <div class="contactInfo">
+            <h2 tabindex="19">Contact us:</h2>
+            <p tabindex="20">Ellen Gleditschs hus, Pilestredet 35</p>
+            <p tabindex="21">0166 Oslo</p>
+            <p tabindex="22">comeals@gmail.com</p>
+            <p tabindex="23">+47 472 45 528</p>
         </div>
     </div>
-    </body>
+</div>
+</body>
 </html>
 
 

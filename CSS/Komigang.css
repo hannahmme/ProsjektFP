@@ -64,9 +64,6 @@ body {
 
 
 @media screen and (max-width: 1410px) {     /*-- Her er det fra 1400-1300 så bilder og text aligner.*/
-    .GetStartedHeaderLeft p{
-        line-height: 6rem;
-    }
     
     .GetStartedText {
         margin-left: 8%;
@@ -80,6 +77,12 @@ body {
     }
 }
 
+
+@media screen and (max-width: 1210px) {     /*-- Her er det fra 1400-1300 så bilder og text aligner.*/
+    .GetStartedHeaderLeft p{
+        line-height: 6rem;
+    }
+}
 
 @media screen and (max-width: 1250px) {     /*-- Her er det fra 1300 så bilder og text aligner. Skal være .StepText for alle stegene*/
     .GetStartedText {
@@ -117,6 +120,11 @@ body {
 @media screen and (max-width: 790px) {     /*-- Dette er fra alt skal være på en linje nedover så bilder og text aligner.*/
     .GetStartedHeaderText {
         display: inline !important;
+    }
+
+    .GetStartedHeaderLeft {
+        margin-left: 0;
+        width: fit-content;
     }
     
     .GetStartedText {

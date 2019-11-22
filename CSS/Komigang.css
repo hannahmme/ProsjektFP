@@ -46,6 +46,7 @@ body {
 }
 
 
+/*-- media query*/
 
 @media screen and (max-width: 1500px) {     /*-- Denne er OK - endrer kun på den øverste linja*/
     .GetStartedHeaderLeft {

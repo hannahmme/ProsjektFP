@@ -373,3 +373,30 @@ body{
         font-size: 12px;
     }
 }
+
+
+/*-- Nederste bar - span over*/
+
+a.span {
+    position:relative;
+    z-index:24;
+    text-decoration:none;
+}
+
+a.span span {
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+}
+
+a.span:hover span, a.span:focus span, a.span:active span {
+    display:block;
+    position:absolute;
+    bottom: 1.7em;
+    left: 6em;
+    width: 10em;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 12px;
+}

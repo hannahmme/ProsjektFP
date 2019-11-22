@@ -3,6 +3,7 @@
 body {
     padding:0;
     margin:0;
+    font-family: 'Nirmala UI', 'Arial', sans-serif;
 }
 
 .GetStartedReferences p{
@@ -39,14 +40,10 @@ body {
 }
 
 .NesteSideGS {
-    text-decoration: none;
+    width: fit-content;
+    margin: auto;
     margin-bottom: 150px;
 }
-
-.NesteSideGS p {
-    margin-left: 33%;
-}
-
 
 @media screen and (max-width: 1500px) {     /*-- Denne er OK - endrer kun på den øverste linja*/
     .GetStartedHeaderLeft {

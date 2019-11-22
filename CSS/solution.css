@@ -1,5 +1,4 @@
 body{
-    font-family: Arial;
     background-color: rgb(255, 248, 245);
     min-width: 320px;
 }
@@ -21,6 +20,7 @@ body .navbar{
     margin: 0;
     overflow: hidden;
     position: relative;
+    z-index: 2;
 }
 
 .bgfood .mainTitle{
@@ -29,13 +29,14 @@ body .navbar{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .bgfood img{
     width: 100%;
     height: auto;
     margin-top: -250px;
     margin-bottom: -100px;
     filter: blur(3px);
-    z-index: 2;
+    
 }
 
 .innhold {
@@ -95,9 +96,7 @@ body .navbar{
     left: 50%;
     transform: translate(-50%, -50%);
     }
-    .mainTitle{
-        margin-top: 12%;
-    }
+    
     
 }
 

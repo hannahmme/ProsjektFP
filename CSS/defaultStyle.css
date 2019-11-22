@@ -130,8 +130,8 @@ body{
     transition: 0.1s;
 }
 .nextPage{
-    color: black;
-    background-color: rgb(238, 173, 165);
+    color: rgb(255, 248, 245);
+    background-color: rgb(179, 115, 114);
     width: fit-content;
     padding: 10px;
     margin: auto;

@@ -41,21 +41,41 @@
             </a>
         </div>
     </div>
+
+    
     <script>
-        /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
-        /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function () {
-            var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                document.querySelector('.navBar').style.top = "0";
-            } else {
-                document.querySelector('.navBar').style.top = "-60px";
+            /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function () {
+                if (window.matchMedia("(min-width: 1050px)").matches) {
+                    var currentScrollPos = window.pageYOffset;
+                    if (prevScrollpos > currentScrollPos) {
+                        /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+    
+                        /* Code start: Self written code by Maren Spongsveen Lund - s344057 */
+                        var links = document.getElementsByClassName("link");
+                        for (i = 0; i < links.length; i++) {
+                            links[i].style.fontSize = "20px";
+                            links[i].style.padding = "30px";
+                            links[i].style.paddingTop = "15px";
+                            links[i].style.paddingBottom = "15px";
+                        }
+                        document.querySelector('.logo').style.width = "10%";
+                        document.querySelector('.flag').style.width = "3%";
+                    } else {
+                        var links = document.getElementsByClassName("link");
+                        for (i = 0; i < links.length; i++) {
+                            links[i].style.fontSize = "15px";
+                            links[i].style.padding = "10px";
+                        }
+                        document.querySelector('.logo').style.width = "6%";
+                        document.querySelector('.flag').style.width = "2%";
+                    }
+                    /* Code end: Self written code by Maren Spongsveen Lund - s344057 */
+                    prevScrollpos = currentScrollPos;
+                }
             }
-            prevScrollpos = currentScrollPos;
-        }
-                    /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
-    </script>
+        </script>
 
     <div class="topBackground">
         <div class="GetStartedHeader">

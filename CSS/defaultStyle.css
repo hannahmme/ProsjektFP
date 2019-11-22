@@ -14,6 +14,7 @@ body{
     z-index: 1;
     top: 0;
     transition: top 0.2s;
+    max-width: 3440px;
 }
 .navBar a{
     text-decoration: none;
@@ -131,29 +132,86 @@ body{
     .logo{
         width: 3.6%;
     }
+
+    .navBar .flag img{
+        max-width: 44%; 
+        margin-left: 90px;
+    }
 }
 
 @media only screen and (max-width: 3440px){
     .logo{
         width: 3.6%;
     }
+
+    .navBar .flag img {
+        width: 45%;
+        margin-left: 90px;
+    }
+}
+
+@media only screen and (max-width: 2860px){
+    .logo{
+        width: 5%; 
+    }
+    .navBar .flag img{
+        width: 55%; 
+        margin-left: 50px;
+    }
 }
 
 @media only screen and (max-width: 2560px){
-    .logo{
+    /* .logo{
         width: 5%;
+    } */
+
+      .navBar .flag img{
+        width: 44%; 
+        margin-left: 25px;
     }
 }
+
+@media only screen and (max-width: 2300px){
+    .navBar .logo{
+        width: 6%; 
+    }
+
+    .navBar .flag img{
+        width: 65%; 
+        margin-left: 45px;
+    }
+}
+
+
+@media only screen and (max-width: 1730px) {
+    .navBar .flag img{
+        width: 100%; 
+        margin-left: 0px;
+    }
+
+    .navBar .logo{
+        width: 7%; 
+    }
+
+
+}
+
 @media only screen and (max-width: 1530px){
-    .logo{
+    /* .navBar .flag img{
+        width: 100%; 
+        margin-left: 5px;
+    } */
+    
+}
+
+@media only screen and (max-width: 1330px){
+    .navBar .logo{
         width: 10%;
     }
 }
 
-@media only screen and (max-width: 1330px){
-    .logo{
-        width: 10%;
-    }
+@media screen and (max-width: 1200px){
+
 }
 
 @media screen and (max-width: 1050px){
@@ -164,9 +222,6 @@ body{
     .contactInfo{
         margin: 10px;
     }
-    .logo{
-        width: 10%;
-    }
 }
 
 @media screen and (max-width: 1000px){
@@ -174,12 +229,12 @@ body{
         padding: 10px;
         font-size: 17px;
     }
-    .flag{
+    /*.flag{
         width: 28px;
-    }
-    .logo{
+    }*/
+    /*.logo{
         width: 10%;
-    }
+    }*/
     .nav{
         margin-right: 50px;
     }
@@ -189,6 +244,30 @@ body{
         margin-top: 100px;
     }
 }
+
+@media only screen and (max-width: 800px){
+    .navBar .logo{
+        width: 10%; 
+    }
+    .navBar .flag img{
+        min-width: 30px;
+        margin-left: -5px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .navBar .flag img{
+        margin-left: -15px;
+    }
+}
+
+@media only screen and (max-width: 629px) {
+    .navBar .logo{
+        width: 30%; 
+    }
+}
+
+
 
 @media screen and (max-width: 630px){
     .mainTitle{
@@ -201,10 +280,10 @@ body{
         font-size: 20px;
         padding: 5px;
     }
-    .flag{
-        width: 7%;
+    /* .flag{
+        width: 50%;
         left: 90%;
-    }
+    } */
     .nav{
         margin: auto;
         float: none;
@@ -238,6 +317,14 @@ body{
         margin-bottom: 40px;
     }
 }
+
+@media screen and (max-width: 500px){
+    .logo img{
+        width: 100px;
+    }
+
+}
+
 @media screen and (max-width: 360px){
     .contactInfo h2{
         font-size: 15px;

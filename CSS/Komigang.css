@@ -156,6 +156,7 @@ body {
     }
     
     .GetStartedHeaderLeft p {
+        border-bottom: 3px solid #8C3E3C!important;
         border: 0px;
         width: fit-content !important;
         margin: auto !important;

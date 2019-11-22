@@ -37,6 +37,7 @@ body{
     position: absolute;
     padding: 5px;
     width: 10%;
+    transition: 0.2s;
 }
 .logo img{
     width: 100%;
@@ -52,11 +53,12 @@ body{
     transition: 0.3s;
 }
 .flag{
-    width: 40px;
+    width: 3%;
     position: absolute;
     display: inline-block;
     left: 95%;
     top: 10%;
+    transition: 0.2s;
 }
 .flag img{
     position: relative;

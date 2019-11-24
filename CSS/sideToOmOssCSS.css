@@ -12,6 +12,16 @@ body .navBar{
 
 }
 
+.sourceInfo{
+    margin-bottom: 50px;
+}
+
+.sourceInfo p{
+    font-size: 13px;
+    line-height: 0!important;
+    margin-bottom: 15px;
+}
+
 
 
 .mainTitle{

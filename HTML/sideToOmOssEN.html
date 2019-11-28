@@ -35,45 +35,60 @@
                     <div class="link">Guidelines</div>
                 </a>
             </div>
-            <a href="../HTML/sideToOmOssNO.html" tabindex="7">
-                <div class="flag"><img src="../pics/norFlag.png" alt="Norwegian flag."></div>
-            </a>
-        </div>
-    </div>
+            <div class="flags">
+                    <div class="flag">
+                        <a href="../HTML/sideToOmOssNO.html" tabindex="7">
+                            <img src="../pics/norFlag.png" alt="Norwegian flag drawn in paint" ></a>
+                    </div>
+                    <div class="flag">
+                        <a href="../HTML/sideToOmOssEN.html" tabindex="7">
+                            <img src="../pics/ukFlag.png" alt="UK flag drawn in paint"  style="box-shadow: 0px 0px 10px 3px white;"></a>
+                    </div>
+                </div>
+        </div> 
+    </div> 
 
     <script>
-        /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function () {
-            if (window.matchMedia("(min-width: 1050px)").matches) {
-                var currentScrollPos = window.pageYOffset;
-                if (prevScrollpos > currentScrollPos) {
-                    /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
-
-                    /* Code start: Self written code by Maren Spongsveen Lund - s344057 */
-                    var links = document.getElementsByClassName("link");
-                    for (i = 0; i < links.length; i++) {
-                        links[i].style.fontSize = "20px";
-                        links[i].style.padding = "30px";
-                        links[i].style.paddingTop = "15px";
-                        links[i].style.paddingBottom = "15px";
+            /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function () {
+                if (window.matchMedia("(min-width: 1050px)").matches && window.matchMedia("(max-width: 1730px)").matches) {
+                    var currentScrollPos = window.pageYOffset;
+                    if (prevScrollpos > currentScrollPos) {
+                        /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+    
+                        /* Code start: Self written code by Maren Spongsveen Lund - s344057 */
+                        var links = document.getElementsByClassName("link");
+                        for (i = 0; i < links.length; i++) {
+                            links[i].style.fontSize = "20px";
+                            links[i].style.padding = "30px";
+                            links[i].style.paddingTop = "15px";
+                            links[i].style.paddingBottom = "15px";
+                        }
+                        document.querySelector('.logo').style.width = "10%";
+                        document.querySelector('.flags').style.width = "9%";
+                        document.querySelector('.flags').style.left = "90%";
+                        document.querySelector('.flags').style.top = "9%";
+                        document.querySelector('.nav').style.marginRight = "150px";
+                    } else {
+                        var links = document.getElementsByClassName("link");
+                        for (i = 0; i < links.length; i++) {
+                            links[i].style.fontSize = "15px";
+                            links[i].style.padding = "10px";
+                        }
+                        document.querySelector('.logo').style.width = "6%";
+                        document.querySelector('.flags').style.width = "6%";
+                        document.querySelector('.flags').style.left = "94%";
+                        document.querySelector('.flags').style.top = "15%";
+                        document.querySelector('.nav').style.marginRight = "90px";
                     }
-                    document.querySelector('.logo').style.width = "10%";
-                    document.querySelector('.flag').style.width = "3%";
-                } else {
-                    var links = document.getElementsByClassName("link");
-                    for (i = 0; i < links.length; i++) {
-                        links[i].style.fontSize = "15px";
-                        links[i].style.padding = "10px";
-                    }
-                    document.querySelector('.logo').style.width = "6%";
-                    document.querySelector('.flag').style.width = "2%";
+                    /* Code end: Self written code by Maren Spongsveen Lund - s344057 */
+                    prevScrollpos = currentScrollPos;
                 }
-                /* Code end: Self written code by Maren Spongsveen Lund - s344057 */
-                prevScrollpos = currentScrollPos;
             }
-        }
-    </script>        
+    
+        </script>
+
     <div class="headerPic">
         <div class="mainTitle"><b>Problem</b></div>
         <img src="../pics/foodWaste.jpg" alt="Pile of food representing how much food wasted."><span class="link-spanner"></span>
@@ -184,16 +199,16 @@
     <div class="info">
         <div class="contactInfo">
             <h2 tabindex="14">Follow us on:</h2>
-            <p><a href="https://facebook.com/" tabindex="15" target="_blank">Facebook</a></p>
-            <p><a href="https://instagram.com" tabindex="16" target="_blank">Instagram</a></p>
-            <p><a href="https://linkedin.com" tabindex="17" target="_blank">LinkedIn</a></p>
-            <p><a href="https://youtube.com" tabindex="18" target="_blank">Youtube</a></p>
+            <p><a class="span" href="https://facebook.com/" tabindex="15" target="_blank">Facebook<span>Opens in a new tab</span></a></p> 
+            <p><a class="span" href="https://instagram.com" tabindex="16" target="_blank">Instagram<span>Opens in a new tab</span></a></p> 
+            <p><a class="span" href="https://linkedin.com" tabindex="17" target="_blank">LinkedIn<span>Opens in a new tab</span></a></p> 
+            <p><a class="span" href="https://.com" tabindex="18" target="_blank">Youtube<span>Opens in a new tab</span></a></p> 
         </div>
         <div class="contactInfo">
             <h2 tabindex="">Contact us:</h2>
             <p tabindex="">Visiting address:</p>
             <p tabindex="">COmeals, Pilestredet 35, 0166 Oslo</p>
-            <p tabindex="">E-mail: <a href="mailto:contact.comeals@gmail.com">contact.comeals@gmail.com</a></p>
+            <p tabindex="">E-mail: <a class="span" href="mailto:contact.comeals@gmail.com">contact.comeals@gmail.com<span>Opens a new E-mail</span></a></p>
             <p tabindex="">Phone: +47 472 45 528</p>
         </div>
         <div class="contactInfoImg"> 

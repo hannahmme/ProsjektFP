@@ -377,9 +377,11 @@ body{
 
 /*-- Nederste bar - span over*/
 
+:focus { outline: 0; }
+
 a.span {
     position:relative;
-    z-index:24;
+    z-index:1;
     text-decoration:none;
 }
 
@@ -396,6 +398,7 @@ a.span:hover span, a.span:focus span, a.span:active span {
     left: 6em;
     width: 10em;
     background-color: white;
+    color: black;
     border: 1px solid black;
     text-align: center;
     font-size: 12px;

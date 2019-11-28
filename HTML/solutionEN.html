@@ -34,44 +34,58 @@
                     <div class="link">Guidelines</div>
                 </a>
             </div>
-            <a href="../HTML/solutionNO.html" tabindex="7">
-                <div class="flag"><img src="../pics/norFlag.png" alt="Norwegian flag"></div>
-            </a>
+            <div class="flags">
+                <div class="flag">
+                    <a href="../HTML/solutionNO.html" tabindex="7"><img src="../pics/norFlag.png"
+                            alt="Norwegian flag drawn in paint"></a>
+                </div>
+                <div class="flag">
+                    <a href="../HTML/solutionEN.html" tabindex="7"><img src="../pics/ukFlag.png" alt="UK flag drawn in paint"
+                            style="box-shadow: 0px 0px 10px 3px white;"></a>
+                </div>
+            </div>
         </div>
     </div>
     <script>
-            /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
-            var prevScrollpos = window.pageYOffset;
-            window.onscroll = function () {
-                if (window.matchMedia("(min-width: 1050px)").matches) {
-                    var currentScrollPos = window.pageYOffset;
-                    if (prevScrollpos > currentScrollPos) {
-                        /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
-    
-                        /* Code start: Self written code by Maren Spongsveen Lund - s344057 */
-                        var links = document.getElementsByClassName("link");
-                        for (i = 0; i < links.length; i++) {
-                            links[i].style.fontSize = "20px";
-                            links[i].style.padding = "30px";
-                            links[i].style.paddingTop = "15px";
-                            links[i].style.paddingBottom = "15px";
-                        }
-                        document.querySelector('.logo').style.width = "10%";
-                        document.querySelector('.flag').style.width = "3%";
-                    } else {
-                        var links = document.getElementsByClassName("link");
-                        for (i = 0; i < links.length; i++) {
-                            links[i].style.fontSize = "15px";
-                            links[i].style.padding = "10px";
-                        }
-                        document.querySelector('.logo').style.width = "6%";
-                        document.querySelector('.flag').style.width = "2%";
+        /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            if (window.matchMedia("(min-width: 1050px)").matches && window.matchMedia("(max-width: 1730px)").matches) {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+
+                    /* Code start: Self written code by Maren Spongsveen Lund - s344057 */
+                    var links = document.getElementsByClassName("link");
+                    for (i = 0; i < links.length; i++) {
+                        links[i].style.fontSize = "20px";
+                        links[i].style.padding = "30px";
+                        links[i].style.paddingTop = "15px";
+                        links[i].style.paddingBottom = "15px";
                     }
-                    /* Code end: Self written code by Maren Spongsveen Lund - s344057 */
-                    prevScrollpos = currentScrollPos;
+                    document.querySelector('.logo').style.width = "10%";
+                    document.querySelector('.flags').style.width = "9%";
+                    document.querySelector('.flags').style.left = "90%";
+                    document.querySelector('.flags').style.top = "9%";
+                    document.querySelector('.nav').style.marginRight = "150px";
+                } 
+                else {
+                    var links = document.getElementsByClassName("link");
+                    for (i = 0; i < links.length; i++) {
+                        links[i].style.fontSize = "15px";
+                        links[i].style.padding = "10px";
+                    }
+                    document.querySelector('.logo').style.width = "6%";
+                    document.querySelector('.flags').style.width = "6%";
+                    document.querySelector('.flags').style.left = "94%";
+                    document.querySelector('.flags').style.top = "15%";
+                    document.querySelector('.nav').style.marginRight = "90px";
                 }
+                /* Code end: Self written code by Maren Spongsveen Lund - s344057 */
+                prevScrollpos = currentScrollPos;
             }
-        </script>
+        }
+    </script>
                 
         <div class="bgfood"> 
             <div class="mainTitle" tabindex="8"><b>Solution</b></div> 
@@ -102,9 +116,11 @@
                 <p>* Here we have compared the price per portion for dishes with reasonable prices at Kolonial.no (visited 15.11.2019) to the approximated price per portion at SiO Canteens (visited 15.11.2019).</p>
                 <p>** Applies if the number of group members is the same as the number of days you are going to be at school.</p>
                 
-                <a href="../HTML/KomIGang_engelsk.html" tabindex="13" class="linkNextPage">
-                <div class="nextPage">Get stared with COmeals</div>
-                </a>
+                <div class="nextPage">
+                    <a href="../HTML/KomIGang_engelsk.html" tabindex="13">
+                        Get started with COmeals
+                    </a>
+                </div>
                 <br>
             </div>
             <div class="contactBar">

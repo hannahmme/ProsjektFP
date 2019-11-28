@@ -87,7 +87,7 @@ body{
     color: rgb(36, 4, 0);
 }
 .contactBar{
-    background-color: rgb(102, 86, 85);
+    background-color: #5b2e28;
 }
 .contactInfo{
     display: inline-block;
@@ -99,14 +99,14 @@ body{
     margin-bottom: 20px;
 }
 .info{
-    width: fit-content;
+    width: 1340px;
     margin: auto;
 }
 .contactInfo a{
     color: white;
 }
 .contactInfo a:hover{
-    color: #3C0701;
+    color: #baa0a0;
 }
 .contactInfo h2{
     font-size: 30px;
@@ -222,7 +222,7 @@ body{
     
 }
 
-@media only screen and (max-width: 1330px){
+@media only screen and (max-width: 1350px){
     .navBar .logo{
         width: 10%;
     }
@@ -231,6 +231,9 @@ body{
     }
     .contactInfoImg{
         margin: 40px;
+    }
+    .info{
+        width: fit-content;
     }
 }
 

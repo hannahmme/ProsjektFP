@@ -120,6 +120,7 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 30%;
+    overflow: auto;
 }
 .contactInfoImg img{
     width: 100%;

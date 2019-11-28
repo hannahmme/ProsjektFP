@@ -41,6 +41,7 @@ body .navBar{
 .mainTitle b{
     font-size:100px; 
     padding: 0 25px 35px 25px; 
+    color: rgba(60, 7, 1, 0.85)
 }
 .headerPic{
     margin: 0;
@@ -51,7 +52,7 @@ body .navBar{
 }
 .headerPic .mainTitle{
     position: absolute;
-    top: 5%;
+    top: -30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -211,8 +212,8 @@ h1{
 
 @media only screen and (max-width: 1330px) {
     .headerPic img{
-        margin-top: -100px;
-        margin-bottom: -230px;
+        margin-top: -155px;
+        margin-bottom: -290px;
     }
 }
 

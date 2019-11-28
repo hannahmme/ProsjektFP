@@ -7,6 +7,11 @@ body {
 .GetStartedReferences p{
     margin-left: 20%;
     width: 60%;
+    padding-top: 10px;
+}
+
+.GetStartedReferences{
+    padding-top: 100px;
 }
 
 .GetStartedHeaderTop {

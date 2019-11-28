@@ -214,11 +214,10 @@ body{
 
 }
 
-@media only screen and (max-width: 1530px){
-    /* .navBar .flag img{
-        width: 100%; 
-        margin-left: 5px;
-    } */
+@media only screen and (max-width: 1400px){
+    .navBar .logo{
+        width: 10%;
+    }
     
 }
 
@@ -243,9 +242,6 @@ body{
     }
 }
 
-@media screen and (max-width: 1200px){
-
-}
 
 @media screen and (max-width: 1050px){
     .mainTitle{

@@ -62,6 +62,11 @@ body {
     padding: 1%;
     }
 
+    .GetStartedText {
+    padding-top: 5%;
+    margin-right: 24%;
+    }
+    
 }
 
 
@@ -80,11 +85,12 @@ body {
 }
 
 
-@media screen and (max-width: 1210px) {     /*-- Her er det fra 1400-1300 så bilder og text aligner.*/
+@media screen and (max-width: 1223px) {     /*-- Her er det fra 1400-1300 så bilder og text aligner.*/
     .GetStartedHeaderLeft p{
-        line-height: 6rem;
+        line-height: 6rem !important;
     }
 }
+
 
 @media screen and (max-width: 1250px) {     /*-- Her er det fra 1300 så bilder og text aligner. Skal være .StepText for alle stegene*/
     .GetStartedText {
@@ -103,23 +109,7 @@ body {
 }
 
 
-@media screen and (max-width: 940px) {     /*-- Her er det fra 1300 så bilder og text aligner. Skal være .StepText for alle stegene*/
-    .GetStartedHeader img{
-        width: 80%;
-        padding-top: 5%;
-        padding-right: 5%;
-    }
-    
-    .GetStartedPics {
-    margin-left: 45% !important;
-    
-    }
-    
-    
-}
-
-
-@media screen and (max-width: 790px) {     /*-- Dette er fra alt skal være på en linje nedover så bilder og text aligner.*/
+@media screen and (max-width: 960px) {
     .GetStartedHeaderText {
         display: inline !important;
     }
@@ -140,10 +130,6 @@ body {
         display: flex !important;
         width: fit-content !important;
         margin: auto !important;
-    }
-    
-    .GetStartedPics img{
-        padding-left: 0 !important;
     }
     
     .GetStartedHeader {
@@ -176,6 +162,11 @@ body {
         padding:0 !important;
         width: fit-content !important;
         margin: auto !important;
+    }
+    
+    .GetStartedPics img{
+        padding:0 !important;
+        margin:0 !important;
     }
     
 }
@@ -225,11 +216,11 @@ body {
 }
 
 .GetStartedText {
-    width: 44%;
+    width: 45%;
     padding-top: 5%;
     margin-top: 1%;
     color: #3C0701;
-    margin-right: 24%;
+    margin-right: 25%;
 }
 
 .GetStartedPics {

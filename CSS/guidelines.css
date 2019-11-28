@@ -111,7 +111,7 @@ ul li::before{
 @media screen and (max-width: 1500px) {     /*-- Endrer kun på den øverste linja*/
     .GetStartedHeaderLeft {
         margin-left: 1%;
-        width: 30% ;
+        width: 25% ;
     }
     
     .GetStartedHeaderRight {
@@ -119,13 +119,6 @@ ul li::before{
     margin-left: 0;
     margin-right: 20%;
     padding: 1%;
-    }
-}
-
-
-@media screen and (max-width: 1370px) {     /*-- Her er det fra 1400-1300 så bilder og text aligner.*/
-    .GetStartedHeaderLeft p{
-    line-height: 9rem; 
     }
 }
 
@@ -140,3 +133,20 @@ ul li::before{
     } 
 }
 
+
+@media screen and (max-width: 1210px) {     /*-- Her er det fra 1400-1300 så bilder og text aligner.*/
+    .GetStartedHeaderLeft p{
+        line-height: 6rem;
+    }
+}
+
+@media screen and (max-width: 790px) {     /*-- Dette er fra alt skal være på en linje nedover så bilder og text aligner.*/
+    .GetStartedHeaderText {
+        display: inline !important;
+    }
+
+    .GetStartedHeaderLeft {
+        margin-left: 0;
+        width: fit-content;
+    }
+}

@@ -87,7 +87,7 @@ body{
     color: rgba(60, 7, 1, 0.85);
     text-shadow: 3px 3px 10px black;
     margin-top: 200px;
-    margin-bottom: 250px;
+    margin-bottom: 0px;
 }
 .innhold{
     padding: 50px;
@@ -267,7 +267,6 @@ body{
 @media screen and (max-width: 1050px){
     .mainTitle{
         margin-top: 100px;
-        margin-bottom: 100px;
     }
     .contactInfo{
         margin: 10px;
@@ -284,7 +283,6 @@ body{
     }
     .mainTitle{
         font-size: 100px;
-        margin-bottom: 100px;
         margin-top: 100px;
     }
     .contactInfo{
@@ -330,7 +328,6 @@ body{
     .mainTitle{
         font-size: 50px;
         margin-top: 10%;
-        margin-bottom: 50px;
         text-shadow: 2px 2px 6px black;
     }
     .link{

@@ -82,13 +82,44 @@ body {
         width: 90%;
         margin-left: 30%;
     }
+    
+    .GetStartedHeader img {
+        padding-top: 20% !important;
+    }
+    
 }
 
 
-@media screen and (max-width: 1223px) {     /*-- Her er det fra 1400-1300 så bilder og text aligner.*/
+@media screen and (max-width: 1230px) {
     .GetStartedHeaderLeft p{
         line-height: 6rem !important;
     }
+
+    .GetStartedHeaderLeft {
+        margin-left: 0;
+        width: fit-content;
+    }
+
+    .GetStartedHeaderTop {
+        display: grid !important;
+        width: fit-content !important;
+        margin: auto !important;
+    }
+    
+    .GetStartedHeaderLeft p {
+        border-bottom: 3px solid #8C3E3C!important;
+        border: 0px;
+        width: fit-content !important;
+        margin: auto !important;
+    } 
+    
+    .GetStartedHeaderRight {
+        padding:0 !important;
+        width: fit-content !important;
+        margin: auto !important;
+    }
+    
+
 }
 
 
@@ -159,14 +190,18 @@ body {
     } 
     
     .GetStartedHeaderRight {
-        padding:0 !important;
+        padding: 0 !important;
         width: fit-content !important;
         margin: auto !important;
     }
     
     .GetStartedPics img{
-        padding:0 !important;
-        margin:0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    .GetStartedText {
+    padding: 2% !important;
     }
     
 }
@@ -188,7 +223,7 @@ body {
 }
 
 
-@media screen and (max-width: 359px) { 
+@media screen and (max-width: 360px) { 
     .GetStartedPics {
         margin-left: 0 !important;
     } 

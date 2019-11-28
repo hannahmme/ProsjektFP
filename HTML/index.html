@@ -36,9 +36,18 @@
                     <div class="link">Guidelines</div>
                 </a>
             </div>
-            <a href="../HTML/indexNor.html" tabindex="7">
-                <div class="flag"><img src="../pics/norFlag.png" alt="Norwegian flag drawn in paint"></div>
-            </a>
+
+            <div class="flags">
+                <div class="flag">
+                    <a href="../HTML/indexNor.html" tabindex="7"><img src="../pics/norFlag.png"
+                            alt="Norwegian flag drawn in paint"></a>
+                </div>
+                <div class="flag">
+                    <a href="../HTML/index.html" tabindex="7"><img src="../pics/ukFlag.png" alt="UK flag drawn in paint"
+                            style="box-shadow: 0px 0px 10px 3px white;"></a>
+                </div>
+            </div>
+
         </div>
     </div>
     <script>
@@ -59,7 +68,10 @@
                         links[i].style.paddingBottom = "15px";
                     }
                     document.querySelector('.logo').style.width = "10%";
-                    document.querySelector('.flag').style.width = "3%";
+                    document.querySelector('.flags').style.width = "9%";
+                    document.querySelector('.flags').style.left = "90%";
+                    document.querySelector('.flags').style.top = "9%";
+                    document.querySelector('.nav').style.marginRight = "150px";
                 } else {
                     var links = document.getElementsByClassName("link");
                     for (i = 0; i < links.length; i++) {
@@ -67,7 +79,10 @@
                         links[i].style.padding = "10px";
                     }
                     document.querySelector('.logo').style.width = "6%";
-                    document.querySelector('.flag').style.width = "2%";
+                    document.querySelector('.flags').style.width = "6%";
+                    document.querySelector('.flags').style.left = "94%";
+                    document.querySelector('.flags').style.top = "15%";
+                    document.querySelector('.nav').style.marginRight = "90px";
                 }
                 /* Code end: Self written code by Maren Spongsveen Lund - s344057 */
                 prevScrollpos = currentScrollPos;
@@ -103,13 +118,16 @@
         <div class="info">
             <div class="contactInfo">
                 <h2 tabindex="14">Follow us on:</h2>
-                <p><a class="span" href="https://facebook.com/" tabindex="15" target="_blank">Facebook<span>Opens a new
+                <p><a class="span" href="https://facebook.com/" tabindex="15" target="_blank">Facebook<span>Opens in a
+                            new
                             tab</span></a></p>
-                <p><a class="span" href="https://instagram.com" tabindex="16" target="_blank">Instagram<span>Opens a new
+                <p><a class="span" href="https://instagram.com" tabindex="16" target="_blank">Instagram<span>Opens in a
+                            new
                             tab</span></a></p>
-                <p><a class="span" href="https://linkedin.com" tabindex="17" target="_blank">LinkedIn<span>Opens a new
+                <p><a class="span" href="https://linkedin.com" tabindex="17" target="_blank">LinkedIn<span>Opens in a
+                            new
                             tab</span></a></p>
-                <p><a class="span" href="https://youtube.com" tabindex="18" target="_blank">Youtube<span>Opens a new
+                <p><a class="span" href="https://youtube.com" tabindex="18" target="_blank">Youtube<span>Opens in a new
                             tab</span></a></p>
             </div>
             <div class="contactInfo">

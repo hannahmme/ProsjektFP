@@ -78,7 +78,7 @@ body{
 .flag{
     margin-right: 15%;
 }
-.mainTitle{
+.mainTitle h1{
     position: relative;
     font-family: 'Nirmala UI', 'Arial', sans-serif;
     font-size: 150px;

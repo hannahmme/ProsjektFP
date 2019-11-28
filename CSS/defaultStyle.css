@@ -69,9 +69,11 @@ body{
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.65);
     border-radius: 100%;
     width: 100%;
+    transition: 0.2s;
 }
 .flags img:hover{
     box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.65);
+    transition: 0.2s;
 }
 .flag{
     margin-right: 15%;

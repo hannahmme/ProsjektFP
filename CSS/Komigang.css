@@ -40,9 +40,17 @@ body {
 }
 
 .NesteSideGS {
+    margin-top:50px;
     width: fit-content;
-    margin: auto;
     margin-bottom: 150px;
+    align-content: center;
+    
+}
+.NesteSideGS p{
+    margin-top:50px;
+    width: fit-content;
+    align-content: center;
+    padding: 5%;
 }
 
 

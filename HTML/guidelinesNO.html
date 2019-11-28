@@ -38,45 +38,59 @@
                     <div class="link" style="background-color: rgba(179, 115, 114, 0.75);">Retningslinjer</div>
                 </a>
             </div>
-            <a href="../HTML/guidelinesEN.html" tabindex="7">
-                <div class="flag"><img src="../pics/ukFlag.png" alt="UK Flag"></div>
-            </a>
+            <div class="flags">
+                <div class="flag">
+                    <a href="../HTML/guidelinesNO.html" tabindex="7"><img src="../pics/norFlag.png"
+                            alt="Norwegian flag drawn in paint" style="box-shadow: 0px 0px 10px 3px white;"></a>
+                </div>
+                <div class="flag">
+                    <a href="../HTML/guidelinesEN.html" tabindex="7"><img src="../pics/ukFlag.png"
+                            alt="UK flag drawn in paint"></a>
+                </div>
+            </div>
         </div>
     </div>
 
     <script>
-            /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
-            var prevScrollpos = window.pageYOffset;
-            window.onscroll = function () {
-                if (window.matchMedia("(min-width: 1050px)").matches) {
-                    var currentScrollPos = window.pageYOffset;
-                    if (prevScrollpos > currentScrollPos) {
-                        /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
-    
-                        /* Code start: Self written code by Maren Spongsveen Lund - s344057 */
-                        var links = document.getElementsByClassName("link");
-                        for (i = 0; i < links.length; i++) {
-                            links[i].style.fontSize = "20px";
-                            links[i].style.padding = "30px";
-                            links[i].style.paddingTop = "15px";
-                            links[i].style.paddingBottom = "15px";
-                        }
-                        document.querySelector('.logo').style.width = "10%";
-                        document.querySelector('.flag').style.width = "3%";
-                    } else {
-                        var links = document.getElementsByClassName("link");
-                        for (i = 0; i < links.length; i++) {
-                            links[i].style.fontSize = "15px";
-                            links[i].style.padding = "10px";
-                        }
-                        document.querySelector('.logo').style.width = "6%";
-                        document.querySelector('.flag').style.width = "2%";
+        /* Code start: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            if (window.matchMedia("(min-width: 1050px)").matches) {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    /* Code end: Got from https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+
+                    /* Code start: Self written code by Maren Spongsveen Lund - s344057 */
+                    var links = document.getElementsByClassName("link");
+                    for (i = 0; i < links.length; i++) {
+                        links[i].style.fontSize = "20px";
+                        links[i].style.padding = "30px";
+                        links[i].style.paddingTop = "15px";
+                        links[i].style.paddingBottom = "15px";
                     }
-                    /* Code end: Self written code by Maren Spongsveen Lund - s344057 */
-                    prevScrollpos = currentScrollPos;
+                    document.querySelector('.logo').style.width = "10%";
+                    document.querySelector('.flags').style.width = "9%";
+                    document.querySelector('.flags').style.left = "90%";
+                    document.querySelector('.flags').style.top = "9%";
+                    document.querySelector('.nav').style.marginRight = "150px";
+                } 
+                else {
+                    var links = document.getElementsByClassName("link");
+                    for (i = 0; i < links.length; i++) {
+                        links[i].style.fontSize = "15px";
+                        links[i].style.padding = "10px";
+                    }
+                    document.querySelector('.logo').style.width = "6%";
+                    document.querySelector('.flags').style.width = "6%";
+                    document.querySelector('.flags').style.left = "94%";
+                    document.querySelector('.flags').style.top = "15%";
+                    document.querySelector('.nav').style.marginRight = "90px";
                 }
+                /* Code end: Self written code by Maren Spongsveen Lund - s344057 */
+                prevScrollpos = currentScrollPos;
             }
-        </script>
+        }
+    </script>
 
     <div class="topBackground">
         <div class="GetStartedHeaderTop">
@@ -113,9 +127,11 @@
                 for din egen del).</li>
         </ul>
         <br>
-        <a href="../HTML/indexNor.html" tabindex="13" class="linkNextPage">
-            <div class="nextPage">Gå tilbake til forsiden</div>
-        </a>
+        <div class="nextPage">
+            <a href="../HTML/indexNor.html" tabindex="13">
+                Gå tilbake til forsiden
+            </a>
+        </div>
         <br>
     </div>
     <div class="contactBar">

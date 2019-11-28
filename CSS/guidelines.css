@@ -92,8 +92,8 @@ ul li::before{
 }
 
 .GetStartedHeaderLeft {
-    width: 25%;
-    margin-left: 20%;
+    width: 30%;
+    margin-left: 15%;
 }
 
 .GetStartedHeaderLeft p{
@@ -109,15 +109,11 @@ ul li::before{
 }
 
 @media screen and (max-width: 1500px) {     /*-- Endrer kun på den øverste linja*/
-    .GetStartedHeaderLeft {
-        margin-left: 1%;
-        width: 25% ;
-    }
     
     .GetStartedHeaderRight {
     width: 50%;
     margin-left: 0;
-    margin-right: 20%;
+    margin-right: 5%;
     padding: 1%;
     }
 }
@@ -128,9 +124,34 @@ ul li::before{
         display: grid !important;
     }
     
+    .GetStartedHeaderText {
+        display: inline !important;
+    }
+
+    .GetStartedHeaderLeft {
+        margin-left: 0;
+        width: fit-content;
+    }
+
+    .GetStartedHeaderTop {
+        display: grid !important;
+        width: fit-content !important;
+        margin: auto !important;
+    }
+    
     .GetStartedHeaderLeft p {
+        border-bottom: 3px solid #8C3E3C!important;
         border: 0px;
+        width: fit-content !important;
+        margin: auto !important;
     } 
+    
+    .GetStartedHeaderRight {
+        padding:0 !important;
+        width: fit-content !important;
+        margin: auto !important;
+    }
+    
 }
 
 
@@ -140,13 +161,3 @@ ul li::before{
     }
 }
 
-@media screen and (max-width: 790px) {     /*-- Dette er fra alt skal være på en linje nedover så bilder og text aligner.*/
-    .GetStartedHeaderText {
-        display: inline !important;
-    }
-
-    .GetStartedHeaderLeft {
-        margin-left: 0;
-        width: fit-content;
-    }
-}

@@ -34,7 +34,8 @@ body{
 }
 .nav{
     float: right;
-    margin-right: 100px;
+    margin-right: 150px;
+    transition: 0.2s;
 }
 .logo{
     position: absolute;
@@ -55,19 +56,25 @@ body{
     background-color: rgba(179, 115, 114, 0.75);
     transition: 0.3s;
 }
-.flag{
-    width: 3%;
+.flags{
+    width: 9%;
     position: absolute;
-    display: inline-block;
-    left: 95%;
-    top: 10%;
+    display: flex;
+    left: 90%;
+    top: 9%;
     transition: 0.2s;
 }
-.flag img{
+.flags img{
     position: relative;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.65);
     border-radius: 100%;
     width: 100%;
+}
+.flags img:hover{
+    box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.65);
+}
+.flag{
+    margin-right: 15%;
 }
 .mainTitle{
     position: relative;
@@ -152,7 +159,7 @@ body{
         width: 3.6%;
     }
 
-    .navBar .flag img{
+    .navBar .flags img{
         max-width: 44%; 
         margin-left: 90px;
     }
@@ -163,7 +170,7 @@ body{
         width: 3.6%;
     }
 
-    .navBar .flag img {
+    .navBar .flags img {
         width: 45%;
         margin-left: 90px;
     }
@@ -173,7 +180,7 @@ body{
     .logo{
         width: 5%; 
     }
-    .navBar .flag img{
+    .navBar .flags img{
         width: 55%; 
         margin-left: 50px;
     }
@@ -184,7 +191,7 @@ body{
         width: 5%;
     } */
 
-      .navBar .flag img{
+      .navBar .flags img{
         width: 44%; 
         margin-left: 25px;
     }
@@ -195,7 +202,7 @@ body{
         width: 6%; 
     }
 
-    .navBar .flag img{
+    .navBar .flags img{
         width: 65%; 
         margin-left: 45px;
     }
@@ -203,7 +210,7 @@ body{
 
 
 @media only screen and (max-width: 1730px) {
-    .navBar .flag img{
+    .navBar .flags img{
         width: 100%; 
         margin-left: 0px;
     }
@@ -262,7 +269,7 @@ body{
         padding: 10px;
         font-size: 17px;
     }
-    /*.flag{
+    /*.flags{
         width: 28px;
     }*/
     /*.logo{
@@ -289,14 +296,14 @@ body{
     .navBar .logo{
         width: 10%; 
     }
-    .navBar .flag img{
+    .navBar .flags img{
         min-width: 30px;
         margin-left: -5px;
     }
 }
 
 @media only screen and (max-width: 680px) {
-    .navBar .flag img{
+    .navBar .flags img{
         margin-left: -15px;
     }
 }
@@ -320,7 +327,7 @@ body{
         font-size: 20px;
         padding: 5px;
     }
-    /* .flag{
+    /* .flags{
         width: 50%;
         left: 90%;
     } */

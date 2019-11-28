@@ -159,24 +159,13 @@ body{
         width: 3.6%;
     }
 
-    .navBar .flags img{
-        max-width: 44%; 
-        margin-left: 90px;
-    }
-}
-
-@media only screen and (max-width: 3440px){
-    .logo{
-        width: 3.6%;
-    }
-
     .navBar .flags img {
         width: 45%;
         margin-left: 90px;
     }
 }
 
-@media only screen and (max-width: 2860px){
+@media only screen and (min-width: 2860px){
     .logo{
         width: 5%; 
     }
@@ -186,44 +175,59 @@ body{
     }
 }
 
-@media only screen and (max-width: 2560px){
+@media only screen and (min-width: 2560px){
     /* .logo{
         width: 5%;
     } */
 
       .navBar .flags img{
-        width: 44%; 
-        margin-left: 25px;
+        margin-left: 60px;
+    }
+    .flags{
+        width: 4% !important;
+    }
+    .flag{
+        margin-right: 0;
     }
 }
 
-@media only screen and (max-width: 2300px){
+@media only screen and (min-width: 2400px){
+    .navBar .flags img{
+        width: 70% !important;
+    }
+}
+
+@media only screen and (min-width: 2000px){
     .navBar .logo{
         width: 6%; 
     }
 
     .navBar .flags img{
-        width: 65%; 
-        margin-left: 45px;
+        width: 90%;
+        left: 60%;
     }
 }
 
 
-@media only screen and (max-width: 1730px) {
-    .navBar .flags img{
-        width: 100%; 
-        margin-left: 0px;
-    }
-
-    .navBar .logo{
+@media only screen and (min-width: 1730px) {
+    .logo{
         width: 7%; 
     }
+    .navBar .flags{
+        width: 7%;
+        left: 92%;
+    }
 
+}
 
+@media only screen and (min-width: 1550px){
+    .flags{
+        width: 8%;
+    }
 }
 
 @media only screen and (max-width: 1400px){
-    .navBar .logo{
+    .logo{
         width: 10%;
     }
     
@@ -251,6 +255,9 @@ body{
     .contactInfoImg{
         margin: 20px;
     }
+    .flags{
+        width: 10%;
+    }
 }
 
 
@@ -269,14 +276,8 @@ body{
         padding: 10px;
         font-size: 17px;
     }
-    /*.flags{
-        width: 28px;
-    }*/
-    /*.logo{
-        width: 10%;
-    }*/
     .nav{
-        margin-right: 50px;
+        margin-right: 100px;
     }
     .mainTitle{
         font-size: 100px;
@@ -300,11 +301,17 @@ body{
         min-width: 30px;
         margin-left: -5px;
     }
+    .flag{
+        margin-right: 25%;
+    }
 }
 
 @media only screen and (max-width: 680px) {
     .navBar .flags img{
-        margin-left: -15px;
+        margin-left: -20px;
+    }
+    .flag{
+        margin-right: 50%;
     }
 }
 
@@ -369,6 +376,12 @@ body{
     .logo img{
         width: 100px;
     }
+    .flag{
+        margin-right: 70%;
+    }
+    .flags{
+        left: 80%;
+    }
 
 }
 
@@ -378,6 +391,9 @@ body{
     }
     .contactInfo{
         font-size: 12px;
+    }
+    .flag{
+        margin-right: 90%;
     }
 }
 

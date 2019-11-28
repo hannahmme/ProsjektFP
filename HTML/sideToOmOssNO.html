@@ -31,12 +31,21 @@
             <a href="../HTML/guidelinesNO.html">
                 <div class="link">Retningslinjer</div>
             </a>
-            <a href="../HTML/sideToOmOssEN.html">
-                <div class="flag"><img src="../pics/ukFlag.png" alt="Engelsk flagg"></div>
-            </a>
-        </div>
-    </div>
 
+            <div class="flags">
+                    <div class="flag"> 
+                        <a href="../HTML/sideToOmOssNO.html" tabindex="7">
+                            <img src="../pics/norFlag.png" alt="Norwegian flag drawn in paint" style="box-shadow: 0px 0px 10px 3px white;">
+                        </a> 
+                    </div>
+                    <div class="flag"> 
+                        <a href="../HTML/sideToOmOssEN.html" tabindex="7">
+                            <img src="../pics/ukFlag.png" alt="UK flag drawn in paint">
+                        </a> 
+                    </div>
+            </div> 
+        </div> 
+    </div> 
 
 
     <script>
@@ -57,7 +66,10 @@
                             links[i].style.paddingBottom = "15px";
                         }
                         document.querySelector('.logo').style.width = "10%";
-                        document.querySelector('.flag').style.width = "3%";
+                        document.querySelector('.flags').style.width = "9%";
+                        document.querySelector('.flags').style.left = "90%";
+                        document.querySelector('.flags').style.top = "9%";
+                        document.querySelector('.nav').style.marginRight = "150px";
                     } else {
                         var links = document.getElementsByClassName("link");
                         for (i = 0; i < links.length; i++) {
@@ -65,15 +77,16 @@
                             links[i].style.padding = "10px";
                         }
                         document.querySelector('.logo').style.width = "6%";
-                        document.querySelector('.flag').style.width = "2%";
+                        document.querySelector('.flags').style.width = "6%";
+                        document.querySelector('.flags').style.left = "94%";
+                        document.querySelector('.flags').style.top = "15%";
+                        document.querySelector('.nav').style.marginRight = "90px";
                     }
                     /* Code end: Self written code by Maren Spongsveen Lund - s344057 */
                     prevScrollpos = currentScrollPos;
                 }
             }
         </script>
-
-
 
 
     <div class="headerPic">
@@ -182,16 +195,18 @@
         <div class="info">
             <div class="contactInfo">
                 <h2 tabindex="14">Følg oss på:</h2>
-                <p><a href="https://facebook.com/" tabindex="15" target="_blank">Facebook</a></p>
-                <p><a href="https://instagram.com" tabindex="16" target="_blank">Instagram</a></p>
-                <p><a href="https://linkedin.com" tabindex="17" target="_blank">LinkedIn</a></p>
-                <p><a href="https://youtube.com" tabindex="18" target="_blank">Youtube</a></p>
+                <p><a class="span" href="https://facebook.com/" tabindex="15" target="_blank">Facebook<span>Åpnes i en ny fane</span></a></p> 
+                <p><a class="span" href="https://facebook.com/" tabindex="16" target="_blank">Instagram<span>Åpnes i en ny fane</span></a></p> 
+                <p><a class="span" href="https://facebook.com/" tabindex="17" target="_blank">LinkedIn<span>Åpnes i en ny fane</span></a></p> 
+                <p><a class="span" href="https://facebook.com/" tabindex="18" target="_blank">Youtube<span>Åpnes i en ny fane</span></a></p> 
+                
             </div>
             <div class="contactInfo">
                 <h2 tabindex="">Kontakt oss:</h2>
                 <p tabindex="">Besøksadresse:</p>
                 <p tabindex="">COmeals, Pilestredet 35, 0166 Oslo</p>
-                <p tabindex="">E-post: <a href="mailto:contact.comeals@gmail.com">contact.comeals@gmail.com</a></p>
+                <p tabindex="">E-post: <a class="span" href="mailto:contact.comeals@gmail.com">
+                    contact.comeals@gmail.com<span>Åpnes i en ny E-post</span></a></p>
                 <p tabindex="">Tlf: +47 472 45 528</p>
             </div>
             <div class="contactInfoImg"> 

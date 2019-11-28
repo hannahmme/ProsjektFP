@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+  }
 body{
     background-image: url('../pics/bgfood.png');
     background-repeat: no-repeat;

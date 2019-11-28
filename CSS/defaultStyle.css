@@ -266,7 +266,7 @@ body{
 
 @media screen and (max-width: 1050px){
     .mainTitle{
-        margin-top: 100px;
+        /* margin-top: 100px; */
     }
     .contactInfo{
         margin: 10px;
@@ -283,7 +283,7 @@ body{
     }
     .mainTitle{
         font-size: 100px;
-        margin-top: 100px;
+        /* margin-top: 100px; */
     }
     .contactInfo{
         margin: 20px;
@@ -327,7 +327,7 @@ body{
 @media screen and (max-width: 630px){
     .mainTitle{
         font-size: 50px;
-        margin-top: 10%;
+        /* margin-top: 10%; */
         text-shadow: 2px 2px 6px black;
     }
     .link{

@@ -52,7 +52,7 @@ body .navBar{
 }
 .headerPic .mainTitle{
     position: absolute;
-    top: -30%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -219,8 +219,8 @@ h1{
 
 @media screen and (max-width: 1230px){
     .headerPic img {
-        margin-top: -40px;
-        margin-bottom: -200px;
+        margin-top: -100px;
+        margin-bottom: -270px;
     }
     .mainTitle b{
         font-size: 65px;
@@ -229,8 +229,8 @@ h1{
 
 @media only screen and (max-width: 1100px){
     .headerPic img{
-        margin-top: -20px;
-        margin-bottom: -200px;
+        margin-top: -130px;
+        margin-bottom: -190px;
     }
     .contentWrap{
         padding: 0 50px 0 50px;
@@ -242,23 +242,29 @@ h1{
 
 @media only screen and (max-width: 900px){
     .headerPic img{
-        margin-top: -17px;
-        margin-bottom: -190px;  
+        margin-top: -100px;
+        margin-bottom: -110px;  
     }
-    .mainTitle b{
+    .mainTitle{
         font-size: 55px;
         padding: 0 20px 13px 20px;
     }
 }
 
 @media only screen and (max-width: 800px){
+    .headerPic .mainTitle img{
+        margin-top: -130px;
+        margin-bottom: -80px;  
+    }
     .sideToPics img{
         max-width: 450px;
         height: auto;
     }
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 50px;
+        top: 0%!important;
     }
+}
 
 
 
@@ -268,11 +274,12 @@ h1{
         padding: 0 25px 0 25px; 
         }
     .headerPic img{
-        margin-top: 0px;
+        margin-top: -65px;
         margin-bottom: -100px;
     }
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 40px;
+        top: -70px!important; 
     }
     .headerPicp{
         display:inline-block;
@@ -281,18 +288,17 @@ h1{
         max-width: 400px;
         height: auto;
     }
-    /* .navBar .logo{
-        width: 7%; 
-    } */
+    
 }
-/* @media only screen and (max-width: 629px) {
-
-    .navBar .logo{
-        width: 30%; 
-    }
-} */
 
 @media only screen and (max-width: 500px){
+    .mainTitle h1{
+        top: -90px!important;
+    }
+    .headerPic img{
+        margin-top: -50px;
+        margin-bottom: -100px;
+    }
     .sideToPics img{
         max-width: 340px; 
         height: auto;
@@ -311,7 +317,7 @@ h1{
         margin-bottom: -70px;
         width: 100%;
     }
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 40px;
     }
     .sideToPics img{

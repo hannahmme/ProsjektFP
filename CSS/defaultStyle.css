@@ -373,6 +373,8 @@ body{
 
 /*-- Nederste bar - span over*/
 
+/* Code start: Got from https://www.w3.org/TR/WCAG20-TECHS/G201.html */
+
 :focus { outline: 0; }
 
 a.span {
@@ -398,3 +400,5 @@ a.span:hover span, a.span:focus span, a.span:active span {
     text-align: center;
     font-size: 12px;
 }
+
+/* Code end: Got from https://www.w3.org/TR/WCAG20-TECHS/G201.html */

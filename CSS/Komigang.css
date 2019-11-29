@@ -177,8 +177,8 @@ body {
     
     .GetStartedText {
         padding: 2% !important;
-        padding-left: 16% !important;
-        padding-right: 20% !important;
+        padding-left: 10% !important;
+        padding-right: 15% !important;
         width: fit-content !important;
         margin: auto !important;
     }
@@ -242,33 +242,33 @@ body {
 @media screen and (max-width: 455px) { 
     .GetStartedHeader img{
         width: 70% !important;
+        padding: 5% !important;
     }
     
     .GetStartedPics {
         display:inline-block !important;
         width: fit-content !important;
-        margin-left: 0 !important;
+        margin-left: 20% !important;
         padding-left: 0 !important;
 
     }
     
     .GetStartedText {
-        padding-left: 0 !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+        margin: 0 !important;
     } 
     
     .GetStartedHeader {
         margin: 0 !important;
+        margin-left: 29% !important;
     }
-}
-
-@media screen and (max-width: 360px) { 
     .GetStartedHeader img{
-        width: 50% !important;
-        padding-left: 0 !important;
-    }   
-} /*bildene blir litt større igjen,*/
+        width: 60% !important;
+        padding: 5% !important;
+    }
 
- 
+}
 
     /*-- HovedCSS, før media query*/
 

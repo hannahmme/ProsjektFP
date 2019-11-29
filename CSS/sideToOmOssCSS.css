@@ -150,7 +150,7 @@ h1{
         padding: 0 50px 0 50px;
     }
     .mainTitle h1{
-        top: 180px;
+        top: 220px;
         margin-top: 0!important;
     }
     .innhold{
@@ -208,12 +208,14 @@ h1{
         top: 35px;
         font-size: 60px!important;
     }
+    .innhold{
+        margin-top:100px;
+    }
 }
 
 @media only screen and (max-width: 500px){
-     .mainTitle h1{
-        
-        
+    .innhold{
+        margin-top: 110px;
     }
 
     .sideToPics img{
@@ -231,14 +233,14 @@ h1{
     }
     
     .mainTitle h1{
-        font-size: 30px!important;
+        font-size: 50px!important;
     }
     .sideToPics img{
         max-width: 280px;
         height: auto;
     }
     .innhold{
-        margin-top: 150px;
+        margin-top: 55px;
     }
 }
 

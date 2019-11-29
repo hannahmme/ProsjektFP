@@ -16,7 +16,7 @@ body {
     width: 100%;
     color: #3C0701;
     display: flex !important;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     position: relative;
     padding-top: 50px;
@@ -24,7 +24,7 @@ body {
 }
 
 .GetStartedHeaderLeft {
-    width: 22%;
+    width: 30%;
     transition: 0.2s;
 }
 
@@ -70,13 +70,6 @@ body {
 /*-- media query*/
 
 @media screen and (max-width: 1500px) {
-    .GetStartedHeaderLeft {
-        width: 27% ;
-    }
-    
-    .GetStartedHeaderRight {
-        width: 60%;
-    }
 
     .GetStartedText {
         padding-top: 5%;
@@ -86,7 +79,7 @@ body {
 } /*kun for header*/
 
 
-@media screen and (max-width: 1428px) {
+@media screen and (max-width: 1428px) { /*kun for header*/
     .GetStartedHeaderLeft p {
         line-height: 12rem;   
     }

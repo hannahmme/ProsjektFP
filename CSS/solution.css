@@ -1,6 +1,7 @@
 body{
     background-color: rgb(255, 248, 245);
     background-image: url('../pics/forsidePic.jpg');
+    /*Picture taken by COmeals(us)*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-x: center;

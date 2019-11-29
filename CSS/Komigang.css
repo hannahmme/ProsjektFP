@@ -44,9 +44,11 @@ body {
 
 .NesteSideGS {
     margin-top:50px;
+    width: 300px;
     width: fit-content;
     margin-bottom: 150px;
     margin:auto;
+    text-align: center;
     
 }
 

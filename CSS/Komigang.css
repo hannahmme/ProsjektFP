@@ -16,7 +16,7 @@ body {
     width: 100%;
     color: #3C0701;
     display: flex !important;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     position: relative;
     padding-top: 50px;
@@ -24,8 +24,7 @@ body {
 }
 
 .GetStartedHeaderLeft {
-    width: 30%;
-    margin-left: 15%;
+    width: 22%;
     transition: 0.2s;
 }
 
@@ -72,15 +71,11 @@ body {
 
 @media screen and (max-width: 1500px) {
     .GetStartedHeaderLeft {
-        margin-left: 1%;
-        width: 25% ;
+        width: 27% ;
     }
     
     .GetStartedHeaderRight {
-        width: 50%;
-        margin-left: 0;
-        margin-right: 20%;
-        padding: 1%;
+        width: 60%;
     }
 
     .GetStartedText {
@@ -89,6 +84,13 @@ body {
     }
     
 } /*kun for header*/
+
+
+@media screen and (max-width: 1428px) {
+    .GetStartedHeaderLeft p {
+        line-height: 12rem;   
+    }
+}
 
 @media screen and (max-width: 1410px) {     /*-- Her er det fra 1400-1300 så bilder og text aligner.*/
     
@@ -140,7 +142,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1250px) {     /*-- Her er det fra 1300 så bilder og text aligner. Skal være .StepText for alle stegene*/
+@media screen and (max-width: 1240px) {     /*-- Her er det fra 1300 så bilder og text aligner. Skal være .StepText for alle stegene*/
     .GetStartedText {
         margin-left: 9%;
         margin-right: 20%;

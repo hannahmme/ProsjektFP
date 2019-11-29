@@ -1,7 +1,8 @@
 body{
     background-image: url('../pics/problemPic.jpg'); /*Picture taken by CoMeals*/
     background-repeat: no-repeat; 
-    background-attachment: fixed; 
+    background-attachment: fixed;
+    background-position-x: center;
     /* background-position: top;  */
     background-color: #FCF8F5;
     background-size: cover; 

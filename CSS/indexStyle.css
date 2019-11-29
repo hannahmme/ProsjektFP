@@ -10,7 +10,7 @@ body{
     min-width: 320px;
 }
 .mainTitle h1{
-    margin-top: 220px !important;
+    margin-top: 250px;
 }
 .punchline{
     margin: 100px;
@@ -25,7 +25,7 @@ body{
     font-size: 20px;
     color: #3C0701;
     margin-bottom: 2px;
-    margin-top: 120px;
+    margin-top: 100px;
 }
 .arrowDown{
     margin: 0;
@@ -42,8 +42,8 @@ body{
 }
 .innhold{
     padding: 50px;
-    background-color: #EBEDEA;
-    box-shadow: 0px 0px 50px 75px #EBEDEA;
+    background-color: #EFEDDE;
+    box-shadow: 0px 0px 50px 75px #EFEDDE;
     color: rgb(36, 4, 0);
 }
 .aboutUs{
@@ -60,6 +60,12 @@ body{
     text-decoration: none;
 }
 
+@media screen and (max-width: 1200px){
+    .innhold{
+        box-shadow: 0px 0px 50px 400px #EFEDDE;
+    }
+}
+
 @media screen and (min-width: 1050px){
     body{
         background-size: 100%;
@@ -68,7 +74,7 @@ body{
 
 @media screen and (max-width: 1050px){
     body{
-        background-position-x: center;
+        background-size: cover;
     }
     .punchline{
         font-size: 40px;
@@ -76,12 +82,12 @@ body{
     .aboutUs{
         width: 90%;
     }
+    .innhold{
+        box-shadow: 0px 0px 50px 75px #EFEDDE;
+    }
 }
 
 @media screen and (max-width: 980px){
-    body{
-        background-position-x: center;
-    }
     .punchline{
         font-size: 30px;
     }
@@ -91,9 +97,6 @@ body{
 }
 
 @media screen and (max-width: 630px){
-    body {
-        background-position-x: center;
-    }
     .punchline{
         font-size: 18px;
         margin: 10px;

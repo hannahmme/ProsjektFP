@@ -230,10 +230,6 @@ body {
 }
 
 @media screen and (max-width: 580px) { 
-    .GetStartedPics img{
-        width: 200px !important;
-        height: 400px !important;
-    } 
     .GetStartedHeader {
         width: 55% !important;
     }
@@ -248,9 +244,14 @@ body {
     .GetStartedPics {
         display:inline-block !important;
         width: fit-content !important;
-        margin-left: 20% !important;
+        margin-left: 12% !important;
         padding-left: 0 !important;
 
+    }
+    
+    .GetStartedPics img {
+        width: 85% !important;
+        padding: 0% !important;
     }
     
     .GetStartedText {

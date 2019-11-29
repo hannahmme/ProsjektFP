@@ -1,16 +1,19 @@
 body{
-    background-color: rgb(255, 248, 245);
+    background-image: url('../pics/problemPic.jpg');
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: top; 
+    background-color: #FCF8F5;
+    background-size: cover; 
+    min-width: 320px;
+    
 }
 
 body .navBar{
     z-index: 3; 
     max-width: 3440px;
 }
-.sidetoPics .descriptionPic p{
-   /* font-size: 12px; */
-    line-height: 0px!important;
 
-}
 
 .sourceInfo{
     margin-bottom: 50px;
@@ -22,7 +25,7 @@ body .navBar{
     margin-bottom: 15px;
 }
 
-.link-spanner{
+/* .link-spanner{
     position:absolute; 
     width:100%;
     height:100%;
@@ -32,49 +35,25 @@ body .navBar{
     background-color: rgba(255, 255, 255, 0.432);
 
     z-index: 0;
-  } 
-
-.mainTitle{
-    z-index: 1; 
-}
+  }  */
 
 .mainTitle b{
     font-size:100px; 
     padding: 0 25px 35px 25px; 
     color: rgba(60, 7, 1, 0.85)
 }
-.headerPic{
-    margin: 0;
-    overflow: hidden; 
-    position: relative; 
-    z-index: 2; 
-   
-}
-.headerPic .mainTitle{
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.headerPicp{
-    line-height: 0; 
-    font-size: 15px;
-}
-
-.headerPic img{
-    width: 100%;
-    height: auto; 
-    margin-top: -290px;
-    margin-bottom: -300px;
-    filter: blur(3px);
-}
 
 .contentWrap{
     font-size: 18px;
     max-width: 1024px; 
-    margin: 0 auto;
-    background-color: rgb(255, 248, 245);
+    margin: 0;
+    background-color:#FCF8F5;
+    box-shadow: 0px 0px 50px 75px #FCF8F5;
+    padding: 50px;
+}
+
+.innhold{
+    margin-top: 200px;
 }
 
 .nextPage{
@@ -109,11 +88,6 @@ h1{
     body{
         margin: 0 auto; 
     }
-
-    .headerPic img{
-        margin-top: -600px;
-        margin-bottom: -700px;
-    }
     .mainTitle h1{
         font-size: 100px;
     }
@@ -124,11 +98,6 @@ h1{
     body{
         margin: 0 auto; 
     }
-
-    .headerPic img{
-        margin-top: -600px;
-        margin-bottom: -860px;
-    }
 }
 
 
@@ -137,10 +106,6 @@ h1{
         margin: 0 auto; 
     }
 
-    .headerPic img{
-        margin-top: -600px;
-        margin-bottom: -700px;
-    }
     .mainTitle h1{
         font-size: 100px;
     }
@@ -148,10 +113,7 @@ h1{
 }
 
 @media only screen and (max-width: 2860px){
-    .headerPic img{
-        margin-top: -430px;
-        margin-bottom: -600px;
-    }
+
 }
 
 @media only screen and (max-width: 2300px){
@@ -159,29 +121,15 @@ h1{
         margin: 0 auto; 
 
     }
-    .headerPic img{
-        margin-top: -220px;
-        margin-bottom: -580px;
-    }
     .mainTitle h1{
         font-size: 100px;
     }
 }
 
 @media only screen and (max-width: 1900px){
-    .headerPic img{
-        margin-top: -220px;
-        margin-bottom: -420px;
-    } 
-  
 }
 
-
 @media only screen and (max-width: 1730px) {
-    .headerPic img{
-        margin-top: -250px;
-        margin-bottom: -280px;
-    }
     .mainTitle h1{
         font-size: 100px;
     }
@@ -191,10 +139,6 @@ h1{
 
 
 @media only screen and (max-width: 1530px) {
-    .headerPic img{
-        margin-top: -240px;
-        margin-bottom: -190px;
-    }
     .mainTitle h1{
         font-size: 100px;
     }
@@ -218,99 +162,77 @@ h1{
 }
 
 @media screen and (max-width: 1230px){
-    .headerPic img {
-        margin-top: -100px;
-        margin-bottom: -190px;
-    }
     .mainTitle h1{
         font-size: 65px;
     }
 }
 
 @media only screen and (max-width: 1100px){
-    .headerPic img{
-        margin-top: -130px;
-        margin-bottom: -110px;
-    }
     .contentWrap{
         padding: 0 50px 0 50px;
+    }
+    .mainTitle h1{
+        top: 180px;
+        margin-top: 0!important;
     }
 }
 
 @media only screen and (max-width: 1000px){
-    .headerPic .mainTitle h1{
-        top: -50px;
+     .mainTitle h1{
         font-size: 100px!important;
 
     }
 }
 
 @media only screen and (max-width: 900px){
-    .headerPic img{
-        margin-top: -100px;
-        margin-bottom: -110px;  
-    }
-    .headerPic .mainTitle h1{
-        font-size: 50px;
-        /* padding: 0 20px 13px 20px; */
+    .mainTitle h1{
         font-size: 80px;
     }
-    
 }
 
 @media only screen and (max-width: 800px){
-    .headerPic .mainTitle img{
-        margin-top: -130px;
-        margin-bottom: -80px;  
-    }
     .sideToPics img{
         max-width: 450px;
         height: auto;
     }
-    .headerPic .mainTitle h1{
-        top: -75px;
+    .mainTitle h1{
+        top: 140px;
         font-size: 40px;
+        margin-top: 0!important;
     }
 }
-
-
 
 @media only screen and (max-width: 700px){
     .contentWrap{
         font-size: 16px;
         padding: 0 25px 0 25px; 
         }
-    .headerPic img{
-        margin-top: -65px;
-        margin-bottom: -100px;
-    }
-    .headerPic .mainTitle h1{
-        font-size: 70px!important;
+
+    .mainTitle h1{
+        font-size: 85px!important;
+        top: 170px;
+        margin-top: 0!important;
     }
 
-    .headerPicp{
-        display:inline-block;
-    }
     .sideToPics img{
         max-width: 400px;
         height: auto;
     } 
 }
 
-@media only screen and (max-width: 650px){
-    .headerPic .mainTitle h1{
-        top: -120px;
+@media only screen and (max-width: 630px){
+    .mainTitle h1{
+        top: 35px;
+        font-size: 60px!important;
     }
 }
 
 @media only screen and (max-width: 500px){
-    .headerPic .mainTitle h1{
-        top: -90px!important;
+     .mainTitle h1{
+        
+        
     }
-    .headerPic img{
-        margin-top: -50px;
-        margin-bottom: -100px;
-    }
+
     .sideToPics img{
         max-width: 340px; 
         height: auto;
@@ -324,13 +246,9 @@ h1{
     .contentWrap p{
         line-height: 35px;
     }
-    .headerPic img{
-        margin-top: 0px;
-        margin-bottom: -70px;
-        width: 100%;
-    }
+    
     .mainTitle h1{
-        font-size: 30px;
+        font-size: 30px!important;
     }
     .sideToPics img{
         max-width: 280px;
@@ -367,7 +285,7 @@ h1{
 @media only screen and (max-width: 330px) {
     .headerPic img{
         margin-top: 0px;
-        margin-bottom: -70px;
+        margin-bottom: -65px;
         width: 100%;
     }
     .mainTitle b{

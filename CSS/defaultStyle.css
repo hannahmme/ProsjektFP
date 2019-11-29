@@ -89,7 +89,7 @@ a:focus {
     text-align: center;
     color: rgba(60, 7, 1, 0.85);
     text-shadow: 3px 3px 10px black;
-    margin-top: 350px;
+    margin-top: 250px;
     margin-bottom: 0px;
 }
 .innhold{
@@ -334,7 +334,7 @@ a:focus {
 @media screen and (max-width: 630px){
     .mainTitle h1{
         font-size: 50px;
-        /* margin-top: 10%; */
+      
         text-shadow: 2px 2px 4px black;
     }
     .link{

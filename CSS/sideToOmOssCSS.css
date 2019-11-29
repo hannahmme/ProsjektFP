@@ -142,6 +142,9 @@ h1{
     .mainTitle h1{
         font-size: 65px;
     }
+    .innhold{
+        margin-top: 90px;
+    }
 }
 
 @media only screen and (max-width: 1100px){
@@ -151,15 +154,15 @@ h1{
     .mainTitle h1{
         margin-top: 200px;
     }
-    .innhold{
-        margin-top: 350px;
-    }
 }
 
 @media only screen and (max-width: 1000px){
      .mainTitle h1{
-        font-size: 100px!important;
+        font-size: 100px;
         margin-top: 170px!important;
+    }
+    .innhold{
+        margin-top: 80px;
     }
 }
 
@@ -173,12 +176,6 @@ h1{
     .sideToPics img{
         max-width: 450px;
         height: auto;
-    }
-    .mainTitle h1{
-        font-size: 40px;
-    }
-    .innhold{
-        margin-top: 260px;
     }
 }
 
@@ -197,6 +194,9 @@ h1{
         max-width: 400px;
         height: auto;
     } 
+    .innhold{
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (max-width: 630px){
@@ -205,13 +205,20 @@ h1{
         font-size: 60px!important;
     }
     .innhold{
-        margin-top:100px;
+        margin-top:15px;
+    }
+    body{
+        background-position-y: 112px;
+        background-size: 100%;;
+    }
+    .mainTitle{
+        margin-top: 17%;
     }
 }
 
 @media only screen and (max-width: 500px){
     .innhold{
-        margin-top: 110px;
+        margin-top:10px;
     }
 
     .sideToPics img{
@@ -220,6 +227,22 @@ h1{
     }
     .contentWrap{
         padding: 0 20px 0 20px; 
+    }
+    .mainTitle{
+        margin-top: 25%;
+    }
+    body{
+        background-position-y: 85px;
+        background-size: 100%;
+    }
+}
+@media only screen and (max-width: 470px) {
+    .innhold{
+        margin-top: 
+    }
+    body{
+        background-position-y: 130px;
+        background-size: 100%;
     }
 }
 
@@ -236,7 +259,7 @@ h1{
         height: auto;
     }
     .innhold{
-        margin-top: 55px;
+        margin-top: 5px;
     }
 }
 
@@ -249,6 +272,9 @@ h1{
         font-size: 13px;
         line-height: 2!important;
     }
+    .innhold{
+        margin-top: 0px;
+    }
 }
 
 
@@ -257,26 +283,37 @@ h1{
         font-size: 14px;
         padding: 0 15px 0 15px;
         }
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 40px;
     }
     .sideToPics img{
         max-width: 230px;
         height: auto;
     }
+    .mainTitle{
+        margin-top: 15%;
+    }
+    .innhold{
+        margin-top: 2px;
+    }
 }
 
 @media only screen and (max-width: 330px) {
-    .headerPic img{
-        margin-top: 0px;
-        margin-bottom: -65px;
-        width: 100%;
-    }
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 40px;
     }
     .sideToPics img{
         max-width: 200px;
         height: auto;
+    }
+    .innhold{
+        margin-top: -11px;
+    }
+    .mainTitle{
+        margin-top: 15%;
+    }
+    body{
+        background-position-y: 130px;
+        background-size: 100%;
     }
 }

@@ -1,12 +1,12 @@
 body{
-    background-color: rgb(255, 248, 245);
+    background-color: #EFEDDE;
     min-width: 320px;
 }
 .contentWrap {
     font-size: 18px;
     max-width: 1024px; 
     margin: 0 auto;
-    background-color: rgb(255, 248, 245);
+    background-color: #EFEDDE;
 }
 .contentWrap h1{
     color: rgb(106, 0, 14);

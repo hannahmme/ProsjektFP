@@ -15,6 +15,7 @@ body{
     font-size: 50px;
     color: #3C0701;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
+    text-align: center;
 }
 .down {
     font-weight: bold;

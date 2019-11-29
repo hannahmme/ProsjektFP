@@ -94,8 +94,8 @@ a:focus {
 }
 .innhold{
     padding: 50px;
-    background-color: #FCF8F5;
-    box-shadow: 0px 0px 50px 75px #FCF8F5; /* Denne linja lager fade på boksen */
+    background-color: #EFEDDE;
+    box-shadow: 0px 0px 50px 75px #EFEDDE; /* Denne linja lager fade på boksen */
     color: rgb(36, 4, 0);
     line-height: 2;
 }
@@ -269,6 +269,9 @@ a:focus {
     .flags{
         width: 10%;
     }
+    .innhold{
+        box-shadow: 0px 0px 50px 400px #EFEDDE;
+    }
 }
 
 
@@ -278,6 +281,10 @@ a:focus {
     }
     .contactInfo{
         margin: 10px;
+    }
+}
+    .innhold{
+    box-shadow: 0px 0px 50px 75px #EFEDDE;
     }
 }
 

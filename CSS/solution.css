@@ -56,9 +56,11 @@ body .navbar{
     .mainTitle b{
         font-size: 100px;
     }
-    .mainTitle{
-        margin-top: 8%;
-
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     }
 }
 
@@ -66,9 +68,11 @@ body .navbar{
     .mainTitle b{
         font-size: 100px;
     }
-    .mainTitle{
-        margin-top: 8%;
-
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     }
 }
 
@@ -76,9 +80,11 @@ body .navbar{
     .mainTitle b{
         font-size: 100px;
     }
-    .mainTitle{
-        margin-top: 8%;
-
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     }
 }
 

@@ -79,11 +79,11 @@ body {
 } /*kun for header*/
 
 
-@media screen and (max-width: 1428px) { /*kun for header*/
+@media screen and (max-width: 1428px) {
     .GetStartedHeaderLeft p {
         line-height: 12rem;   
     }
-}
+} /*kun for header*/
 
 @media screen and (max-width: 1410px) {     /*-- Her er det fra 1400-1300 så bilder og text aligner.*/
     
@@ -247,26 +247,26 @@ body {
     .GetStartedPics {
         display:inline-block !important;
         width: fit-content !important;
-        margin-left: 25% !important;
-    }
-    
-}
-
-@media screen and (max-width: 360px) { 
-    .GetStartedPics {
         margin-left: 0 !important;
-    } 
+        padding-left: 0 !important;
+
+    }
     
     .GetStartedText {
         padding-left: 0 !important;
     } 
     
+    .GetStartedHeader {
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 360px) { 
     .GetStartedHeader img{
         width: 50% !important;
-    }
-    
-    
-} /*bildene får 0 i margin*/
+        padding-left: 0 !important;
+    }   
+} /*bildene blir litt større igjen,*/
 
  
 

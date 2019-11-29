@@ -208,8 +208,9 @@ h1{
         margin-top:15px;
     }
     body{
-        background-position-y: 112px;
-        background-size: 100%;;
+        background-position-y: 70px;
+        background-size: 100%;
+        background-position: unset;
     }
     .mainTitle{
         margin-top: 17%;

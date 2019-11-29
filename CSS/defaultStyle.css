@@ -8,9 +8,6 @@ body{
 a:focus {
     outline: rgb(134, 134, 255) solid 2px;
 }
-.link a:focus .links{
-    background-color: rgba(179, 115, 114, 0.75);
-}
 .navBar{
     background-color: rgb(60, 7, 1);
     color: white;
@@ -100,6 +97,7 @@ a:focus {
     background-color: #FCF8F5;
     box-shadow: 0px 0px 50px 75px #FCF8F5; /* Denne linja lager fade på boksen */
     color: rgb(36, 4, 0);
+    line-height: 2;
 }
 .contactBar{
     background-color: #5b2e28;

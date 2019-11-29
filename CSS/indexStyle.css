@@ -9,6 +9,7 @@ body{
     background-color: #EFEDDE;
     background-size: cover;
     min-width: 320px;
+    min-height: 700px;
 }
 .mainTitle h1{
     margin-top: 250px;
@@ -19,26 +20,6 @@ body{
     font-size: 40px;
     color: #3C0701;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
-    text-align: center;
-}
-.down {
-    font-weight: bold;
-    font-size: 20px;
-    color: #3C0701;
-    margin-bottom: 2px;
-    margin-top: 70px;
-}
-.arrowDown{
-    margin: 0;
-    width: 40px;
-    transition: 0.3s;
-}
-.scrollDown{
-    opacity: 1;
-    position: relative;
-    margin-bottom: 100px;
-    width: fit-content;
-    margin: auto;
     text-align: center;
 }
 .aboutUs{

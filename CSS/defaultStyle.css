@@ -175,6 +175,26 @@ a:focus {
     text-decoration: none;
     color: rgb(255, 248, 245);
 }
+.down {
+    font-weight: bold;
+    font-size: 20px;
+    color: #3C0701;
+    margin-bottom: 2px;
+    margin-top: 70px;
+}
+.arrowDown{
+    margin: 0;
+    width: 40px;
+    transition: 0.3s;
+}
+.scrollDown{
+    opacity: 1;
+    position: relative;
+    margin-bottom: 100px;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
 
 @media only screen and (min-width: 3440px){
     .logo{

@@ -340,7 +340,12 @@ h1{
 
 @media only screen and (max-width: 430px) { 
     .sourceInfo{
-        min-width: 500px;
+        max-width: 300px;
+        min-width: 300px;
+    }
+    .sourceInfo p{
+        font-size: 13px;
+        line-height: 2!important;
     }
 }
 

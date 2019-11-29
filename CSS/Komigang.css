@@ -78,12 +78,11 @@ body {
     
 } /*kun for header*/
 
-
-@media screen and (max-width: 1428px) { /*kun for header*/
+@media screen and (max-width: 1428px) {
     .GetStartedHeaderLeft p {
         line-height: 12rem;   
     }
-}
+} /*kun for header*/
 
 @media screen and (max-width: 1410px) {     /*-- Her er det fra 1400-1300 så bilder og text aligner.*/
     
@@ -177,8 +176,8 @@ body {
     
     .GetStartedText {
         padding: 2% !important;
-        padding-left: 16% !important;
-        padding-right: 20% !important;
+        padding-left: 10% !important;
+        padding-right: 15% !important;
         width: fit-content !important;
         margin: auto !important;
     }
@@ -230,45 +229,56 @@ body {
 }
 
 @media screen and (max-width: 580px) { 
-    .GetStartedPics img{
-        width: 200px !important;
-        height: 400px !important;
-    } 
     .GetStartedHeader {
         width: 55% !important;
     }
+    
+    .GetStartedText {
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+        margin: 0 !important;
+    } 
 }
 
 @media screen and (max-width: 455px) { 
     .GetStartedHeader img{
         width: 70% !important;
+        padding: 5% !important;
     }
     
     .GetStartedPics {
         display:inline-block !important;
         width: fit-content !important;
-        margin-left: 25% !important;
+        margin-left: 12% !important;
+        padding-left: 0 !important;
+
     }
     
+    .GetStartedPics img {
+        width: 85% !important;
+        padding: 0% !important;
+    }
+    
+    
+    .GetStartedHeader {
+        margin: 0 !important;
+        margin-left: 29% !important;
+    }
+    .GetStartedHeader img{
+        width: 60% !important;
+        padding: 5% !important;
+    }
 }
 
-@media screen and (max-width: 360px) { 
-    .GetStartedPics {
-        margin-left: 0 !important;
+@media screen and (max-width: 320px) { 
+    .GetStartedHeaderLeft p {
+        font-size: 40px !important;
     } 
     
-    .GetStartedText {
-        padding-left: 0 !important;
-    } 
-    
-    .GetStartedHeader img{
-        width: 50% !important;
+    .GetStartedHeaderRight {
+        font-size: 30px !important;
     }
-    
-    
-} /*bildene får 0 i margin*/
-
- 
+}
 
     /*-- HovedCSS, før media query*/
 

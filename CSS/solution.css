@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-x: center;
-    background-color: #FCF8F5;
+    background-color: #EFEDDE;
     min-width: 320px;
     background-size: cover;
 }
@@ -140,6 +140,7 @@ body .navbar{
     .innhold {
         margin-top: 170px;
     }
+    
 }
 
 @media only screen and (max-width: 800px){

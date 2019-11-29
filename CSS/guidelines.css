@@ -128,7 +128,6 @@ ul li::before{
 }
 }
 
-
 @media screen and (max-width: 1245px) {      /*-- Endrer på øverste linja + */
     .GetStartedHeader {
         display: grid !important;
@@ -162,4 +161,14 @@ ul li::before{
         width: fit-content !important;
         margin: auto !important;
     }   
+}
+
+@media screen and (max-width: 320px) { 
+    .GetStartedHeaderLeft p {
+        font-size: 40px !important;
+    } 
+    
+    .GetStartedHeaderRight {
+        font-size: 30px !important;
+    }
 }

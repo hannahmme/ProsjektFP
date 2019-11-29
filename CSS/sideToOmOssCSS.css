@@ -210,10 +210,17 @@ h1{
     body{
         background-position-y: 70px;
         background-size: 100%;
-        background-position: unset;
+        background-attachment: unset;
     }
     .mainTitle{
         margin-top: 17%;
+    }
+}
+
+@media only screen and (max-width: 570px){
+    body{
+        background-position-y: 80px;
+        background-size: 100%;
     }
 }
 

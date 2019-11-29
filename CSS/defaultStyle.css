@@ -301,9 +301,6 @@ a:focus {
     .flags{
         width: 10%;
     }
-    .innhold{
-        box-shadow: 0px 0px 50px 400px #EFEDDE;
-    }
 }
 
 

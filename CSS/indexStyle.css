@@ -6,8 +6,10 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-x: center;
-    background-color: #FCF8F5;
+    background-color: #EFEDDE;
+    background-size: cover;
     min-width: 320px;
+    min-height: 700px;
 }
 .mainTitle h1{
     margin-top: 250px;
@@ -20,35 +22,10 @@ body{
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
     text-align: center;
 }
-.down {
-    font-weight: bold;
-    font-size: 20px;
-    color: #3C0701;
-    margin-bottom: 2px;
-    margin-top: 100px;
-}
-.arrowDown{
-    margin: 0;
-    width: 40px;
-    transition: 0.3s;
-}
-.scrollDown{
-    opacity: 1;
-    position: relative;
-    margin-bottom: 100px;
-    width: fit-content;
-    margin: auto;
-    text-align: center;
-}
-.innhold{
-    padding: 50px;
-    background-color: #EFEDDE;
-    box-shadow: 0px 0px 50px 75px #EFEDDE;
-    color: rgb(36, 4, 0);
-}
 .aboutUs{
     width: 50%;
     margin: auto;
+    transition: 0.2s;
 }
 .aboutUs h2{
     font-size: 30px;
@@ -60,18 +37,6 @@ body{
     text-decoration: none;
 }
 
-@media screen and (max-width: 1200px){
-    .innhold{
-        box-shadow: 0px 0px 50px 400px #EFEDDE;
-    }
-}
-
-@media screen and (min-width: 1050px){
-    body{
-        background-size: 100%;
-    }
-}
-
 @media screen and (max-width: 1050px){
     body{
         background-size: cover;
@@ -81,9 +46,6 @@ body{
     }
     .aboutUs{
         width: 90%;
-    }
-    .innhold{
-        box-shadow: 0px 0px 50px 75px #EFEDDE;
     }
 }
 
@@ -110,5 +72,8 @@ body{
     }
     .aboutUs p{
         font-size: 15px;
+    }
+    .mainTitle h1{
+        margin-top: 100px;
     }
 }

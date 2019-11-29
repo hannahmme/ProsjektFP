@@ -1,10 +1,10 @@
 body{
-    background-image: url('../pics/forsidePic.jpg');
+    background-image: url('../pics/forsidePic.jpg'); /* */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-x: center;
     background-color: #EFEDDE;
-    background-size: 100%;
+    background-size: cover;
     min-width: 320px;
     min-height: 700px;
 }
@@ -35,9 +35,6 @@ body{
 }
 
 @media screen and (max-width: 1050px){
-    body{   
-        background-size: cover;
-    }
     .punchline{
         font-size: 40px;
     }

@@ -112,12 +112,11 @@ h1{
 
     .headerPic img{
         margin-top: -600px;
-        margin-bottom: -620px;
+        margin-bottom: -700px;
     }
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 100px;
     }
-   
 
 }
 
@@ -128,36 +127,32 @@ h1{
 
     .headerPic img{
         margin-top: -600px;
-        margin-bottom: -620px;
+        margin-bottom: -860px;
     }
-    .mainTitle b{
+}
+
+
+@media only screen and (max-width: 3200px){
+    body{
+        margin: 0 auto; 
+    }
+
+    .headerPic img{
+        margin-top: -600px;
+        margin-bottom: -700px;
+    }
+    .mainTitle h1{
         font-size: 100px;
     }
-  
 
 }
 
 @media only screen and (max-width: 2860px){
     .headerPic img{
         margin-top: -430px;
-        margin-bottom: -515px;
-    }
-    .mainTitle b{
-        font-size: 100px;
+        margin-bottom: -600px;
     }
 }
-
-
-@media only screen and (max-width: 2560px){
-    .headerPic img{
-        margin-top: -430px;
-        margin-bottom: -515px;
-    }
-    .mainTitle b{
-        font-size: 100px;
-    }
-}
-
 
 @media only screen and (max-width: 2300px){
     body{
@@ -165,12 +160,20 @@ h1{
 
     }
     .headerPic img{
-        margin-top: -270px;
-        margin-bottom: -320px;
+        margin-top: -220px;
+        margin-bottom: -580px;
     }
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 100px;
     }
+}
+
+@media only screen and (max-width: 1900px){
+    .headerPic img{
+        margin-top: -220px;
+        margin-bottom: -420px;
+    } 
+  
 }
 
 
@@ -179,7 +182,7 @@ h1{
         margin-top: -250px;
         margin-bottom: -280px;
     }
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 100px;
     }
 }
@@ -190,9 +193,9 @@ h1{
 @media only screen and (max-width: 1530px) {
     .headerPic img{
         margin-top: -240px;
-        margin-bottom: -250px;
+        margin-bottom: -190px;
     }
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 100px;
     }
 }
@@ -200,10 +203,7 @@ h1{
 @media only screen and (max-width: 1430px) {
     .headerPic img{
         margin-top: -200px;
-        margin-bottom: -250px;
-    }
-    .mainTitle b{
-        font-size: 100px;
+        margin-bottom: -220px;
     }
 }
 
@@ -213,16 +213,16 @@ h1{
 @media only screen and (max-width: 1330px) {
     .headerPic img{
         margin-top: -155px;
-        margin-bottom: -290px;
+        margin-bottom: -250px;
     }
 }
 
 @media screen and (max-width: 1230px){
     .headerPic img {
         margin-top: -100px;
-        margin-bottom: -270px;
+        margin-bottom: -190px;
     }
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 65px;
     }
 }
@@ -230,13 +230,18 @@ h1{
 @media only screen and (max-width: 1100px){
     .headerPic img{
         margin-top: -130px;
-        margin-bottom: -190px;
+        margin-bottom: -110px;
     }
     .contentWrap{
         padding: 0 50px 0 50px;
     }
-    .mainTitle b{
-        font-size: 60px;
+}
+
+@media only screen and (max-width: 1000px){
+    .headerPic .mainTitle h1{
+        top: -50px;
+        font-size: 100px!important;
+
     }
 }
 
@@ -245,10 +250,12 @@ h1{
         margin-top: -100px;
         margin-bottom: -110px;  
     }
-    .mainTitle{
-        font-size: 55px;
-        padding: 0 20px 13px 20px;
+    .headerPic .mainTitle h1{
+        font-size: 50px;
+        /* padding: 0 20px 13px 20px; */
+        font-size: 80px;
     }
+    
 }
 
 @media only screen and (max-width: 800px){
@@ -260,9 +267,9 @@ h1{
         max-width: 450px;
         height: auto;
     }
-    .mainTitle h1{
-        font-size: 50px;
-        top: 0%!important;
+    .headerPic .mainTitle h1{
+        top: -75px;
+        font-size: 40px;
     }
 }
 
@@ -277,22 +284,27 @@ h1{
         margin-top: -65px;
         margin-bottom: -100px;
     }
-    .mainTitle h1{
-        font-size: 40px;
-        top: -70px!important; 
+    .headerPic .mainTitle h1{
+        font-size: 70px!important;
     }
+
     .headerPicp{
         display:inline-block;
     }
     .sideToPics img{
         max-width: 400px;
         height: auto;
+    } 
+}
+
+@media only screen and (max-width: 650px){
+    .headerPic .mainTitle h1{
+        top: -120px;
     }
-    
 }
 
 @media only screen and (max-width: 500px){
-    .mainTitle h1{
+    .headerPic .mainTitle h1{
         top: -90px!important;
     }
     .headerPic img{
@@ -318,13 +330,20 @@ h1{
         width: 100%;
     }
     .mainTitle h1{
-        font-size: 40px;
+        font-size: 30px;
     }
     .sideToPics img{
         max-width: 280px;
         height: auto;
     }
 }
+
+@media only screen and (max-width: 430px) { 
+    .sourceInfo{
+        min-width: 500px;
+    }
+}
+
 
 @media only screen and (max-width: 380px) {
     .contentWrap{

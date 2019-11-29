@@ -44,6 +44,7 @@ body{
 .aboutUs{
     width: 50%;
     margin: auto;
+    transition: 0.2s;
 }
 .aboutUs h2{
     font-size: 30px;

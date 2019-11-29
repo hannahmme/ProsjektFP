@@ -396,8 +396,8 @@ a:focus {
         font-size: 20px;
     }
     .contactInfo{
-        font-size: 15px;
-        margin: 5px;
+        font-size: 12px;
+        margin: 0;
     }
     .navBar{
         position: relative;
@@ -430,7 +430,7 @@ a:focus {
         font-size: 15px;
     }
     .contactInfo{
-        font-size: 12px;
+        font-size: 11px;
     }
     .flag{
         margin-right: 90%;

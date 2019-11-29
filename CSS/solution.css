@@ -47,9 +47,6 @@ body .navbar{
 }
 
 @media only screen and (max-width: 1050px){
-    .contentWrap{
-        padding: 0 50px 0 50px;
-    }
     
     .mainTitle h1{
         font-size: 100px;
@@ -57,27 +54,27 @@ body .navbar{
 
     .innhold {
         margin-top: 170px;
+        padding: 0 15px 0 15px;
     }
     
 }
 
 @media only screen and (max-width: 800px){
     .contentWrap{
-        font-size: 18px;
-        padding: 0 25px 0 25px; 
+        font-size: 18px; 
     }
     .mainTitle h1{
         font-size: 100px;
     }
     .innhold {
         margin-top: 130px;
+        padding: 0 15px 0 15px;
     }
 }
 
 @media only screen and (max-width: 700px){
     .contentWrap{
-        font-size: 16px;
-        padding: 0 25px 0 25px; 
+        font-size: 16px; 
     }
     .mainTitle h1{
         font-size: 85px;
@@ -92,6 +89,7 @@ body .navbar{
     }
     .innhold {
         margin-top: 100px;
+        padding: 0 15px 0 15px;
     }
     body{
         background-size: 200%;
@@ -100,11 +98,9 @@ body .navbar{
 
 
 @media only screen and (max-width: 500px){
-    .contentWrap{
-        padding: 0 20px 0 20px; 
-    }
     .innhold {
         margin-top: 110px;
+        padding: 0 15px 0 15px;
     }
     body{
         background-size: 250%;
@@ -121,6 +117,7 @@ body .navbar{
     }
     .innhold {
         margin-top: 55px;
+        padding: 0 15px 0 15px;
     }
 }
 @media screen and (max-width: 400px){
@@ -131,11 +128,13 @@ body .navbar{
 
 @media only screen and (max-width: 380px) {
     .contentWrap{
-        font-size: 14px;
-        padding: 0 15px 0 15px;
-        }
+        font-size: 14px;   
+    }
     .mainTitle h1{
         font-size: 40px;
+    }
+    .innhold{
+        padding: 0 15px 0 15px;
     }
 }
 

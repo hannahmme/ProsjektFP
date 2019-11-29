@@ -78,7 +78,6 @@ body {
     
 } /*kun for header*/
 
-
 @media screen and (max-width: 1428px) {
     .GetStartedHeaderLeft p {
         line-height: 12rem;   
@@ -270,7 +269,6 @@ body {
         padding: 5% !important;
     }
 }
-
 
 @media screen and (max-width: 320px) { 
     .GetStartedHeaderLeft p {

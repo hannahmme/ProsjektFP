@@ -52,7 +52,7 @@ body .navbar{
     }
     
     .mainTitle h1{
-        font-size: 80px;
+        font-size: 100px;
     }
 
     .innhold {
@@ -67,7 +67,7 @@ body .navbar{
         padding: 0 25px 0 25px; 
     }
     .mainTitle h1{
-        font-size: 70px;
+        font-size: 100px;
     }
     .innhold {
         margin-top: 130px;
@@ -76,24 +76,22 @@ body .navbar{
 
 @media only screen and (max-width: 700px){
     .contentWrap{
-        font-size: 18px;
+        font-size: 16px;
         padding: 0 25px 0 25px; 
     }
     .mainTitle h1{
-        font-size: 60px;
-    }
-    .innhold {
-        margin-top: 130px;
+        font-size: 85px;
+        margin-top: 150px;
     }
 }
 
 @media only screen and (max-width: 630px){
     .mainTitle h1{
-        font-size: 50px;
-        margin-top: 100px;
+        font-size: 60px;
+        margin-top: 30px;
     }
     .innhold {
-        margin-top: 130px;
+        margin-top: 100px;
     }
     body{
         background-size: 200%;
@@ -106,7 +104,10 @@ body .navbar{
         padding: 0 20px 0 20px; 
     }
     .innhold {
-        margin-top: 130px;
+        margin-top: 110px;
+    }
+    body{
+        background-size: 250%;
     }
 }
 
@@ -116,10 +117,15 @@ body .navbar{
     }
 
     .mainTitle h1{
-        font-size: 40px;
+        font-size: 50px;
     }
     .innhold {
-        margin-top: 130px;
+        margin-top: 55px;
+    }
+}
+@media screen and (max-width: 400px){
+    body{
+        background-size: 350%;
     }
 }
 
@@ -139,14 +145,3 @@ body .navbar{
     }
 }
 
-@media screen and (max-width: 500px){
-    body{
-        background-size: 250%;
-    }
-}
-
-@media screen and (max-width: 400px){
-    body{
-        background-size: 350%;
-    }
-}

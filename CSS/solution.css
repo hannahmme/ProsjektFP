@@ -14,16 +14,9 @@ body .navbar{
     z-index: 3;
     max-width: 3440px;
 }
-.mainTitle{
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: 0.2s;
-}
 
-.mainTitle{
-    z-index: 1;
-    transition: 0.2s;
+.mainTitle h1{
+    font-size: 100px;
 }
 
 .innhold {
@@ -52,92 +45,16 @@ body .navbar{
 .contentWrap p{
     line-height: 50px;
 }
-@media only screen and (min-width: 1730px) {
-    .mainTitle b{
-        font-size: 100px;
-    }
-    .mainTitle{
-    position: relative;
-    top: 23%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    }
-}
-
-@media only screen and (max-width: 1730px) {
-    .mainTitle b{
-        font-size: 100px;
-    }
-    .mainTitle{
-    position: relative;
-    top: 23%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    }
-}
-
-@media only screen and (max-width: 1530px) {
-    .mainTitle b{
-        font-size: 100px;
-    }
-    .mainTitle{
-    position: relative;
-    top: 23%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    }
-}
-
-@media only screen and (max-width: 1430px) {
-    .mainTitle b{
-        font-size: 100px;
-    }
-    .mainTitle{
-    position: relative;
-    top: 23%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    }
-}
-
-@media only screen and (max-width: 1330px) {
-    .mainTitle{
-    position: relative;
-    top: 23%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    }
-    
-    
-}
-
-@media screen and (max-width: 1230px){
-    .mainTitle b{
-        font-size: 90px;
-    }
-    .mainTitle{
-        margin-top: 8%;
-    }
-    .mainTitle{
-    position: relative;
-    top: 8%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-}
 
 @media only screen and (max-width: 1050px){
     .contentWrap{
         padding: 0 50px 0 50px;
     }
     
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 80px;
     }
-    .mainTitle{
-        margin-top: 8%;
 
-    }
     .innhold {
         margin-top: 170px;
     }
@@ -149,18 +66,8 @@ body .navbar{
         font-size: 18px;
         padding: 0 25px 0 25px; 
     }
-    .mainTitle{
-        margin-top: 12%;
-    }
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 70px;
-        padding: 10px 13px 14px 13px;
-    }
-    .mainTitle{
-        position: relative;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
     }
     .innhold {
         margin-top: 130px;
@@ -172,18 +79,8 @@ body .navbar{
         font-size: 18px;
         padding: 0 25px 0 25px; 
     }
-    .mainTitle{
-        margin-top: 12%;
-    }
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 60px;
-        padding: 10px 13px 14px 13px;
-    }
-    .mainTitle{
-        position: relative;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
     }
     .innhold {
         margin-top: 130px;
@@ -191,12 +88,8 @@ body .navbar{
 }
 
 @media only screen and (max-width: 630px){
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 50px;
-        padding: 7px 10px 11px 10px;
-    }
-    .mainTitle{
-        margin-top: 11%;
     }
     .innhold {
         margin-top: 130px;
@@ -208,15 +101,6 @@ body .navbar{
     .contentWrap{
         padding: 0 20px 0 20px; 
     }
-    .mainTitle{
-        margin-top: 9%;
-    }
-    .mainTitle{
-        position: relative;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
     .innhold {
         margin-top: 130px;
     }
@@ -227,14 +111,8 @@ body .navbar{
         line-height: 35px;
     }
 
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 40px;
-    }
-    .mainTitle{
-        position: relative;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
     }
     .innhold {
         margin-top: 130px;
@@ -246,26 +124,13 @@ body .navbar{
         font-size: 14px;
         padding: 0 15px 0 15px;
         }
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 40px;
-    }
-    .mainTitle{
-        position: relative;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
     }
 }
 
 @media only screen and (max-width: 330px) {
-    .mainTitle b{
+    .mainTitle h1{
         font-size: 35px;
-        padding:
-    }
-    .mainTitle{
-        position: relative;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
     }
 }

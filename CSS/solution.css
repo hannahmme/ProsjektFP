@@ -1,118 +1,108 @@
 body{
     background-color: rgb(255, 248, 245);
+    background-image: url('../pics/forsidePic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-color: #FCF8F5;
+    min-width: 320px;
+    background-size: cover;
 }
 
 body .navbar{
     z-index: 3;
     max-width: 3440px;
 }
+.bgfood .mainTitle{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s;
+}
 
 .mainTitle{
     z-index: 1;
+    transition: 0.2s;
 }
 
-.mainTitle b{
-    background-color: rgb(255, 248, 245,0.9);
-    padding: 14px 20px 22px 20px;
-}
-
-.bgfood{
-    margin: 0;
-    overflow: hidden;
-    position: relative;
-    
-}
-
-.bgfood .mainTitle{
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.bgfood img{
-    width: 100%;
-    height: auto;
-    margin-top: -250px;
-    margin-bottom: -100px;
-    filter: blur(3px);
-    z-index: 2;
+.innhold {
+    margin-top: 700px;
+    font-size: 18px;
+    padding: 50px;
+    background-color: #EFEDDE;
+    box-shadow: 0px 0px 50px 75px #EFEDDE;
+    color: rgb(36, 4, 0);
+    transition: 0.2s;
 }
 
 .contentWrap {
+    max-width: 1024px;
+    background-color: #EFEDDE;
     font-size: 18px;
-    max-width: 1024px; 
-    margin: 0 auto;
+    margin: auto;
+    transition: 0.2s;
 }
-
 
 .contentWrap h1{
     color: rgba(106, 0, 14, 0.85)
+    transition: 0.2s;
 }
 
 .contentWrap p{
     line-height: 50px;
 }
-
-@media only screen and (min-width: 3440px){
-    .bgfood img{
-        margin-top: -600px;
-        margin-bottom: -620px;
+@media only screen and (min-width: 1730px) {
+    .mainTitle b{
+        font-size: 100px;
     }
-}
-
-@media only screen and (max-width: 3440px){
-    .bgfood img{
-        margin-top: -600px;
-        margin-bottom: -620px;
-    }
-}
-
-@media only screen and (max-width: 2560px){
-    .bgfood img{
-        margin-top: -430px;
-        margin-bottom: -515px;
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     }
 }
 
 @media only screen and (max-width: 1730px) {
-    .bgfood img{
-        margin-top: -250px;
-        margin-bottom: -280px;
-    }
     .mainTitle b{
         font-size: 100px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     }
 }
 
 @media only screen and (max-width: 1530px) {
-    .bgfood img{
-        margin-top: -240px;
-        margin-bottom: -250px;
-    }
     .mainTitle b{
         font-size: 100px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     }
 }
 
 @media only screen and (max-width: 1430px) {
-    .bgfood img{
-        margin-top: -200px;
-        margin-bottom: -250px;
-    }
     .mainTitle b{
         font-size: 100px;
+    }
+    .bgfood .mainTitle{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     }
 }
 
 @media only screen and (max-width: 1330px) {
-    .bgfood img{
-        margin-top: -150px;
-        margin-bottom: -200px;
-    }
     .bgfood .mainTitle{
     position: absolute;
-    top: 8%;
+    top: 23%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
@@ -121,39 +111,34 @@ body .navbar{
 }
 
 @media screen and (max-width: 1230px){
-    .bgfood img {
-        margin-top: -150px;
-        margin-bottom: -210px;
-    }
     .mainTitle b{
-        font-size: 65px;
+        font-size: 90px;
     }
     .mainTitle{
-        margin-top: 12%;
+        margin-top: 8%;
     }
     .bgfood .mainTitle{
     position: absolute;
-    top: 10%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 }
 
 @media only screen and (max-width: 1050px){
-    .bgfood img{
-        margin-top: -150px;
-        margin-bottom: -120px;
-    }
     .contentWrap{
         padding: 0 50px 0 50px;
     }
     
     .mainTitle b{
-        font-size: 60px;
+        font-size: 80px;
     }
     .mainTitle{
-        margin-top: 12%;
+        margin-top: 8%;
 
+    }
+    .innhold {
+        margin-top: 550px;
     }
 }
 
@@ -165,19 +150,18 @@ body .navbar{
     .mainTitle{
         margin-top: 12%;
     }
-    .bgfood img{
-        margin-top: -150px;
-        margin-bottom: -100px;
-    }
     .mainTitle b{
-        font-size: 45px;
+        font-size: 70px;
         padding: 10px 13px 14px 13px;
     }
     .bgfood .mainTitle{
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .innhold {
+        margin-top: 480px;
     }
 }
 
@@ -189,25 +173,24 @@ body .navbar{
     .mainTitle{
         margin-top: 12%;
     }
-    .bgfood img{
-        margin-top: -150px;
-        margin-bottom: -30px;
-    }
     .mainTitle b{
-        font-size: 35px;
+        font-size: 60px;
         padding: 10px 13px 14px 13px;
     }
     .bgfood .mainTitle{
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .innhold {
+        margin-top: 480px;
     }
 }
 
 @media only screen and (max-width: 630px){
     .mainTitle b{
-        font-size: 30px;
+        font-size: 50px;
         padding: 7px 10px 11px 10px;
     }
     .mainTitle{
@@ -216,6 +199,9 @@ body .navbar{
     .bgfood img{
         margin-top: -150px;
         margin-bottom: -35px;
+    }
+    .innhold {
+        margin-top: 250px;
     }
 }
 
@@ -228,11 +214,14 @@ body .navbar{
         margin-top: 9%;
     }
     .bgfood .mainTitle{
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .innhold {
+        margin-top: 250px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -248,11 +237,14 @@ body .navbar{
         font-size: 40px;
     }
     .bgfood .mainTitle{
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .innhold {
+        margin-top: 250px;
+    }
 }
 
 @media only screen and (max-width: 380px) {
@@ -264,11 +256,11 @@ body .navbar{
         font-size: 40px;
     }
     .bgfood .mainTitle{
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 @media only screen and (max-width: 330px) {
@@ -282,9 +274,9 @@ body .navbar{
         padding:
     }
     .bgfood .mainTitle{
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }

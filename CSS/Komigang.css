@@ -52,7 +52,7 @@ body {
 
 /*-- media query*/
 
-@media screen and (max-width: 1500px) {     /*-- Denne er OK - endrer kun på den øverste linja*/
+@media screen and (max-width: 1500px) {
     .GetStartedHeaderLeft {
         margin-left: 1%;
         width: 25% ;
@@ -70,7 +70,7 @@ body {
     margin-right: 24%;
     }
     
-}
+} /*kun for header*/
 
 
 @media screen and (max-width: 1410px) {     /*-- Her er det fra 1400-1300 så bilder og text aligner.*/
@@ -90,7 +90,7 @@ body {
         padding-top: 20% !important;
     }
     
-}
+} /*kun for selve tekst og bilder*/
 
 
 @media screen and (max-width: 1230px) {
@@ -121,8 +121,6 @@ body {
         width: fit-content !important;
         margin: auto !important;
     }
-    
-
 }
 
 

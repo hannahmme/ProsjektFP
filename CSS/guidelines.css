@@ -7,20 +7,25 @@ body{
     max-width: 1024px; 
     margin: 0 auto;
     background-color: #EFEDDE;
+    transition: 0.2s;
 }
 .contentWrap h1{
     color: rgb(106, 0, 14);
     margin-left: 4%;
+    transition: 0.2s;
 }
 .contentWrap h2{
     color: rgb(179, 115, 114);
+    transition: 0.2s;
     margin-left: 4%;
 }
 ul {
     list-style-type: none;
+    transition: 0.2s;
 }
 li{
     margin-bottom: 1%;
+    transition: 0.2s;
 }
 
 /* Code start: Got from https://www.w3schools.com/howto/howto_css_bullet_color.asp*/
@@ -77,6 +82,7 @@ ul li::before{
 
 .GetStartedReferences p{
     width: 60%;
+    transition: 0.2s;
 }
 
 .GetStartedHeaderTop {
@@ -88,15 +94,18 @@ ul li::before{
     justify-content: center;
     position: relative;
     padding-top: 50px;
+    transition: 0.2s;
 }
 
 .GetStartedHeaderLeft {
     width: 30%;
+    transition: 0.2s;
 }
 
 .GetStartedHeaderLeft p{
     font-size: 60px;
     border-right: 3px solid #8C3E3C;
+    transition: 0.2s;
     line-height: 9rem;
 }
 
@@ -104,6 +113,7 @@ ul li::before{
     width: 60%;
     font-size: 40px;
     padding: 2.5%;
+    transition: 0.2s;
 }
 
 @media screen and (max-width: 1500px) {     /*-- Endrer kun på den øverste linja*/

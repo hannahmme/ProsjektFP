@@ -10,7 +10,7 @@ body{
     min-width: 320px;
 }
 .mainTitle h1{
-    margin-top: 220px !important;
+    margin-top: 250px;
 }
 .punchline{
     margin: 100px;
@@ -25,7 +25,7 @@ body{
     font-size: 20px;
     color: #3C0701;
     margin-bottom: 2px;
-    margin-top: 120px;
+    margin-top: 100px;
 }
 .arrowDown{
     margin: 0;

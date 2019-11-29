@@ -61,15 +61,15 @@ body {
     }
     
     .GetStartedHeaderRight {
-    width: 50%;
-    margin-left: 0;
-    margin-right: 20%;
-    padding: 1%;
+        width: 50%;
+        margin-left: 0;
+        margin-right: 20%;
+        padding: 1%;
     }
 
     .GetStartedText {
-    padding-top: 5%;
-    margin-right: 24%;
+        padding-top: 5%;
+        margin-right: 24%;
     }
     
 } /*kun for header*/
@@ -86,8 +86,7 @@ body {
     }
     
     .GetStartedPics {
-        width: 90% !important;
-        margin-left: 25% !important;
+        margin-left: 32% !important;
     }
     
     .GetStartedHeader img {
@@ -141,6 +140,11 @@ body {
         width: 60% !important;
         margin-right: 5% !important;
     }
+    
+    .GetStartedPics {
+        margin-left: 34% !important;
+    }
+    
 }
 
 
@@ -155,7 +159,7 @@ body {
     }
     
     .GetStartedText {
-        padding:0 !important;
+        padding: 2% !important;
         width: fit-content !important;
         margin: auto !important;
     }
@@ -172,19 +176,10 @@ body {
         width: fit-content;
         margin: auto;
     }
-
-    .GetStartedHeader img {
-        padding: 0 !important;
-    }
-}
-
-
-@media screen and (max-width: 800px) {      /*-- Endrer på øverste linja + */
-    .GetStartedHeaderTop {
-        display: grid !important;
-        width: fit-content !important;
-        margin: auto !important;
-    }
+    
+    .GetStartedPics img{
+        width: 40% !important;
+    } 
     
     .GetStartedHeaderLeft p {
         border-bottom: 3px solid #8C3E3C!important;
@@ -193,31 +188,22 @@ body {
         margin: auto !important;
     } 
     
+    .GetStartedHeaderTop {
+        display: grid !important;
+        width: fit-content !important;
+        margin: auto !important;
+    }
+    
     .GetStartedHeaderRight {
         padding: 0 !important;
         width: fit-content !important;
         margin: auto !important;
     }
-    
-    .GetStartedPics img{
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-    
-    .GetStartedText {
-    padding: 2% !important;
-    }
-    
 }
 
-@media screen and (max-width: 700px) { 
-    .GetStartedPics img{
-        width: 250px !important;
-        height: 500px !important;
-    } 
-}
 
-@media screen and (max-width: 550px) { 
+
+@media screen and (max-width: 580px) { 
     .GetStartedPics img{
         width: 200px !important;
         height: 400px !important;
@@ -239,12 +225,11 @@ body {
     
 }
 
-
 @media screen and (max-width: 360px) { 
     .GetStartedPics {
         margin-left: 0 !important;
     } 
-}
+} /*bildene får 0 i margin*/
 
 
  
@@ -279,12 +264,11 @@ body {
     width: 60%;
     padding-top: 3%;
     display: inline-block;
-    margin-left: 30%;
+    margin-left: 32%;
 }
 
 .GetStartedPics img{
-    width: 300px;
-    height: 600px;
+    width: 35%;
     padding: 3%;
     display: inline-block;
 }

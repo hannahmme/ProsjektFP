@@ -233,6 +233,12 @@ body {
     .GetStartedHeader {
         width: 55% !important;
     }
+    
+    .GetStartedText {
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+        margin: 0 !important;
+    } 
 }
 
 @media screen and (max-width: 455px) { 
@@ -254,11 +260,6 @@ body {
         padding: 0% !important;
     }
     
-    .GetStartedText {
-        padding-left: 5% !important;
-        padding-right: 5% !important;
-        margin: 0 !important;
-    } 
     
     .GetStartedHeader {
         margin: 0 !important;

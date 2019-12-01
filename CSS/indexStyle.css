@@ -78,15 +78,16 @@ body{
     }
 }
 
-@media screen and (max-width: 481px){
-    body{
-        background-position-y: 12%;
-    }
-}
 
 @media screen and (max-width: 550px){
     .innhold{
         box-shadow: 0px 0px 50px 150px #EFEDDE; /* Denne linja lager fade på boksen */
+    }
+}
+
+@media screen and (max-width: 481px){
+    body{
+        background-position-y: 12%;
     }
 }
 

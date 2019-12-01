@@ -2,6 +2,9 @@ body{
     background-color: #EFEDDE;
     min-width: 320px;
 }
+.nextPage{
+    margin-bottom: 100px!important;
+}
 .contentWrap {
     font-size: 18px;
     max-width: 1024px; 

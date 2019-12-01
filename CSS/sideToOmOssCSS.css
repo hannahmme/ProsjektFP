@@ -188,7 +188,7 @@ h1{
 
 @media only screen and (max-width: 630px) {
     .mainTitle h1{
-        margin-top:30px!important;
+        margin-top:60px!important;
         font-size: 60px!important;
     }
     .innhold{
@@ -234,9 +234,11 @@ h1{
 
 @media only screen and (max-width: 490px) {
     .innhold{
-        margin-top:15px;
+        margin-top:-40px;
     }
 }
+
+
 
 @media only screen and (max-width: 480px) {
     body{
@@ -244,7 +246,7 @@ h1{
         
     }
     .innhold{
-        margin-top: 5px;
+        margin-top: -5px;
     }
 }
 
@@ -279,7 +281,13 @@ h1{
         line-height: 2!important;
     }
     .innhold{
-        margin-top: -5px;
+        margin-top: -10px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .innhold{
+        margin-top: -15px;
     }
 }
 
@@ -299,9 +307,20 @@ h1{
     .mainTitle{
         margin-top: 15%;
     }
+
+}
+
+@media only screen and (max-width: 350px) {
     .innhold{
-        margin-top: 2px;
+        margin-top: -20px;
     }
+}
+
+@media only screen and (max-width: 340px) {
+    .innhold{
+        margin-top: -30px;;
+    }
+    
 }
 
 @media only screen and (max-width: 330px) {
@@ -313,10 +332,11 @@ h1{
         height: auto;
     }
     .innhold{
-        margin-top: -11px;
+        margin-top: -40px;
     }
     .mainTitle{
-        margin-top: 15%;
+        margin-top: 25%;
+        right: 4px;
     }
     body{
         background-position-y: 130px;

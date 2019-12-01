@@ -159,19 +159,14 @@ body .navbar{
     .contentWrap{
         font-size: 14px;   
     }
-    .mainTitle h1{
-        font-size: 40px;
-    }
+    
     .innhold{
         padding: 0 15px 0 15px;
     }
 }
 
 @media only screen and (max-width: 330px) {
-    .mainTitle h1{
-        font-size: 50px;
-    }
-}
+    
 
 @media screen and (max-width: 300px){
     body{

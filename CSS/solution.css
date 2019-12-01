@@ -93,18 +93,40 @@ body .navbar{
         padding: 0 15px 0 15px;
     }
     body{
-        background-size: 200%;
+        background-size: 110%;
+        background-position-y: 4%;
+        background-attachment: unset;
     }
 }
 
+@media screen and (max-width: 620px){
+    .innhold{
+        box-shadow: 0px 0px 50px 150px #EFEDDE; /* Denne linja lager fade på boksen */
+    }
+}
+
+@media screen and (max-width: 550px){
+    body{
+        background-position-y: 3%;
+    }
+}
 
 @media only screen and (max-width: 500px){
     .innhold {
         margin-top: 110px;
         padding: 0 15px 0 15px;
     }
-    body{
-        background-size: 250%;
+    .innhold{
+        box-shadow: 0px 0px 50px 250px #EFEDDE; /* Denne linja lager fade på boksen */
+    }
+}
+
+@media screen and (max-width: 481px){
+    .mainTitle h1{
+        margin-top: 15%;
+    }
+    .innhold{
+        box-shadow: 0px 0px 50px 150px #EFEDDE !important; /* Denne linja lager fade på boksen */
     }
 }
 
@@ -119,11 +141,17 @@ body .navbar{
     .innhold {
         margin-top: 55px;
         padding: 0 15px 0 15px;
+        box-shadow: 0px 0px 50px 100px #EFEDDE !important; /* Denne linja lager fade på boksen */
+    }
+    body{
+        background-position-y: 4% !important;
     }
 }
-@media screen and (max-width: 400px){
+
+@media screen and (max-width: 406px){
     body{
-        background-size: 350%;
+        background-size: 120%;
+        background-position-y: 10%;
     }
 }
 
@@ -144,4 +172,12 @@ body .navbar{
         font-size: 40px;
     }
 }
+
+@media screen and (max-width: 300px){
+    body{
+        background-size: 150%;
+        background-position-x: center;
+    }
+}
+
 

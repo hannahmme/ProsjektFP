@@ -356,7 +356,7 @@ a:focus {
     }
 }
 
-@media only screen and (max-width: 629px) {
+@media only screen and (max-width: 630px) {
     .navBar .logo{
         width: 30%; 
     }
@@ -384,7 +384,7 @@ a:focus {
         text-align: center;
     }
     .logo{
-        width: 25%;
+        width: 30%;
         padding: 2px;
         margin: auto;
         position: relative;

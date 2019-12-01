@@ -305,14 +305,15 @@ h1{
         height: auto;
     }
     .mainTitle{
-        margin-top: 15%;
+        margin-top: 20%;
     }
 
 }
 
 @media only screen and (max-width: 350px) {
-    .innhold{
-        margin-top: -20px;
+    .mainTitle{
+        margin-top: 25%;
+        right: 4px;
     }
 }
 
@@ -333,10 +334,6 @@ h1{
     }
     .innhold{
         margin-top: -40px;
-    }
-    .mainTitle{
-        margin-top: 25%;
-        right: 4px;
     }
     body{
         background-position-y: 130px;
